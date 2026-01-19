@@ -63,3 +63,1578 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:12:28.004] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:12:28.004] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:12:28.628] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:14.787] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:15:14.787] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:14.787] Browser WARN    You are trying to animate backgroundColor from "rgba(0, 0, 0, 0)" to "transparent". "transparent" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[00:15:14.787] Browser WARN    You are trying to animate backgroundColor from "rgba(0, 0, 0, 0)" to "transparent". "transparent" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[00:15:14.787] Browser WARN    You are trying to animate backgroundColor from "rgba(0, 0, 0, 0)" to "transparent". "transparent" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[00:15:16.415] Browser WARN    Image with src "/dashboard.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:28:29.354] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:30:20
+Module not found: Can't resolve '../../../../lib/constants'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.355] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:27:22
+Module not found: Can't resolve '../../../../next-devtools/userspace/app/forward-logs'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.355] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:57:31
+Module not found: Can't resolve '../../../../next-devtools/userspace/pages/pages-dev-overlay-setup'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.355] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.355] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.355] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:60:73
+Module not found: Can't resolve '../../../../shared/lib/format-webpack-messages'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js:11:32
+Module not found: Can't resolve '../../../shared/lib/normalized-asset-prefix'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:26:59
+Module not found: Can't resolve '../../lib/is-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:38:38
+Module not found: Can't resolve '../../next-devtools/userspace/app/errors/stitched-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:25:23
+Module not found: Can't resolve '../../shared/lib/lazy-dynamic/bailout-to-csr'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/tracing/tracer.js:12:56
+Module not found: Can't resolve '../../shared/lib/mitt'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/tracing/tracer.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:53:18
+Module not found: Can't resolve '../lib/is-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.356] Server  ERROR   ⨯ ./node_modules/next/dist/client/router.js:44:59
+Module not found: Can't resolve '../lib/is-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.357] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:12:1
+Module not found: Can't resolve '../lib/require-instrumentation-client'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.357] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:126:47
+Module not found: Can't resolve '../next-devtools/userspace/pages/pages-dev-overlay-setup'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.357] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.357] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:57:40
+Module not found: Can't resolve '../shared/lib/app-router-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:20:20
+Module not found: Can't resolve '../shared/lib/constants'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/route-loader.js:35:23
+Module not found: Can't resolve '../shared/lib/deployment-id'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-loader.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/route-loader.js:36:24
+Module not found: Can't resolve '../shared/lib/encode-uri-path'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-loader.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:41:42
+Module not found: Can't resolve '../shared/lib/head-manager-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/script.js:33:42
+Module not found: Can't resolve '../shared/lib/head-manager-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:59:42
+Module not found: Can't resolve '../shared/lib/hooks-client-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.358] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:54:42
+Module not found: Can't resolve '../shared/lib/image-config-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:42:56
+Module not found: Can't resolve '../shared/lib/mitt'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:43:37
+Module not found: Can't resolve '../shared/lib/router-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/router.js:43:37
+Module not found: Can't resolve '../shared/lib/router-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:58:19
+Module not found: Can't resolve '../shared/lib/router/adapters'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/router.js:42:58
+Module not found: Can't resolve '../shared/lib/router/router'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/add-base-path.js:11:24
+Module not found: Can't resolve '../shared/lib/router/utils/add-path-prefix'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/add-base-path.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:44:30
+Module not found: Can't resolve '../shared/lib/router/utils/disable-smooth-scroll'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:14:73
+Module not found: Can't resolve '../shared/lib/router/utils/get-asset-path-from-route'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/route-loader.js:32:73
+Module not found: Can't resolve '../shared/lib/router/utils/get-asset-path-from-route'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-loader.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:13:24
+Module not found: Can't resolve '../shared/lib/router/utils/interpolate-as'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.359] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:45:20
+Module not found: Can't resolve '../shared/lib/router/utils/is-dynamic'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.360] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:16:20
+Module not found: Can't resolve '../shared/lib/router/utils/is-dynamic'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.361] Server  ERROR   ⨯ ./node_modules/next/dist/client/normalize-trailing-slash.js:12:20
+Module not found: Can't resolve '../shared/lib/router/utils/parse-path'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/next/dist/client/add-locale.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.361] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:17:27
+Module not found: Can't resolve '../shared/lib/router/utils/parse-relative-url'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.362] Server  ERROR   ⨯ ./node_modules/next/dist/client/has-base-path.js:11:24
+Module not found: Can't resolve '../shared/lib/router/utils/path-has-prefix'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/has-base-path.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.362] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:46:22
+Module not found: Can't resolve '../shared/lib/router/utils/querystring'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.363] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:17:22
+Module not found: Can't resolve '../shared/lib/router/utils/querystring'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.363] Server  ERROR   ⨯ ./node_modules/next/dist/client/normalize-trailing-slash.js:11:30
+Module not found: Can't resolve '../shared/lib/router/utils/remove-trailing-slash'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/next/dist/client/add-locale.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.363] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:18:30
+Module not found: Can't resolve '../shared/lib/router/utils/remove-trailing-slash'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.363] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:47:16
+Module not found: Can't resolve '../shared/lib/utils'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.363] Server  ERROR   ⨯ ./node_modules/next/dist/pages/_app.js:14:16
+Module not found: Can't resolve '../shared/lib/utils'
+
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.363] Server  ERROR   ⨯ ./node_modules/next/dist/pages/_app.js:14:16
+Module not found: Can't resolve '../shared/lib/utils'
+
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.364] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+Module not found: Can't resolve 'next/dist/compiled/next-devtools'
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.364] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:22:23
+Module not found: Can't resolve 'next/dist/compiled/next-devtools'
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.364] Server  ERROR   ⨯ ./node_modules/next/dist/build/polyfills/process.js:3:214
+Module not found: Can't resolve 'next/dist/compiled/process'
+Import map: aliased to module 'next' with subpath '/dist/compiled/process' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/build/polyfills/process.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.364] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+Module not found: Can't resolve 'next/dist/compiled/strip-ansi'
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.366] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:30:20
+Module not found: Can't resolve '../../../../lib/constants'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.366] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:27:22
+Module not found: Can't resolve '../../../../next-devtools/userspace/app/forward-logs'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.366] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:57:31
+Module not found: Can't resolve '../../../../next-devtools/userspace/pages/pages-dev-overlay-setup'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.366] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.367] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.367] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:60:73
+Module not found: Can't resolve '../../../../shared/lib/format-webpack-messages'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.367] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js:11:32
+Module not found: Can't resolve '../../../shared/lib/normalized-asset-prefix'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.367] Server  ERROR   ⨯ ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:26:59
+Module not found: Can't resolve '../../lib/is-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.367] Server  ERROR   ⨯ ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:38:38
+Module not found: Can't resolve '../../next-devtools/userspace/app/errors/stitched-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:25:23
+Module not found: Can't resolve '../../shared/lib/lazy-dynamic/bailout-to-csr'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/tracing/tracer.js:12:56
+Module not found: Can't resolve '../../shared/lib/mitt'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/tracing/tracer.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:53:18
+Module not found: Can't resolve '../lib/is-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/router.js:44:59
+Module not found: Can't resolve '../lib/is-error'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:12:1
+Module not found: Can't resolve '../lib/require-instrumentation-client'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:126:47
+Module not found: Can't resolve '../next-devtools/userspace/pages/pages-dev-overlay-setup'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:57:40
+Module not found: Can't resolve '../shared/lib/app-router-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:20:20
+Module not found: Can't resolve '../shared/lib/constants'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.368] Server  ERROR   ⨯ ./node_modules/next/dist/client/route-loader.js:35:23
+Module not found: Can't resolve '../shared/lib/deployment-id'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-loader.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/route-loader.js:36:24
+Module not found: Can't resolve '../shared/lib/encode-uri-path'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-loader.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:41:42
+Module not found: Can't resolve '../shared/lib/head-manager-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/script.js:33:42
+Module not found: Can't resolve '../shared/lib/head-manager-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:59:42
+Module not found: Can't resolve '../shared/lib/hooks-client-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:54:42
+Module not found: Can't resolve '../shared/lib/image-config-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:42:56
+Module not found: Can't resolve '../shared/lib/mitt'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:43:37
+Module not found: Can't resolve '../shared/lib/router-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/router.js:43:37
+Module not found: Can't resolve '../shared/lib/router-context.shared-runtime'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:58:19
+Module not found: Can't resolve '../shared/lib/router/adapters'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/router.js:42:58
+Module not found: Can't resolve '../shared/lib/router/router'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/add-base-path.js:11:24
+Module not found: Can't resolve '../shared/lib/router/utils/add-path-prefix'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/add-base-path.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:44:30
+Module not found: Can't resolve '../shared/lib/router/utils/disable-smooth-scroll'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.369] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:14:73
+Module not found: Can't resolve '../shared/lib/router/utils/get-asset-path-from-route'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/route-loader.js:32:73
+Module not found: Can't resolve '../shared/lib/router/utils/get-asset-path-from-route'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-loader.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:13:24
+Module not found: Can't resolve '../shared/lib/router/utils/interpolate-as'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:45:20
+Module not found: Can't resolve '../shared/lib/router/utils/is-dynamic'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:16:20
+Module not found: Can't resolve '../shared/lib/router/utils/is-dynamic'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/normalize-trailing-slash.js:12:20
+Module not found: Can't resolve '../shared/lib/router/utils/parse-path'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/next/dist/client/add-locale.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:17:27
+Module not found: Can't resolve '../shared/lib/router/utils/parse-relative-url'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/has-base-path.js:11:24
+Module not found: Can't resolve '../shared/lib/router/utils/path-has-prefix'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/has-base-path.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:46:22
+Module not found: Can't resolve '../shared/lib/router/utils/querystring'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:17:22
+Module not found: Can't resolve '../shared/lib/router/utils/querystring'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/normalize-trailing-slash.js:11:30
+Module not found: Can't resolve '../shared/lib/router/utils/remove-trailing-slash'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/next/dist/client/add-locale.js
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-loader.js:18:30
+Module not found: Can't resolve '../shared/lib/router/utils/remove-trailing-slash'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-loader.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/index.js:47:16
+Module not found: Can't resolve '../shared/lib/utils'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/pages/_app.js:14:16
+Module not found: Can't resolve '../shared/lib/utils'
+
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/pages/_app.js:14:16
+Module not found: Can't resolve '../shared/lib/utils'
+
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+Module not found: Can't resolve 'next/dist/compiled/next-devtools'
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/page-bootstrap.js:22:23
+Module not found: Can't resolve 'next/dist/compiled/next-devtools'
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/build/polyfills/process.js:3:214
+Module not found: Can't resolve 'next/dist/compiled/process'
+Import map: aliased to module 'next' with subpath '/dist/compiled/process' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/build/polyfills/process.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.370] Server  ERROR   ⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+Module not found: Can't resolve 'next/dist/compiled/strip-ansi'
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.379] Server  ERROR   ⨯ TurbopackInternalError: Failed to write page endpoint /_document
+
+Caused by:
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_document
+- Execution of PageEndpoint::output failed
+- Execution of PageEndpoint::internal_ssr_chunk failed
+- Execution of PageEndpoint::internal_ssr_chunk_module failed
+- Execution of *ProcessResult::module failed
+- Execution of *<ModuleAssetContext as AssetContext>::process failed
+- Execution of PagesProject::ssr_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::server_transitions failed
+- Execution of *NextDynamicTransition::new_client failed
+- Execution of PagesProject::client_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+[00:28:29.381] Server  ERROR   ⨯ TurbopackInternalError: Failed to write page endpoint /_document
+
+Caused by:
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_document
+- Execution of PageEndpoint::output failed
+- Execution of PageEndpoint::internal_ssr_chunk failed
+- Execution of PageEndpoint::internal_ssr_chunk_module failed
+- Execution of *ProcessResult::module failed
+- Execution of *<ModuleAssetContext as AssetContext>::process failed
+- Execution of PagesProject::ssr_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::server_transitions failed
+- Execution of *NextDynamicTransition::new_client failed
+- Execution of PagesProject::client_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+[00:28:29.385] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /page
+
+Caused by:
+- Expected file content for file
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /page
+- Execution of AppEndpoint::output failed
+- Execution of get_app_page_entry failed
+- Execution of file_content_rope failed
+- Expected file content for file
+[00:28:29.386] Server  WARN    ⚠ ./
+Could not resolve React Refresh runtime
+React Refresh will be disabled.
+To enable React Refresh, install the react-refresh and @next/react-refresh-utils modules.
+
+
+[00:28:29.387] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /page
+
+Caused by:
+- Expected file content for file
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /page
+- Execution of AppEndpoint::output failed
+- Execution of get_app_page_entry failed
+- Execution of file_content_rope failed
+- Expected file content for file
+[00:28:29.387] Server  WARN    ⚠ ./
+Could not resolve React Refresh runtime
+React Refresh will be disabled.
+To enable React Refresh, install the react-refresh and @next/react-refresh-utils modules.
+
+
+[00:28:29.391] Server  ERROR   TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+[00:28:29.392] Server  ERROR   TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+[00:28:29.415] Server  WARN    ⚠ ./
+Could not resolve React Refresh runtime
+React Refresh will be disabled.
+To enable React Refresh, install the react-refresh and @next/react-refresh-utils modules.
+
+
+[00:28:29.417] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /page
+
+Caused by:
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /page
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::client_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+[00:28:29.418] Server  WARN    ⚠ ./
+Could not resolve React Refresh runtime
+React Refresh will be disabled.
+To enable React Refresh, install the react-refresh and @next/react-refresh-utils modules.
+
+
+[00:28:29.420] Server  ERROR   TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/next/dist/lib/default-transpiled-packages.json"
