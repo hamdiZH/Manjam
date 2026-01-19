@@ -1,32 +1,67 @@
-import Image from "next/image";
+"use client";
 
-export default function FeatureCard({ id, title, imageSrc, imageAlt }) {
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+export default function FeatureCard({ title, imageSrc, imageAlt }) {
   return (
-    <div
-      className="flex flex-col w-full min-h-[250px] sm:min-h-[280px] md:min-h-[320px] lg:min-h-[350px] p-4 sm:p-5 md:p-6 lg:p-[30px] gap-4 sm:gap-6 md:gap-8 lg:gap-[41px] rounded-lg overflow-hidden"
+    <motion.div
+      whileHover={{ 
+        y: -8,
+        boxShadow: "0 30px 60px -15px rgba(70,184,134,0.25)"
+      }}
+      transition={{ duration: 0.4, ease: [0.34, 1.56, 0.64, 1] }}
+      className="group flex flex-col w-full rounded-xl overflow-hidden"
       style={{
         background:
-          "linear-gradient(106.81deg, rgba(240, 255, 249, 0.2) 10.74%, rgba(70, 184, 134, 0.2) 98.1%)",
-        border: "1px solid rgba(229, 231, 235, 1)",
-        boxShadow: "10px 12px 24px 0px rgba(16, 24, 40, 0.12)",
+          "linear-gradient(106.81deg, rgba(240, 255, 249, 0.3) 10.74%, rgba(70, 184, 134, 0.15) 98.1%)",
+        border: "1px solid rgba(229, 231, 235, 0.8)",
+        boxShadow: "0 4px 20px rgba(16, 24, 40, 0.08)",
       }}
     >
       {/* Title */}
-      <h3 className="text-[#111827] text-base sm:text-lg md:text-xl font-semibold leading-tight">
-        {title}
-      </h3>
+      <div className="p-5 sm:p-6">
+        <motion.h3
+          whileHover={{ color: "#46B886" }}
+          transition={{ duration: 0.2 }}
+          className="text-[#111827] text-lg sm:text-xl font-semibold leading-tight"
+        >
+          {title}
+        </motion.h3>
+      </div>
 
-      {/* Image */}
-      <div className="flex-1 flex items-center justify-center overflow-hidden">
-        <Image
-          src={imageSrc}
-          alt={imageAlt}
-          width={id === "control" ? 176 : id === "security" ? 292 : 310}
-          height={id === "control" ? 200 : id === "security" ? 220 : 200}
-          className="object-contain w-auto h-auto max-w-full max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[220px]"
+      {/* Image - Fixed aspect ratio container */}
+      <div className="relative w-full aspect-4/2 overflow-hidden">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="absolute inset-0"
+        >
+          <Image
+            src={imageSrc}
+            alt={imageAlt}
+            fill
+            className="object-contain object-center"
+          />
+        </motion.div>
+        {/* Subtle gradient overlay for depth */}
+        <div 
+          className="absolute inset-0 pointer-events-none transition-opacity duration-300 group-hover:opacity-0"
+          style={{
+            background: 'linear-gradient(to top, rgba(255,255,255,0.1) 0%, transparent 30%)',
+          }}
+        />
+        {/* Hover glow overlay */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileHover={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: 'radial-gradient(circle at center, rgba(70,184,134,0.15) 0%, transparent 70%)',
+          }}
         />
       </div>
-    </div>
+    </motion.div>
   );
 }
-

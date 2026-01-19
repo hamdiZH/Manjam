@@ -1,20 +1,49 @@
+"use client";
+
+import { motion } from "framer-motion";
 import FrameworkCard from "./FrameworkCard";
 
+// Brand Arrow Icon
 const ArrowRightIcon = () => (
   <svg
-    width="20"
-    height="20"
-    viewBox="0 0 20 20"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M4.16667 10H15.8333M15.8333 10L10 4.16667M15.8333 10L10 15.8333"
+      d="M6 12L10 8L6 4"
       stroke="currentColor"
-      strokeWidth="1.5"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
+  </svg>
+);
+
+// Placeholder Icons
+const SwissIcon = () => (
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16 4L4 10V22L16 28L28 22V10L16 4Z" stroke="#46B886" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M16 16L28 10" stroke="#46B886" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M16 16V28" stroke="#46B886" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M16 16L4 10" stroke="#46B886" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const ShariahIcon = () => (
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16 4V28M4 16H28" stroke="#46B886" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx="16" cy="16" r="10" stroke="#46B886" strokeWidth="2" />
+  </svg>
+);
+
+const QualifiedIcon = () => (
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="6" y="8" width="20" height="16" rx="2" stroke="#46B886" strokeWidth="2" />
+    <path d="M6 14H26" stroke="#46B886" strokeWidth="2" />
+    <path d="M10 20H14" stroke="#46B886" strokeWidth="2" strokeLinecap="round" />
   </svg>
 );
 
@@ -23,19 +52,22 @@ const frameworkCards = [
     id: "swiss",
     title: "Swiss-Anchored Structure",
     description:
-      "Built through licensed Swiss partners to ensure clarity, governance, and professional oversight.",
+      "World-class governance shaped by Switzerland's best-in-class institutions.",
+    icon: <SwissIcon />,
   },
   {
-    id: "principles",
-    title: "Principles First",
+    id: "shariah",
+    title: "Sharia-Aligned Framework",
     description:
-      "Designed to reflect Islamic financial principles across all operational and structural elements.",
+      "Designed to reflect Islamic finance principles across structural and operational elements.",
+    icon: <ShariahIcon />,
   },
   {
-    id: "lqif",
-    title: "Principles First",
+    id: "qualified",
+    title: "Qualified Participation Environment",
     description:
-      "Developed within Switzerland's L-QIF model, tailored for qualified participants in digital-asset strategies.",
+      "Developed within the L-QIF model, tailored for qualified participation in digital-asset strategies.",
+    icon: <QualifiedIcon />,
   },
 ];
 
@@ -49,11 +81,68 @@ const partners = [
   { id: 6, name: "Designership" },
 ];
 
+// Animation variants
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1],
+    },
+  },
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 40, scale: 0.95 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.7,
+      ease: [0.16, 1, 0.3, 1],
+      delay: i * 0.15,
+    },
+  }),
+};
+
+const buttonVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
+  },
+  hover: {
+    scale: 1.05,
+    y: -3,
+    transition: { duration: 0.3, ease: [0.34, 1.56, 0.64, 1] },
+  },
+  tap: { scale: 0.98, y: 0 },
+};
+
 export default function SwissFramework() {
   return (
-    <section className="w-full py-8 sm:py-10 md:py-12 lg:pt-16 lg:pb-0">
+    <section id="fund" className="w-full py-8 sm:py-10 md:py-12 lg:pt-16 lg:pb-0">
       {/* Main Dark Section */}
-      <div
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         className="relative mx-2 sm:mx-4 md:mx-6 lg:mx-4 rounded-lg sm:rounded-xl overflow-hidden backdrop-blur-md"
         style={{
           background:
@@ -64,34 +153,13 @@ export default function SwissFramework() {
           boxShadow: "0px 4px 4px 0px rgba(7, 19, 16, 0.25)",
         }}
       >
-        {/* Light Effect - Top Left - Hidden on small screens */}
-        <div
-          className="absolute pointer-events-none hidden sm:block"
-          style={{
-            width: "400px",
-            height: "400px",
-            top: "-200px",
-            left: "-200px",
-            background:
-              "radial-gradient(51.17% 65.15% at 48.83% 47.08%, rgba(240, 255, 249, 0.5) 0%, rgba(21, 56, 47, 0) 77.4%)",
-            transform: "rotate(-134.41deg)",
-            borderRadius: "24px",
+        {/* Light Effect - Top Left */}
+        <motion.div
+          animate={{
+            opacity: [0.5, 0.7, 0.5],
+            scale: [1, 1.05, 1],
           }}
-        ></div>
-        <div
-          className="absolute pointer-events-none hidden md:block"
-          style={{
-            width: "550px",
-            height: "550px",
-            top: "-250px",
-            left: "-250px",
-            background:
-              "radial-gradient(51.17% 65.15% at 48.83% 47.08%, rgba(240, 255, 249, 0.5) 0%, rgba(21, 56, 47, 0) 77.4%)",
-            transform: "rotate(-134.41deg)",
-            borderRadius: "24px",
-          }}
-        ></div>
-        <div
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           className="absolute pointer-events-none hidden lg:block"
           style={{
             width: "700px",
@@ -103,7 +171,7 @@ export default function SwissFramework() {
             transform: "rotate(-134.41deg)",
             borderRadius: "24px",
           }}
-        ></div>
+        />
 
         {/* Squares Pattern Overlay */}
         <div
@@ -114,72 +182,149 @@ export default function SwissFramework() {
             backgroundPosition: "center",
             opacity: 0.5,
           }}
-        ></div>
+        />
 
         {/* Content */}
-        <div className="relative z-10 px-4 py-10 sm:px-6 sm:py-12 md:px-10 md:py-16 lg:px-16 lg:py-20 xl:px-20 xl:py-24">
-          {/* Heading */}
-          <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[44px] font-semibold leading-tight text-center mb-4 sm:mb-5 md:mb-6 max-w-4xl mx-auto">
-            A Structured Swiss Framework for Qualified Participation
-          </h2>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="relative z-10 px-4 py-12 sm:px-6 sm:py-16 md:px-10 md:py-20 lg:px-16 lg:py-24 xl:px-20 xl:py-28"
+        >
+          {/* Kicker Badge */}
+          <motion.div variants={itemVariants} className="flex justify-center mb-6">
+            <motion.span
+              whileHover={{ scale: 1.05 }}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(70,184,134,0.15)] border border-[rgba(70,184,134,0.3)]"
+            >
+              <motion.svg
+                animate={{ rotate: [0, 15, -15, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M4 3V5.5M3 4H5M4.5 11V13.5M3.5 12.25H5.5M8.5 3L10 7.5L14 9L10 10.5L8.5 15L7 10.5L3 9L7 7.5L8.5 3Z" stroke="#46B886" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </motion.svg>
+              <span className="text-[#46B886] text-xs font-medium tracking-wider uppercase">THE FUND</span>
+            </motion.span>
+          </motion.div>
 
-          {/* Subtext */}
-          <p className="text-[rgba(255,255,255,0.7)] text-sm sm:text-base md:text-lg text-center max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto mb-8 sm:mb-10 md:mb-12">
-            our first flagship foundation for our long-term roadmap, enabling us
-            to build and evolve within one of the world&apos;s most trusted
-            financial jurisdictions..
-          </p>
+          {/* Headline */}
+          <motion.h2
+            variants={itemVariants}
+            className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[52px] font-semibold leading-tight text-center mb-5 sm:mb-6 md:mb-8 max-w-4xl mx-auto"
+          >
+            A Structured Swiss Framework for Qualified Participation.
+          </motion.h2>
+
+          {/* Description */}
+          <motion.p
+            variants={itemVariants}
+            className="text-[rgba(255,255,255,0.7)] text-sm sm:text-base md:text-lg text-center max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-16"
+          >
+            Our flagship foundation, built to evolve within one of the world&apos;s most trusted financial jurisdictions.
+          </motion.p>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-8 sm:mb-10 md:mb-12 max-w-5xl mx-auto">
-            {frameworkCards.map((card) => (
-              <FrameworkCard
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-10 sm:mb-12 md:mb-16 max-w-5xl mx-auto">
+            {frameworkCards.map((card, index) => (
+              <motion.div
                 key={card.id}
-                title={card.title}
-                description={card.description}
-              />
+                custom={index}
+                variants={cardVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <FrameworkCard
+                  icon={card.icon}
+                  title={card.title}
+                  description={card.description}
+                />
+              </motion.div>
             ))}
           </div>
 
-          {/* Learn More Button */}
-          <div className="flex justify-center">
-            <button className="flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-white text-[#1C4A3F] font-medium text-sm rounded-lg hover:bg-gray-100 transition-colors">
-              Learn More
-              <ArrowRightIcon />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Partners Section */}
-      <div className="px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
-        <div className="mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 sm:gap-8 md:gap-10 lg:gap-12">
-          {partners.map((partner) => (
-            <div
-              key={partner.id}
-              className="flex items-center justify-center gap-1.5 sm:gap-2 text-[#6B7280]"
+          {/* CTA Button */}
+          <motion.div
+            variants={itemVariants}
+            className="flex justify-center mb-12 sm:mb-16 md:mb-20"
+          >
+            <motion.a
+              href="/fund"
+              variants={buttonVariants}
+              whileHover="hover"
+              whileTap="tap"
+              className="group inline-flex items-center gap-2 px-6 py-3 bg-[#46B886] text-white font-medium text-sm rounded-lg"
+              style={{
+                boxShadow: "0 4px 20px -5px rgba(70, 184, 134, 0.4)",
+              }}
             >
-              {/* Placeholder icon */}
-              <svg
-                className="w-5 h-5 sm:w-6 sm:h-6"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+              Review Fund Specifications
+              <motion.span
+                className="inline-flex"
+                whileHover={{ x: 4 }}
+                transition={{ duration: 0.2 }}
               >
-                <path
-                  d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-              <span className="font-semibold text-sm sm:text-base lg:text-lg whitespace-nowrap">{partner.name}</span>
+                <ArrowRightIcon />
+              </motion.span>
+            </motion.a>
+          </motion.div>
+
+          {/* Partners Marquee Bar */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="relative overflow-hidden rounded-xl py-6 sm:py-8"
+            style={{
+              background: 'rgba(255, 255, 255, 0.05)',
+              backdropFilter: 'blur(20px)',
+              WebkitBackdropFilter: 'blur(20px)',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+            }}
+          >
+            {/* Gradient Fades */}
+            <div
+              className="absolute left-0 top-0 bottom-0 w-16 sm:w-24 z-10 pointer-events-none"
+              style={{ background: 'linear-gradient(to right, rgba(17, 24, 39, 0.9), transparent)' }}
+            />
+            <div
+              className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 z-10 pointer-events-none"
+              style={{ background: 'linear-gradient(to left, rgba(17, 24, 39, 0.9), transparent)' }}
+            />
+
+            {/* Animated Marquee */}
+            <div className="flex animate-marquee">
+              {[...partners, ...partners].map((partner, index) => (
+                <div
+                  key={`partner-1-${index}`}
+                  className="flex items-center justify-center gap-2 sm:gap-3 px-8 sm:px-12 shrink-0"
+                >
+                  <svg
+                    className="w-5 h-5 sm:w-6 sm:h-6 text-white/60"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="font-medium text-sm sm:text-base text-white/70 whitespace-nowrap">
+                    {partner.name}
+                  </span>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }
-

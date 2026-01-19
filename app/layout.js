@@ -2,6 +2,7 @@ import { Montserrat, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import DisclaimerPopup from "@/components/DisclaimerPopup";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -27,11 +28,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${montserrat.variable} ${spaceGrotesk.variable} antialiased`}
       >
-        <div className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-[35px]">
+        <div className="sticky top-0 z-50 bg-white px-4 sm:px-6 md:px-12 lg:px-24 xl:px-[35px]">
           <Navbar />
         </div>
         {children}
         <Footer />
+        <DisclaimerPopup />
       </body>
     </html>
   );

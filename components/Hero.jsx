@@ -1,23 +1,116 @@
-import Image from "next/image";
+"use client";
 
-// Badge Icons
-const ShariahIcon = () => (
-  <div className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 bg-[#F3F4F6] rounded-md flex items-center justify-center">
-    <svg className="w-3 h-3 md:w-3.5 md:h-3.5 lg:w-4 lg:h-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="8" cy="8" r="6" stroke="#6B7280" strokeWidth="1.5"/>
-      <path d="M8 4V8L10.5 10.5" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round"/>
-    </svg>
-  </div>
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+// Platform URL
+const PLATFORM_REGISTER_URL = "https://platform.manjamcapital.com/register/account-type";
+
+// Arrow Icon
+const ArrowRightIcon = () => (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="arrow-hover"
+  >
+    <path
+      d="M6 12L10 8L6 4"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
 );
+
+// Animation variants
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: [0.16, 1, 0.3, 1],
+    },
+  },
+};
+
+const dashboardVariants = {
+  hidden: { opacity: 0, y: 60, scale: 0.95 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 1,
+      ease: [0.16, 1, 0.3, 1],
+      delay: 0.6,
+    },
+  },
+};
+
+const buttonVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1],
+    },
+  },
+  hover: {
+    scale: 1.05,
+    y: -2,
+    transition: {
+      duration: 0.3,
+      ease: [0.34, 1.56, 0.64, 1],
+    },
+  },
+  tap: {
+    scale: 0.98,
+    y: 0,
+  },
+};
+
+const glowVariants = {
+  animate: {
+    opacity: [0.3, 0.5, 0.3],
+    scale: [1, 1.1, 1],
+    transition: {
+      duration: 4,
+      repeat: Infinity,
+      ease: "easeInOut",
+    },
+  },
+};
 
 export default function Hero() {
   return (
-    <section className="w-full py-4 sm:py-6 md:py-8">
+    <section className="w-full py-3 sm:py-4 md:py-5 px-4 sm:px-6 md:px-8 lg:px-10">
       {/* Hero Container with Dark Background */}
-      <div
-        className="relative w-full rounded-xl md:rounded-2xl overflow-hidden"
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        className="relative w-full rounded-2xl overflow-hidden"
         style={{
-          background: "radial-gradient(50% 50% at 50% 50%, #111827 0%, #153830 100%)",
+          background: "linear-gradient(135deg, #111827 0%, #1C4A3F 100%)",
         }}
       >
         {/* Squares Pattern Overlay */}
@@ -25,104 +118,121 @@ export default function Hero() {
           src="/squares.svg"
           alt="Squares Pattern"
           fill
-          className="absolute inset-0 opacity-50 z-0 object-cover"
+          className="absolute inset-0 opacity-30 z-0 object-cover"
         />
 
-        {/* Light Effect Top Left */}
-        <div
-          className="absolute z-0 hidden sm:block"
+        {/* Animated Glass Glow Effect */}
+        <motion.div
+          variants={glowVariants}
+          animate="animate"
+          className="absolute z-0"
           style={{
-            width: '300px',
-            height: '300px',
-            top: '-150px',
-            left: '-150px',
-            background: 'radial-gradient(51.17% 65.15% at 48.83% 47.08%, rgba(240, 255, 249, 0.3) 0%, rgba(21, 56, 47, 0) 77.4%)',
-            borderRadius: '24px',
-          }}
-        />
-        <div
-          className="absolute z-0 hidden md:block"
-          style={{
-            width: '400px',
-            height: '400px',
-            top: '-180px',
-            left: '-180px',
-            background: 'radial-gradient(51.17% 65.15% at 48.83% 47.08%, rgba(240, 255, 249, 0.3) 0%, rgba(21, 56, 47, 0) 77.4%)',
-            borderRadius: '24px',
-          }}
-        />
-        <div
-          className="absolute z-0 hidden lg:block"
-          style={{
-            width: '500px',
-            height: '500px',
-            top: '-200px',
-            left: '-200px',
-            background: 'radial-gradient(51.17% 65.15% at 48.83% 47.08%, rgba(240, 255, 249, 0.3) 0%, rgba(21, 56, 47, 0) 77.4%)',
-            borderRadius: '24px',
+            width: '800px',
+            height: '800px',
+            top: '-400px',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            background: 'radial-gradient(50% 50% at 50% 50%, rgba(70, 184, 134, 0.25) 0%, transparent 70%)',
           }}
         />
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 pt-8 sm:pt-10 md:pt-12 lg:pt-16 xl:pt-20 pb-6 md:pb-8">
-          {/* Main Heading */}
-          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight mb-3 sm:mb-4 md:mb-6">
-            Invest in the future — safely
-          </h1>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 pt-10 sm:pt-12 md:pt-16 lg:pt-20 pb-8 md:pb-10"
+        >
+          {/* Main Heading - Gray Gradient */}
+          <motion.h1 variants={itemVariants} className="mb-4 sm:mb-5 md:mb-6">
+            <span
+              className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight"
+              style={{
+                background: 'linear-gradient(180deg, #FFFFFF 0%, #9CA3AF 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              Professional standards
+            </span>
+            <span
+              className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight"
+              style={{
+                background: 'linear-gradient(180deg, #FFFFFF 0%, #9CA3AF 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              for digital assets.
+            </span>
+          </motion.h1>
 
-          {/* Subtext */}
-          <p className="text-white/70 text-sm sm:text-base md:text-lg lg:text-xl max-w-[90%] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[800px] mb-6 md:mb-8 leading-relaxed">
-            The first integrated Arab ecosystem for Sharia-compliant digital assets. Swiss-regulated structure. GCC-anchored operations. Designed for safety.
-          </p>
+          {/* Subheadline - Glassy */}
+          <motion.p
+            variants={itemVariants}
+            className="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl font-normal mb-6 sm:mb-8 tracking-wide"
+          >
+            World&apos;s #1 Swiss Shariah-compliant digital asset ecosystem 🇨🇭
+          </motion.p>
 
-          {/* Badges */}
-          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 md:gap-4 mb-6 md:mb-8">
-            {/* Swiss-regulated Badge */}
-            <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 md:px-4 py-1.5 sm:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full min-w-[190px] h-[45px]">
-              <Image src="/swiss-icon.svg" alt="Swiss" width={32} height={32} className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
-              <span className="text-white text-xs sm:text-sm">Swiss-regulated</span>
-            </div>
+          {/* Primary CTA Button */}
+          <motion.a
+            href={PLATFORM_REGISTER_URL}
+            variants={buttonVariants}
+            whileHover="hover"
+            whileTap="tap"
+            className="group inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl border border-[#1C4A3F] text-white font-medium text-sm sm:text-base cursor-pointer mb-4 sm:mb-5"
+            style={{
+              background: 'radial-gradient(50% 50% at 50% 50%, #111827 0%, #153830 100%)',
+              boxShadow: '0px 4px 20px 0px rgba(16, 24, 40, 0.15)',
+            }}
+          >
+            Become a client
+            <motion.span
+              className="inline-flex"
+              animate={{ x: 0 }}
+              whileHover={{ x: 4 }}
+              transition={{ duration: 0.2 }}
+            >
+              <ArrowRightIcon />
+            </motion.span>
+          </motion.a>
 
-            {/* Sharia-aligned Badge */}
-            <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 md:px-4 py-1.5 sm:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full min-w-[190px] h-[45px]">
-              {/* <ShariahIcon /> */}
-              <span className="text-white text-xs sm:text-sm">Sharia-aligned</span>
-            </div>
+          {/* Disclaimer Line */}
+          <motion.p
+            variants={itemVariants}
+            className="text-white/50 text-xs sm:text-sm font-normal"
+          >
+            Exclusively structured for qualified investors.
+          </motion.p>
+        </motion.div>
 
-            {/* Institutional security Badge */}
-            <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 md:px-4 py-1.5 sm:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full min-w-[190px] h-[45px]">
-              <Image src="/security-icon.svg" alt="Security" width={32} height={32} className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
-              <span className="text-white text-xs sm:text-sm whitespace-nowrap">Institutional security</span>
-            </div>
-          </div>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 mb-8 md:mb-10 lg:mb-12 w-full sm:w-auto">
-            {/* Learn More Button */}
-            <button className="w-full sm:w-auto px-4 sm:px-5 md:px-6 py-2.5 sm:py-3 bg-white text-[#1C4A3F] font-medium text-sm rounded-lg hover:bg-gray-100 transition-colors">
-              Learn More
-            </button>
-
-            {/* Start Securely Button */}
-            <button className="w-full sm:w-auto px-4 sm:px-5 md:px-6 py-2.5 sm:py-3 bg-[#46B886] text-white font-medium text-sm rounded-lg hover:bg-[#3da677] transition-colors">
-              Start Securely
-            </button>
-          </div>
-        </div>
-
-        {/* Dashboard Image */}
-        <div className="relative z-10 px-2 sm:px-4 md:px-6 lg:px-8 pb-0">
-          <div className="relative mx-auto max-w-full sm:max-w-[90%] md:max-w-[85%] lg:max-w-[1000px] xl:max-w-[1100px] 2xl:max-w-[1200px]">
+        {/* Dashboard Image with float animation */}
+        <motion.div
+          variants={dashboardVariants}
+          initial="hidden"
+          animate="visible"
+          className="relative z-10 px-3 sm:px-4 md:px-6 lg:px-8 pb-0"
+        >
+          <motion.div
+            whileHover={{ scale: 1.02, y: -5 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="relative mx-auto max-w-full sm:max-w-[90%] md:max-w-[85%] lg:max-w-[1000px] xl:max-w-[1100px]"
+          >
             <Image
               src="/dashboard.png"
               alt="Manjam Dashboard"
               width={1200}
               height={750}
-              className="object-contain rounded-t-lg md:rounded-t-xl w-full h-auto"
+              className="object-cover rounded-t-xl w-full h-auto"
             />
-          </div>
-        </div>
-      </div>
+            {/* Subtle shine overlay */}
+            <div className="absolute inset-0 bg-linear-to-b from-white/5 to-transparent rounded-t-xl pointer-events-none" />
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

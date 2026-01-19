@@ -1,44 +1,76 @@
-const SparklesIcon = () => (
+"use client";
+
+import { motion } from "framer-motion";
+
+// Arrow Icon for Learn More link
+const ArrowCircleIcon = () => (
   <svg
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <circle cx="10" cy="10" r="9" stroke="currentColor" strokeWidth="1.5" />
     <path
-      d="M5 3V7M3 5H7M6 17V21M4 19H8M13 3L15.2857 9.85714L22 12L15.2857 14.1429L13 21L10.7143 14.1429L4 12L10.7143 9.85714L13 3Z"
-      stroke="#10B981"
-      strokeWidth="2"
+      d="M8 10H12M12 10L10 8M12 10L10 12"
+      stroke="currentColor"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
   </svg>
 );
 
-export default function AcademyCard({ title, description }) {
+export default function AcademyCard({ icon, title, description }) {
   return (
-    <div
-      className="flex flex-col gap-3 sm:gap-4 p-4 sm:p-5 md:p-6 rounded-lg"
+    <motion.div
+      whileHover={{
+        y: -8,
+        backgroundColor: "rgba(255,255,255,0.08)",
+        boxShadow: "0 25px 50px -15px rgba(70,184,134,0.35)"
+      }}
+      transition={{ duration: 0.4, ease: [0.34, 1.56, 0.64, 1] }}
+      className="group flex flex-col h-full p-5 sm:p-6 md:p-7 rounded-2xl"
       style={{
-        border: "0.5px solid",
-        borderImage:
-          "linear-gradient(92.87deg, #FFFFFF 4.19%, #999999 130.18%) 1",
+        background: 'rgba(17, 24, 39, 0.6)',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
+        backdropFilter: 'blur(10px)',
       }}
     >
       {/* Icon */}
-      <div>
-        <SparklesIcon />
-      </div>
+      <motion.div
+        className="mb-6"
+        whileHover={{ scale: 1.15, rotate: 5 }}
+        transition={{ duration: 0.3, ease: [0.34, 1.56, 0.64, 1] }}
+      >
+        {icon}
+      </motion.div>
 
       {/* Title */}
-      <h3 className="text-white text-base sm:text-lg font-semibold">{title}</h3>
+      <h3 className="text-white text-lg sm:text-xl font-semibold mb-3">{title}</h3>
 
       {/* Description */}
-      <p className="text-[rgba(255,255,255,0.7)] text-xs sm:text-sm leading-relaxed">
+      <p className="text-[rgba(255,255,255,0.6)] text-sm leading-relaxed mb-6 flex-1">
         {description}
       </p>
-    </div>
+
+      {/* Learn More Link */}
+      <div className="mt-auto">
+        <motion.button
+          whileHover={{ color: "#46B886" }}
+          className="inline-flex items-center gap-2 text-white text-sm font-medium cursor-pointer"
+        >
+          Learn more
+          <motion.span
+            className="inline-flex"
+            whileHover={{ x: 3, scale: 1.1 }}
+            transition={{ duration: 0.2 }}
+          >
+            <ArrowCircleIcon />
+          </motion.span>
+        </motion.button>
+      </div>
+    </motion.div>
   );
 }
-
