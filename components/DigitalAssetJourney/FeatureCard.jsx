@@ -6,25 +6,30 @@ import { motion } from "framer-motion";
 export default function FeatureCard({ title, imageSrc, imageAlt }) {
   return (
     <motion.div
-      whileHover={{ 
+      whileHover={{
         y: -8,
         boxShadow: "0 30px 60px -15px rgba(70,184,134,0.25)"
       }}
       transition={{ duration: 0.4, ease: [0.34, 1.56, 0.64, 1] }}
-      className="group flex flex-col w-full rounded-xl overflow-hidden"
+      className="group relative flex flex-col w-full rounded-xl overflow-hidden"
       style={{
-        background:
-          "linear-gradient(106.81deg, rgba(240, 255, 249, 0.3) 10.74%, rgba(70, 184, 134, 0.15) 98.1%)",
         border: "1px solid rgba(229, 231, 235, 0.8)",
         boxShadow: "0 4px 20px rgba(16, 24, 40, 0.08)",
       }}
     >
+      {/* Background Image */}
+      <Image
+        src="/DigitalAssetsbg.png"
+        alt=""
+        fill
+        className="absolute inset-0 object-cover -z-10"
+      />
       {/* Title */}
       <div className="p-5 sm:p-6">
         <motion.h3
           whileHover={{ color: "#46B886" }}
           transition={{ duration: 0.2 }}
-          className="text-[#111827] text-lg sm:text-xl font-semibold leading-tight"
+          className="text-[#111827] text-lg sm:text-[24px] font-semibold leading-tight"
         >
           {title}
         </motion.h3>
@@ -45,7 +50,7 @@ export default function FeatureCard({ title, imageSrc, imageAlt }) {
           />
         </motion.div>
         {/* Subtle gradient overlay for depth */}
-        <div 
+        <div
           className="absolute inset-0 pointer-events-none transition-opacity duration-300 group-hover:opacity-0"
           style={{
             background: 'linear-gradient(to top, rgba(255,255,255,0.1) 0%, transparent 30%)',

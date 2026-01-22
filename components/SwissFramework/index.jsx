@@ -1,7 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import FrameworkCard from "./FrameworkCard";
+
+// Platform URL
+const PLATFORM_REGISTER_URL = "https://platform.manjamcapital.com/register/account-type";
 
 // Brand Arrow Icon
 const ArrowRightIcon = () => (
@@ -124,26 +128,36 @@ const buttonVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1],
+    },
   },
   hover: {
-    scale: 1.05,
-    y: -3,
-    transition: { duration: 0.3, ease: [0.34, 1.56, 0.64, 1] },
+    scale: 1.02,
+    y: -2,
+    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.25), inset 0 -1px 1px rgba(0, 0, 0, 0.1), 0 0 20px rgba(255, 255, 255, 0.1)',
+    transition: {
+      duration: 0.3,
+      ease: [0.34, 1.56, 0.64, 1],
+    },
   },
-  tap: { scale: 0.98, y: 0 },
+  tap: {
+    scale: 0.98,
+    y: 0,
+  },
 };
 
 export default function SwissFramework() {
   return (
-    <section id="fund" className="w-full py-8 sm:py-10 md:py-12 lg:pt-16 lg:pb-0">
+    <section id="fund" className="w-full py-8 sm:py-10 md:py-12 lg:pt-16 xl:pt-10 2xl:pt-16 lg:pb-0">
       {/* Main Dark Section */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="relative mx-2 sm:mx-4 md:mx-6 lg:mx-4 rounded-lg sm:rounded-xl overflow-hidden backdrop-blur-md"
+        className="relative mx-2 sm:mx-4 md:mx-6 lg:mx-4 xl:mx-6 2xl:mx-4 rounded-lg sm:rounded-xl overflow-hidden backdrop-blur-md"
         style={{
           background:
             "radial-gradient(50% 50% at 50% 50%, #111827 0%, #153830 100%)",
@@ -190,10 +204,10 @@ export default function SwissFramework() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="relative z-10 px-4 py-12 sm:px-6 sm:py-16 md:px-10 md:py-20 lg:px-16 lg:py-24 xl:px-20 xl:py-28"
+          className="relative z-10 px-4 py-12 sm:px-6 sm:py-16 md:px-10 md:py-20 lg:px-16 lg:py-24 xl:px-12 xl:pt-16 2xl:px-20 2xl:pt-18 xl:pb-4"
         >
           {/* Kicker Badge */}
-          <motion.div variants={itemVariants} className="flex justify-center mb-6">
+          <motion.div variants={itemVariants} className="flex justify-center mb-6 xl:mb-4 2xl:mb-6">
             <motion.span
               whileHover={{ scale: 1.05 }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(70,184,134,0.15)] border border-[rgba(70,184,134,0.3)]"
@@ -212,7 +226,13 @@ export default function SwissFramework() {
           {/* Headline */}
           <motion.h2
             variants={itemVariants}
-            className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[52px] font-semibold leading-tight text-center mb-5 sm:mb-6 md:mb-8 max-w-4xl mx-auto"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-[52px] font-semibold leading-tight text-center mb-5 sm:mb-6 md:mb-8 xl:mb-5 2xl:mb-8 max-w-4xl mx-auto"
+            style={{
+              background: 'linear-gradient(to right, #FFFFFF 0%, #FFFFFF 40%, #6B7280 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+            }}
           >
             A Structured Swiss Framework for Qualified Participation.
           </motion.h2>
@@ -220,13 +240,13 @@ export default function SwissFramework() {
           {/* Description */}
           <motion.p
             variants={itemVariants}
-            className="text-[rgba(255,255,255,0.7)] text-sm sm:text-base md:text-lg text-center max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-16"
+            className="text-[rgba(255,255,255,0.7)] text-sm sm:text-base md:text-lg xl:text-base 2xl:text-lg text-center max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-16 xl:mb-10 2xl:mb-16"
           >
-            Our flagship foundation, built to evolve within one of the world&apos;s most trusted financial jurisdictions.
+            Our flagship foundation, <br /> built to evolve within one of the world&apos;s most trusted financial jurisdictions.
           </motion.p>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-10 sm:mb-12 md:mb-16 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 xl:gap-4 2xl:gap-6 mb-10 sm:mb-12 md:mb-16 xl:mb-8 2xl:mb-16 max-w-7xl mx-auto">
             {frameworkCards.map((card, index) => (
               <motion.div
                 key={card.id}
@@ -248,21 +268,26 @@ export default function SwissFramework() {
           {/* CTA Button */}
           <motion.div
             variants={itemVariants}
-            className="flex justify-center mb-12 sm:mb-16 md:mb-20"
+            className="flex justify-center mb-12 sm:mb-16 md:mb-20 xl:mb-10 2xl:mb-20"
           >
             <motion.a
-              href="/fund"
+              href={PLATFORM_REGISTER_URL}
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"
-              className="group inline-flex items-center gap-2 px-6 py-3 bg-[#46B886] text-white font-medium text-sm rounded-lg"
+              className="group inline-flex items-center justify-center gap-2 px-5 sm:px-7 lg:px-6 py-2.5 sm:py-3 lg:py-2.5 rounded-2xl text-white font-medium text-sm sm:text-base cursor-pointer mb-3 sm:mb-4 lg:mb-3"
               style={{
-                boxShadow: "0 4px 20px -5px rgba(70, 184, 134, 0.4)",
+                background: 'rgba(255, 255, 255, 0.1)',
+                backdropFilter: 'blur(20px)',
+                WebkitBackdropFilter: 'blur(20px)',
+                border: '1px solid rgba(255, 255, 255, 0.2)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.1)',
               }}
             >
               Review Fund Specifications
               <motion.span
                 className="inline-flex"
+                animate={{ x: 0 }}
                 whileHover={{ x: 4 }}
                 transition={{ duration: 0.2 }}
               >
@@ -277,22 +302,20 @@ export default function SwissFramework() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="relative overflow-hidden rounded-xl py-6 sm:py-8"
+            className="relative overflow-hidden rounded-xl py-6 sm:py-8 xl:py-4 2xl:py-8"
             style={{
-              background: 'rgba(255, 255, 255, 0.05)',
-              backdropFilter: 'blur(20px)',
+              // background: 'rgba(255, 255, 255, 0.05)',
+              // backdropFilter: 'blur(20px)',
               WebkitBackdropFilter: 'blur(20px)',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              // border: '1px solid rgba(255, 255, 255, 0.1)',
             }}
           >
             {/* Gradient Fades */}
             <div
               className="absolute left-0 top-0 bottom-0 w-16 sm:w-24 z-10 pointer-events-none"
-              style={{ background: 'linear-gradient(to right, rgba(17, 24, 39, 0.9), transparent)' }}
             />
             <div
               className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 z-10 pointer-events-none"
-              style={{ background: 'linear-gradient(to left, rgba(17, 24, 39, 0.9), transparent)' }}
             />
 
             {/* Animated Marquee */}
@@ -300,25 +323,15 @@ export default function SwissFramework() {
               {[...partners, ...partners].map((partner, index) => (
                 <div
                   key={`partner-1-${index}`}
-                  className="flex items-center justify-center gap-2 sm:gap-3 px-8 sm:px-12 shrink-0"
+                  className="flex items-center justify-center px-10 sm:px-16 xl:px-12 2xl:px-16 shrink-0"
                 >
-                  <svg
-                    className="w-5 h-5 sm:w-6 sm:h-6 text-white/60"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  <span className="font-medium text-sm sm:text-base text-white/70 whitespace-nowrap">
-                    {partner.name}
-                  </span>
+                  <Image
+                    src="/partners.svg"
+                    alt={partner.name}
+                    width={180}
+                    height={60}
+                    className="h-12 sm:h-16 lg:h-20 xl:h-14 2xl:h-20 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  />
                 </div>
               ))}
             </div>

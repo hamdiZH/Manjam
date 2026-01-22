@@ -49,31 +49,31 @@ const ClarityIcon = () => (
 
 const viewCards = [
   {
-    id: "standards",
-    title: "Standards and Alignment",
+    id: "principles",
+    title: "Principles First",
     description:
-      "Clear criteria that shape how we filter opportunities and stay disciplined.",
+      "clarity, transparency, and alignment with Sharia foundations, forming the basis of every evaluation.",
     icon: <StandardsIcon />,
   },
   {
-    id: "evaluation",
-    title: "Structured Evaluation",
+    id: "analysis",
+    title: "Structured Analysis",
     description:
-      "A consistent framework that weighs governance, utility, risk, and long-term relevance.",
+      "A disciplined method that considers technology, utility, governance, and long-term relevance across digital assets.",
     icon: <EvaluationIcon />,
   },
   {
-    id: "market",
-    title: "Market and Regulation Read",
+    id: "future",
+    title: "Future Ready",
     description:
-      "Context-driven thinking that tracks policy shifts and structural market signals.",
+      "A forward-looking outlook shaped by emerging global regulations and evolving digital-asset trends.",
     icon: <MarketIcon />,
   },
   {
-    id: "clarity",
-    title: "Clarity and Education",
+    id: "innovation",
+    title: "Responsible Innovation",
     description:
-      "Professional insights explained simply, built to turn complexity into confident understanding.",
+      "Balancing modern digital-asset innovation with a focus on trust, structure, and sustainable long-term thinking.",
     icon: <ClarityIcon />,
   },
 ];
@@ -127,72 +127,85 @@ const buttonVariants = {
 
 export default function OurView() {
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-10">
+    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-0 px-4 sm:px-6 md:px-8 lg:px-10">
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
-        className="max-w-full mx-auto"
+        className="max-w-[1400px] mx-auto"
       >
-        {/* Header Section */}
-        <div className="text-center mb-10 lg:mb-16">
-          {/* Kicker */}
-          <motion.p
-            variants={itemVariants}
-            className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase mb-3"
-          >
-            THE MANJAM STANDARD
-          </motion.p>
-
-          {/* Headline */}
-          <motion.h2
-            variants={itemVariants}
-            className="text-[#111827] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 sm:mb-8"
-          >
-            Assets, Redefined by Discipline.
-          </motion.h2>
-
-          {/* CTA Button */}
-          <motion.a
-            href="https://platform.manjamcapital.com/register/account-type"
-            variants={itemVariants}
-            whileHover="hover"
-            whileTap="tap"
-            className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#46B886] text-white font-medium text-sm"
-            style={{
-              boxShadow: "0 4px 20px -5px rgba(70, 184, 134, 0.4)",
-            }}
-          >
-            Enter the Ecosystem
-            <motion.span
-              className="inline-flex"
-              whileHover={{ x: 4 }}
-              transition={{ duration: 0.2 }}
+        {/* Two Column Layout */}
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 xl:gap-20 items-start">
+          {/* Left Column - Header */}
+          <div className="w-full lg:w-[380px] xl:w-[420px] shrink-0 lg:sticky lg:top-32">
+            {/* Kicker */}
+            <motion.p
+              variants={itemVariants}
+              className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase mb-4"
             >
-              <ArrowRightIcon />
-            </motion.span>
-          </motion.a>
-        </div>
+              THE MANJAM STANDARD
+            </motion.p>
 
-        {/* 4-Card Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
-          {viewCards.map((card, index) => (
-            <motion.div
-              key={card.id}
-              custom={index}
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
+            {/* Headline */}
+            <motion.h2
+              variants={itemVariants}
+              className="text-[#111827] text-3xl sm:text-4xl md:text-5xl lg:text-[42px] xl:text-5xl font-bold leading-[1.1] mb-5"
             >
-              <ViewCard
-                icon={card.icon}
-                title={card.title}
-                description={card.description}
-              />
-            </motion.div>
-          ))}
+              Our View on<br />Digital Assets
+            </motion.h2>
+
+            {/* Subheadline */}
+            <motion.p
+              variants={itemVariants}
+              className="text-[#6B7280] text-base sm:text-lg leading-relaxed mb-8"
+            >
+              A structured perspective that guides how we understand and navigate today's digital-asset landscape
+            </motion.p>
+
+            {/* CTA Button */}
+            <motion.a
+              href="https://platform.manjamcapital.com/register/account-type"
+              variants={buttonVariants}
+              whileHover="hover"
+              whileTap="tap"
+              className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-[#46B886] text-white font-medium text-sm"
+              style={{
+                boxShadow: "0 4px 20px -5px rgba(70, 184, 134, 0.4)",
+              }}
+            >
+              Start Securely
+              <motion.span
+                className="inline-flex"
+                whileHover={{ x: 4 }}
+                transition={{ duration: 0.2 }}
+              >
+                <ArrowRightIcon />
+              </motion.span>
+            </motion.a>
+          </div>
+
+          {/* Right Column - 2x2 Card Grid */}
+          <div className="flex-1 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+              {viewCards.map((card, index) => (
+                <motion.div
+                  key={card.id}
+                  custom={index}
+                  variants={cardVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                >
+                  <ViewCard
+                    icon={card.icon}
+                    title={card.title}
+                    description={card.description}
+                  />
+                </motion.div>
+              ))}
+            </div>
+          </div>
         </div>
       </motion.div>
     </section>

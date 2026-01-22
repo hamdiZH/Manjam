@@ -75,8 +75,9 @@ const buttonVariants = {
     },
   },
   hover: {
-    scale: 1.05,
+    scale: 1.02,
     y: -2,
+    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.25), inset 0 -1px 1px rgba(0, 0, 0, 0.1), 0 0 20px rgba(255, 255, 255, 0.1)',
     transition: {
       duration: 0.3,
       ease: [0.34, 1.56, 0.64, 1],
@@ -102,7 +103,7 @@ const glowVariants = {
 
 export default function Hero() {
   return (
-    <section className="w-full py-3 sm:py-4 md:py-5 px-4 sm:px-6 md:px-8 lg:px-10">
+    <section className="w-full py-2 sm:py-3 md:py-4 lg:py-3 xl:py-2 px-4 sm:px-6 md:px-8 lg:px-10">
       {/* Hero Container with Dark Background */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -121,34 +122,19 @@ export default function Hero() {
           className="absolute inset-0 opacity-30 z-0 object-cover"
         />
 
-        {/* Animated Glass Glow Effect */}
-        <motion.div
-          variants={glowVariants}
-          animate="animate"
-          className="absolute z-0"
-          style={{
-            width: '800px',
-            height: '800px',
-            top: '-400px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            background: 'radial-gradient(50% 50% at 50% 50%, rgba(70, 184, 134, 0.25) 0%, transparent 70%)',
-          }}
-        />
-
         {/* Content */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 pt-10 sm:pt-12 md:pt-16 lg:pt-20 pb-8 md:pb-10"
+          className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 pt-8 sm:pt-10 md:pt-12 lg:pt-14 xl:pt-12 pb-6 md:pb-8 lg:pb-6"
         >
-          {/* Main Heading - Gray Gradient */}
-          <motion.h1 variants={itemVariants} className="mb-4 sm:mb-5 md:mb-6">
+          {/* Main Heading - Horizontal White to Gray Gradient */}
+          <motion.h1 variants={itemVariants} className="mb-3 sm:mb-4 md:mb-5 lg:mb-4">
             <span
-              className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight"
+              className="block text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight"
               style={{
-                background: 'linear-gradient(180deg, #FFFFFF 0%, #9CA3AF 100%)',
+                background: 'linear-gradient(to right, #FFFFFF 0%, #FFFFFF 40%, #6B7280 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
@@ -157,36 +143,39 @@ export default function Hero() {
               Professional standards
             </span>
             <span
-              className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight"
+              className="block text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight"
               style={{
-                background: 'linear-gradient(180deg, #FFFFFF 0%, #9CA3AF 100%)',
+                background: 'linear-gradient(to right, #FFFFFF 0%, #FFFFFF 40%, #6B7280 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
               }}
             >
-              for digital assets.
+              for digital assets
             </span>
           </motion.h1>
 
           {/* Subheadline - Glassy */}
           <motion.p
             variants={itemVariants}
-            className="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl font-normal mb-6 sm:mb-8 tracking-wide"
+            className="text-white/80 text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl font-normal mb-4 sm:mb-6 lg:mb-5 tracking-wide"
           >
             World&apos;s #1 Swiss Shariah-compliant digital asset ecosystem 🇨🇭
           </motion.p>
 
-          {/* Primary CTA Button */}
+          {/* Primary CTA Button - iOS Liquid Glass Style */}
           <motion.a
             href={PLATFORM_REGISTER_URL}
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
-            className="group inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl border border-[#1C4A3F] text-white font-medium text-sm sm:text-base cursor-pointer mb-4 sm:mb-5"
+            className="group inline-flex items-center justify-center gap-2 px-5 sm:px-7 lg:px-6 py-2.5 sm:py-3 lg:py-2.5 rounded-2xl text-white font-medium text-sm sm:text-base cursor-pointer mb-3 sm:mb-4 lg:mb-3"
             style={{
-              background: 'radial-gradient(50% 50% at 50% 50%, #111827 0%, #153830 100%)',
-              boxShadow: '0px 4px 20px 0px rgba(16, 24, 40, 0.15)',
+              background: 'rgba(255, 255, 255, 0.1)',
+              backdropFilter: 'blur(20px)',
+              WebkitBackdropFilter: 'blur(20px)',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.1)',
             }}
           >
             Become a client
@@ -214,12 +203,12 @@ export default function Hero() {
           variants={dashboardVariants}
           initial="hidden"
           animate="visible"
-          className="relative z-10 px-3 sm:px-4 md:px-6 lg:px-8 pb-0"
+          className="relative z-10 px-3 sm:px-4 md:px-6 lg:px-6 xl:px-8 pb-0"
         >
           <motion.div
             whileHover={{ scale: 1.02, y: -5 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="relative mx-auto max-w-full sm:max-w-[90%] md:max-w-[85%] lg:max-w-[1000px] xl:max-w-[1100px]"
+            className="relative mx-auto max-w-full sm:max-w-[90%] md:max-w-[85%] lg:max-w-[850px] xl:max-w-[900px] 2xl:max-w-[1100px]"
           >
             <Image
               src="/dashboard.png"

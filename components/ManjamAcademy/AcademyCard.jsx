@@ -55,22 +55,7 @@ export default function AcademyCard({ icon, title, description }) {
         {description}
       </p>
 
-      {/* Learn More Link */}
-      <div className="mt-auto">
-        <motion.button
-          whileHover={{ color: "#46B886" }}
-          className="inline-flex items-center gap-2 text-white text-sm font-medium cursor-pointer"
-        >
-          Learn more
-          <motion.span
-            className="inline-flex"
-            whileHover={{ x: 3, scale: 1.1 }}
-            transition={{ duration: 0.2 }}
-          >
-            <ArrowCircleIcon />
-          </motion.span>
-        </motion.button>
-      </div>
+
     </motion.div>
   );
 }

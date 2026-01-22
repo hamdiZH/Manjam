@@ -273,7 +273,7 @@ export default function Navbar() {
               {item.id === "services" && (
                 <div
                   className={`absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${servicesOpen ? 'opacity-100 visible translate-y-0 scale-100' : 'opacity-0 invisible -translate-y-2 scale-[0.98]'
-                    } transition-all duration-300 ease-out origin-top`}
+                    } transition-all duration-300 ease-out origin-top rounded-tl-2xl`}
                   style={{
                     width: '580px',
                     background: 'linear-gradient(135deg, #111827 0%, #1C4A3F 100%)',
@@ -324,7 +324,7 @@ export default function Navbar() {
               {item.id === "insights" && (
                 <div
                   className={`absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${insightsOpen ? 'opacity-100 visible translate-y-0 scale-100' : 'opacity-0 invisible -translate-y-2 scale-[0.98]'
-                    } transition-all duration-300 ease-out origin-top`}
+                    } transition-all duration-300 ease-out origin-top rounded-tl-2xl`}
                   style={{
                     width: '520px',
                     background: 'linear-gradient(135deg, #111827 0%, #1C4A3F 100%)',
@@ -389,7 +389,7 @@ export default function Navbar() {
               {item.id === "explore" && (
                 <div
                   className={`absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${exploreOpen ? 'opacity-100 visible translate-y-0 scale-100' : 'opacity-0 invisible -translate-y-2 scale-[0.98]'
-                    } transition-all duration-300 ease-out origin-top`}
+                    } transition-all duration-300 ease-out origin-top rounded-tl-2xl`}
                   style={{
                     width: '520px',
                     background: 'linear-gradient(135deg, #111827 0%, #1C4A3F 100%)',

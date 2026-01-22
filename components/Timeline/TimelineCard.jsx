@@ -7,7 +7,7 @@ export default function TimelineCard({ year, title, description }) {
     <motion.div
       whileHover={{ y: -8 }}
       transition={{ duration: 0.4, ease: [0.34, 1.56, 0.64, 1] }}
-      className="group relative flex flex-col w-full"
+      className="group relative flex flex-col w-full h-full"
     >
       {/* Year Badge with Dot */}
       <div className="flex items-center gap-3 mb-6">
@@ -50,7 +50,7 @@ export default function TimelineCard({ year, title, description }) {
           borderColor: "rgba(70, 184, 134, 0.3)",
         }}
         transition={{ duration: 0.3 }}
-        className="flex-1 p-6 sm:p-8 rounded-xl"
+        className="flex-1 p-6 sm:p-8 rounded-xl min-h-[180px] flex flex-col"
         style={{
           background: 'rgba(249, 250, 251, 0.9)',
           border: '1px solid rgba(229, 231, 235, 0.8)',
@@ -60,13 +60,13 @@ export default function TimelineCard({ year, title, description }) {
         <motion.h3
           whileHover={{ color: "#46B886" }}
           transition={{ duration: 0.2 }}
-          className="text-[#111827] text-lg sm:text-xl font-semibold mb-3 leading-tight"
+          className="text-[#111827] md:text-md xl:text-lg sm:text-xl font-semibold mb-3 leading-tight"
         >
           {title}
         </motion.h3>
 
         {/* Description */}
-        <p className="text-[#6B7280] text-sm sm:text-base leading-relaxed">
+        <p className="text-[#6B7280] text-sm sm:text-base leading-relaxed flex-1">
           {description}
         </p>
       </motion.div>

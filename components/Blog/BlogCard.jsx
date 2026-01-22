@@ -76,18 +76,18 @@ export default function BlogCard({ image, category, title, description, author, 
           <motion.h3
             whileHover={{ color: "#46B886" }}
             transition={{ duration: 0.2 }}
-            className="text-[#111827] text-lg sm:text-xl font-semibold leading-tight mb-3"
+            className="text-[#111827] text-lg sm:text-xl font-semibold leading-tight mb-3 line-clamp-2 min-h-[56px]"
           >
             {title}
           </motion.h3>
 
           {/* Description */}
-          <p className="text-[#6B7280] text-sm leading-relaxed line-clamp-2 mb-6 flex-1">
+          <p className="text-[#6B7280] text-sm leading-relaxed line-clamp-2 mb-6 min-h-[40px]">
             {description}
           </p>
 
           {/* Footer */}
-          <div className="flex items-center justify-between pt-4 border-t border-[#F3F4F6]">
+          <div className="flex items-center justify-between pt-4 border-t border-[#F3F4F6] mt-auto">
             {/* Author Info */}
             <div className="flex items-center gap-3">
               {/* Avatar */}

@@ -19,7 +19,7 @@ export default function Home() {
         <DigitalAssetJourney />
         <ManjamAcademy />
         <Timeline />
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Blog />
       </div>
     </div>

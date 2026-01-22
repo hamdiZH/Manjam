@@ -14,9 +14,37 @@ const LinkedInIcon = () => (
   </svg>
 );
 
-const TwitterIcon = () => (
+// X (formerly Twitter) Icon
+const XIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M23 3C22.0424 3.67548 20.9821 4.19211 19.86 4.53C19.2577 3.83751 18.4573 3.34669 17.567 3.12393C16.6767 2.90116 15.7395 2.9572 14.8821 3.28445C14.0247 3.61171 13.2884 4.1944 12.773 4.95372C12.2575 5.71303 11.9877 6.61234 12 7.53V8.53C10.2426 8.57557 8.50127 8.18581 6.93101 7.39545C5.36074 6.60508 4.01032 5.43864 3 4C3 4 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.5C20.9991 7.22145 20.9723 6.94359 20.92 6.67C21.9406 5.66349 22.6608 4.39271 23 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor" />
+  </svg>
+);
+
+// YouTube Icon
+const YouTubeIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22.54 6.42C22.4212 5.94541 22.1793 5.51057 21.8387 5.15941C21.498 4.80824 21.0708 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.12 4 3.4 4.46C2.92925 4.59318 2.50198 4.84824 2.16135 5.19941C1.82072 5.55057 1.57879 5.98541 1.46 6.46C1.14521 8.20556 0.991235 9.97631 1 11.75C0.988787 13.537 1.14277 15.3213 1.46 17.08C1.59096 17.5398 1.83831 17.9581 2.17814 18.2945C2.51798 18.6308 2.93882 18.8738 3.4 19C5.12 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0708 18.8668 21.498 18.6118 21.8387 18.2606C22.1793 17.9094 22.4212 17.4746 22.54 17C22.8524 15.2676 23.0063 13.5103 23 11.75C23.0112 9.96295 22.8573 8.1787 22.54 6.42Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M9.75 15.02L15.5 11.75L9.75 8.48V15.02Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+// TikTok Icon
+const TikTokIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M15 12V4C15 4 17 8 21 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M15 12C15 16.4183 11.4183 20 7 20C6.64936 20 6.30381 19.9793 5.96465 19.9387" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M15 12C15 9.23858 12.7614 7 10 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+// Instagram Icon
+const InstagramIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx="18" cy="6" r="1" fill="currentColor" />
   </svg>
 );
 
@@ -102,7 +130,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#111827]">
       {/* Main Footer Content */}
-      <div className="px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20 lg:mt-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -142,7 +170,57 @@ export default function Footer() {
               {/* Social Links */}
               <div className="flex items-center gap-4 mt-6">
                 <motion.a
+                  href="https://x.com/Manjamcapital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variants={socialVariants}
+                  whileHover="hover"
+                  whileTap="tap"
+                  className="text-white/50"
+                  aria-label="X (Twitter)"
+                >
+                  <XIcon />
+                </motion.a>
+                <motion.a
+                  href="https://www.youtube.com/@manjamcapital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variants={socialVariants}
+                  whileHover="hover"
+                  whileTap="tap"
+                  className="text-white/50"
+                  aria-label="YouTube"
+                >
+                  <YouTubeIcon />
+                </motion.a>
+                <motion.a
+                  href="https://www.instagram.com/manjamcapital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variants={socialVariants}
+                  whileHover="hover"
+                  whileTap="tap"
+                  className="text-white/50"
+                  aria-label="Instagram"
+                >
+                  <InstagramIcon />
+                </motion.a>
+                <motion.a
+                  href="https://www.tiktok.com/@manjamcapital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variants={socialVariants}
+                  whileHover="hover"
+                  whileTap="tap"
+                  className="text-white/50"
+                  aria-label="TikTok"
+                >
+                  <TikTokIcon />
+                </motion.a>
+                <motion.a
                   href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   variants={socialVariants}
                   whileHover="hover"
                   whileTap="tap"
@@ -150,16 +228,6 @@ export default function Footer() {
                   aria-label="LinkedIn"
                 >
                   <LinkedInIcon />
-                </motion.a>
-                <motion.a
-                  href="#"
-                  variants={socialVariants}
-                  whileHover="hover"
-                  whileTap="tap"
-                  className="text-white/50"
-                  aria-label="Twitter"
-                >
-                  <TwitterIcon />
                 </motion.a>
               </div>
             </motion.div>

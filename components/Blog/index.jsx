@@ -116,7 +116,7 @@ const buttonVariants = {
 
 export default function Blog() {
   return (
-    <section className="w-full py-16 sm:py-20 md:py-24 lg:py-28 px-4 sm:px-6 md:px-8 lg:px-10">
+    <section className="w-full py-16 sm:py-20 md:py-24 lg:py-4 px-4 sm:px-6 md:px-8 lg:px-10">
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -166,7 +166,7 @@ export default function Blog() {
         </div>
 
         {/* Blog Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 items-stretch">
           {blogPosts.map((post, index) => (
             <motion.div
               key={post.id}
@@ -175,6 +175,7 @@ export default function Blog() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
+              className="h-full"
             >
               <BlogCard
                 image={post.image}

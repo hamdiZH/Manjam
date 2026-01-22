@@ -25,11 +25,11 @@ const PLATFORM_LOGIN_URL = "https://platform.manjamcapital.com";
 const PLATFORM_REGISTER_URL = "https://platform.manjamcapital.com/register/account-type";
 const ChevronDown = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     const { className, isOpen } = t0;
     const t1 = `${className} transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`;
@@ -82,11 +82,11 @@ const ChevronDown = (t0)=>{
 _c = ChevronDown;
 const ArrowRightIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -121,11 +121,11 @@ const ArrowRightIcon = ()=>{
 _c1 = ArrowRightIcon;
 const HamburgerIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -160,11 +160,11 @@ const HamburgerIcon = ()=>{
 _c2 = HamburgerIcon;
 const CloseIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -330,11 +330,11 @@ const teamMembers = [
 // Social Icons for Team Modal
 const FacebookIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -369,11 +369,11 @@ const FacebookIconTeam = ()=>{
 _c4 = FacebookIconTeam;
 const TwitterIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -408,11 +408,11 @@ const TwitterIconTeam = ()=>{
 _c5 = TwitterIconTeam;
 const LinkedInIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -471,11 +471,11 @@ const LinkedInIconTeam = ()=>{
 _c6 = LinkedInIconTeam;
 const InstagramIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -534,11 +534,11 @@ const InstagramIconTeam = ()=>{
 _c7 = InstagramIconTeam;
 const ArrowLeftIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -573,11 +573,11 @@ const ArrowLeftIcon = ()=>{
 _c8 = ArrowLeftIcon;
 const ArrowRightIconLarge = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -613,11 +613,11 @@ _c9 = ArrowRightIconLarge;
 function Navbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(73);
-    if ($[0] !== "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e") {
+    if ($[0] !== "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda") {
         for(let $i = 0; $i < 73; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66bd86b86543f83d5d063cb91a2d158040221933868dafbf3cc19564b71f0b1e";
+        $[0] = "2dcfa739a3c33577d9ade20dea4e8ba69c1127ff5cc4b06358ce65c1bf148eda";
     }
     const [language, setLanguage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("EN");
     const [langDropdownOpen, setLangDropdownOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -851,7 +851,7 @@ function Navbar() {
                             columnNumber: 57
                         }, this),
                         item.id === "services" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${servicesOpen ? "opacity-100 visible translate-y-0 scale-100" : "opacity-0 invisible -translate-y-2 scale-[0.98]"} transition-all duration-300 ease-out origin-top`,
+                            className: `absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${servicesOpen ? "opacity-100 visible translate-y-0 scale-100" : "opacity-0 invisible -translate-y-2 scale-[0.98]"} transition-all duration-300 ease-out origin-top rounded-tl-2xl`,
                             style: {
                                 width: "580px",
                                 background: "linear-gradient(135deg, #111827 0%, #1C4A3F 100%)",
@@ -984,7 +984,7 @@ function Navbar() {
                             columnNumber: 508
                         }, this),
                         item.id === "insights" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${insightsOpen ? "opacity-100 visible translate-y-0 scale-100" : "opacity-0 invisible -translate-y-2 scale-[0.98]"} transition-all duration-300 ease-out origin-top`,
+                            className: `absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${insightsOpen ? "opacity-100 visible translate-y-0 scale-100" : "opacity-0 invisible -translate-y-2 scale-[0.98]"} transition-all duration-300 ease-out origin-top rounded-tl-2xl`,
                             style: {
                                 width: "520px",
                                 background: "linear-gradient(135deg, #111827 0%, #1C4A3F 100%)",
@@ -1151,7 +1151,7 @@ function Navbar() {
                             columnNumber: 1782
                         }, this),
                         item.id === "explore" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${exploreOpen ? "opacity-100 visible translate-y-0 scale-100" : "opacity-0 invisible -translate-y-2 scale-[0.98]"} transition-all duration-300 ease-out origin-top`,
+                            className: `absolute left-0 top-full rounded-b-2xl rounded-tr-2xl border border-[#E5E7EB] shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden ${exploreOpen ? "opacity-100 visible translate-y-0 scale-100" : "opacity-0 invisible -translate-y-2 scale-[0.98]"} transition-all duration-300 ease-out origin-top rounded-tl-2xl`,
                             style: {
                                 width: "520px",
                                 background: "linear-gradient(135deg, #111827 0%, #1C4A3F 100%)",
@@ -2524,11 +2524,11 @@ var _s = __turbopack_context__.k.signature();
 // Social Media Icons
 const LinkedInIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "180433365adf391bddd31ca8bad61afc2ebed258f7c5c5c92aebc65c1881ea88") {
+    if ($[0] !== "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "180433365adf391bddd31ca8bad61afc2ebed258f7c5c5c92aebc65c1881ea88";
+        $[0] = "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -2585,13 +2585,14 @@ const LinkedInIcon = ()=>{
     return t0;
 };
 _c = LinkedInIcon;
-const TwitterIcon = ()=>{
+// X (formerly Twitter) Icon
+const XIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "180433365adf391bddd31ca8bad61afc2ebed258f7c5c5c92aebc65c1881ea88") {
+    if ($[0] !== "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "180433365adf391bddd31ca8bad61afc2ebed258f7c5c5c92aebc65c1881ea88";
+        $[0] = "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -2602,19 +2603,16 @@ const TwitterIcon = ()=>{
             fill: "none",
             xmlns: "http://www.w3.org/2000/svg",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M23 3C22.0424 3.67548 20.9821 4.19211 19.86 4.53C19.2577 3.83751 18.4573 3.34669 17.567 3.12393C16.6767 2.90116 15.7395 2.9572 14.8821 3.28445C14.0247 3.61171 13.2884 4.1944 12.773 4.95372C12.2575 5.71303 11.9877 6.61234 12 7.53V8.53C10.2426 8.57557 8.50127 8.18581 6.93101 7.39545C5.36074 6.60508 4.01032 5.43864 3 4C3 4 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.5C20.9991 7.22145 20.9723 6.94359 20.92 6.67C21.9406 5.66349 22.6608 4.39271 23 3Z",
-                stroke: "currentColor",
-                strokeWidth: "2",
-                strokeLinecap: "round",
-                strokeLinejoin: "round"
+                d: "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z",
+                fill: "currentColor"
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 37,
+                lineNumber: 39,
                 columnNumber: 105
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 37,
+            lineNumber: 39,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[1] = t0;
@@ -2623,7 +2621,204 @@ const TwitterIcon = ()=>{
     }
     return t0;
 };
-_c1 = TwitterIcon;
+_c1 = XIcon;
+// YouTube Icon
+const YouTubeIcon = ()=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
+    if ($[0] !== "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b") {
+        for(let $i = 0; $i < 2; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M22.54 6.42C22.4212 5.94541 22.1793 5.51057 21.8387 5.15941C21.498 4.80824 21.0708 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.12 4 3.4 4.46C2.92925 4.59318 2.50198 4.84824 2.16135 5.19941C1.82072 5.55057 1.57879 5.98541 1.46 6.46C1.14521 8.20556 0.991235 9.97631 1 11.75C0.988787 13.537 1.14277 15.3213 1.46 17.08C1.59096 17.5398 1.83831 17.9581 2.17814 18.2945C2.51798 18.6308 2.93882 18.8738 3.4 19C5.12 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0708 18.8668 21.498 18.6118 21.8387 18.2606C22.1793 17.9094 22.4212 17.4746 22.54 17C22.8524 15.2676 23.0063 13.5103 23 11.75C23.0112 9.96295 22.8573 8.1787 22.54 6.42Z",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 58,
+                    columnNumber: 105
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M9.75 15.02L15.5 11.75L9.75 8.48V15.02Z",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 58,
+                    columnNumber: 831
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 58,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    return t0;
+};
+_c2 = YouTubeIcon;
+// TikTok Icon
+const TikTokIcon = ()=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
+    if ($[0] !== "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b") {
+        for(let $i = 0; $i < 2; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 77,
+                    columnNumber: 105
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M15 12V4C15 4 17 8 21 8",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 77,
+                    columnNumber: 282
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M15 12C15 16.4183 11.4183 20 7 20C6.64936 20 6.30381 19.9793 5.96465 19.9387",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 77,
+                    columnNumber: 401
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M15 12C15 9.23858 12.7614 7 10 7",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 77,
+                    columnNumber: 573
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 77,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    return t0;
+};
+_c3 = TikTokIcon;
+// Instagram Icon
+const InstagramIcon = ()=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
+    if ($[0] !== "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b") {
+        for(let $i = 0; $i < 2; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "2",
+                    y: "2",
+                    width: "20",
+                    height: "20",
+                    rx: "5",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 96,
+                    columnNumber: 105
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "12",
+                    cy: "12",
+                    r: "4",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 96,
+                    columnNumber: 238
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "18",
+                    cy: "6",
+                    r: "1",
+                    fill: "currentColor"
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 96,
+                    columnNumber: 353
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 96,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    return t0;
+};
+_c4 = InstagramIcon;
 // Navigation Links
 const servicesLinks = [
     {
@@ -2760,12 +2955,12 @@ const socialVariants = {
 };
 function Footer() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(46);
-    if ($[0] !== "180433365adf391bddd31ca8bad61afc2ebed258f7c5c5c92aebc65c1881ea88") {
-        for(let $i = 0; $i < 46; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(49);
+    if ($[0] !== "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b") {
+        for(let $i = 0; $i < 49; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "180433365adf391bddd31ca8bad61afc2ebed258f7c5c5c92aebc65c1881ea88";
+        $[0] = "0633f3d26c2f2dbdea7e8c1b188adbe75befa1e2380b5e431ddc591cb8a98f2b";
     }
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [firstName, setFirstName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -2828,12 +3023,12 @@ function Footer() {
                 className: "object-contain brightness-0 invert"
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 204,
+                lineNumber: 263,
                 columnNumber: 71
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 204,
+            lineNumber: 263,
             columnNumber: 10
         }, this);
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2841,7 +3036,7 @@ function Footer() {
             children: "Information provided is for informational purposes only and directed exclusively at qualified/professional investors. The fund operates within the Swiss regulated framework, and Manjam provides its services under the qualified-investor regime."
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 205,
+            lineNumber: 264,
             columnNumber: 10
         }, this);
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2849,7 +3044,7 @@ function Footer() {
             children: "© 2026 Manjam Capital AG. All rights reserved."
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 206,
+            lineNumber: 265,
             columnNumber: 10
         }, this);
         $[7] = t4;
@@ -2863,20 +3058,22 @@ function Footer() {
     let t7;
     if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-            href: "#",
+            href: "https://x.com/Manjamcapital",
+            target: "_blank",
+            rel: "noopener noreferrer",
             variants: socialVariants,
             whileHover: "hover",
             whileTap: "tap",
             className: "text-white/50",
-            "aria-label": "LinkedIn",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinkedInIcon, {}, void 0, false, {
+            "aria-label": "X (Twitter)",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(XIcon, {}, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 217,
-                columnNumber: 137
+                lineNumber: 276,
+                columnNumber: 208
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 217,
+            lineNumber: 276,
             columnNumber: 10
         }, this);
         $[10] = t7;
@@ -2885,7 +3082,82 @@ function Footer() {
     }
     let t8;
     if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+            href: "https://www.youtube.com/@manjamcapital",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            variants: socialVariants,
+            whileHover: "hover",
+            whileTap: "tap",
+            className: "text-white/50",
+            "aria-label": "YouTube",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(YouTubeIcon, {}, void 0, false, {
+                fileName: "[project]/components/Footer/index.jsx",
+                lineNumber: 283,
+                columnNumber: 215
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 283,
+            columnNumber: 10
+        }, this);
+        $[11] = t8;
+    } else {
+        t8 = $[11];
+    }
+    let t9;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+            href: "https://www.instagram.com/manjamcapital",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            variants: socialVariants,
+            whileHover: "hover",
+            whileTap: "tap",
+            className: "text-white/50",
+            "aria-label": "Instagram",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InstagramIcon, {}, void 0, false, {
+                fileName: "[project]/components/Footer/index.jsx",
+                lineNumber: 290,
+                columnNumber: 218
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 290,
+            columnNumber: 10
+        }, this);
+        $[12] = t9;
+    } else {
+        t9 = $[12];
+    }
+    let t10;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+            href: "https://www.tiktok.com/@manjamcapital",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            variants: socialVariants,
+            whileHover: "hover",
+            whileTap: "tap",
+            className: "text-white/50",
+            "aria-label": "TikTok",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TikTokIcon, {}, void 0, false, {
+                fileName: "[project]/components/Footer/index.jsx",
+                lineNumber: 297,
+                columnNumber: 214
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 297,
+            columnNumber: 11
+        }, this);
+        $[13] = t10;
+    } else {
+        t10 = $[13];
+    }
+    let t11;
+    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             variants: itemVariants,
             className: "lg:col-span-3",
             children: [
@@ -2896,85 +3168,38 @@ function Footer() {
                     className: "flex items-center gap-4 mt-6",
                     children: [
                         t7,
+                        t8,
+                        t9,
+                        t10,
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
                             href: "#",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             variants: socialVariants,
                             whileHover: "hover",
                             whileTap: "tap",
                             className: "text-white/50",
-                            "aria-label": "Twitter",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TwitterIcon, {}, void 0, false, {
+                            "aria-label": "LinkedIn",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinkedInIcon, {}, void 0, false, {
                                 fileName: "[project]/components/Footer/index.jsx",
-                                lineNumber: 224,
-                                columnNumber: 260
+                                lineNumber: 304,
+                                columnNumber: 317
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Footer/index.jsx",
-                            lineNumber: 224,
-                            columnNumber: 134
+                            lineNumber: 304,
+                            columnNumber: 148
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 224,
-                    columnNumber: 84
+                    lineNumber: 304,
+                    columnNumber: 85
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 224,
-            columnNumber: 10
-        }, this);
-        $[11] = t8;
-    } else {
-        t8 = $[11];
-    }
-    let t9;
-    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            className: "text-white text-sm font-semibold mb-4",
-            children: "Services"
-        }, void 0, false, {
-            fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 231,
-            columnNumber: 10
-        }, this);
-        $[12] = t9;
-    } else {
-        t9 = $[12];
-    }
-    let t10;
-    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-            variants: itemVariants,
-            children: [
-                t9,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                    className: "flex flex-col gap-3",
-                    children: servicesLinks.map(_FooterServicesLinksMap)
-                }, void 0, false, {
-                    fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 238,
-                    columnNumber: 51
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 238,
-            columnNumber: 11
-        }, this);
-        $[13] = t10;
-    } else {
-        t10 = $[13];
-    }
-    let t11;
-    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            className: "text-white text-sm font-semibold mb-4",
-            children: "Insights"
-        }, void 0, false, {
-            fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 245,
+            lineNumber: 304,
             columnNumber: 11
         }, this);
         $[14] = t11;
@@ -2983,22 +3208,12 @@ function Footer() {
     }
     let t12;
     if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-            variants: itemVariants,
-            children: [
-                t11,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                    className: "flex flex-col gap-3",
-                    children: insightsLinks.map(_FooterInsightsLinksMap)
-                }, void 0, false, {
-                    fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 252,
-                    columnNumber: 52
-                }, this)
-            ]
-        }, void 0, true, {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "text-white text-sm font-semibold mb-4",
+            children: "Services"
+        }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 252,
+            lineNumber: 311,
             columnNumber: 11
         }, this);
         $[15] = t12;
@@ -3007,12 +3222,22 @@ function Footer() {
     }
     let t13;
     if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            className: "text-white text-sm font-semibold mb-4",
-            children: "Explore"
-        }, void 0, false, {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            variants: itemVariants,
+            children: [
+                t12,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                    className: "flex flex-col gap-3",
+                    children: servicesLinks.map(_FooterServicesLinksMap)
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 318,
+                    columnNumber: 52
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 259,
+            lineNumber: 318,
             columnNumber: 11
         }, this);
         $[16] = t13;
@@ -3021,22 +3246,12 @@ function Footer() {
     }
     let t14;
     if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-            variants: itemVariants,
-            children: [
-                t13,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                    className: "flex flex-col gap-3",
-                    children: exploreLinks.map(_FooterExploreLinksMap)
-                }, void 0, false, {
-                    fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 266,
-                    columnNumber: 52
-                }, this)
-            ]
-        }, void 0, true, {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "text-white text-sm font-semibold mb-4",
+            children: "Insights"
+        }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 266,
+            lineNumber: 325,
             columnNumber: 11
         }, this);
         $[17] = t14;
@@ -3045,12 +3260,22 @@ function Footer() {
     }
     let t15;
     if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            className: "text-white text-sm font-semibold mb-4",
-            children: "Legal"
-        }, void 0, false, {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            variants: itemVariants,
+            children: [
+                t14,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                    className: "flex flex-col gap-3",
+                    children: insightsLinks.map(_FooterInsightsLinksMap)
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 332,
+                    columnNumber: 52
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 273,
+            lineNumber: 332,
             columnNumber: 11
         }, this);
         $[18] = t15;
@@ -3059,34 +3284,12 @@ function Footer() {
     }
     let t16;
     if ($[19] === Symbol.for("react.memo_cache_sentinel")) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "lg:col-span-5 grid grid-cols-2 sm:grid-cols-4 gap-8",
-            children: [
-                t10,
-                t12,
-                t14,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                    variants: itemVariants,
-                    children: [
-                        t15,
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                            className: "flex flex-col gap-3",
-                            children: legalLinks.map(_FooterLegalLinksMap)
-                        }, void 0, false, {
-                            fileName: "[project]/components/Footer/index.jsx",
-                            lineNumber: 280,
-                            columnNumber: 136
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 280,
-                    columnNumber: 95
-                }, this)
-            ]
-        }, void 0, true, {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "text-white text-sm font-semibold mb-4",
+            children: "Explore"
+        }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 280,
+            lineNumber: 339,
             columnNumber: 11
         }, this);
         $[19] = t16;
@@ -3094,28 +3297,75 @@ function Footer() {
         t16 = $[19];
     }
     let t17;
-    let t18;
     if ($[20] === Symbol.for("react.memo_cache_sentinel")) {
-        t17 = {
-            boxShadow: "0 20px 40px -15px rgba(70, 184, 134, 0.2)",
-            borderColor: "rgba(70, 184, 134, 0.3)"
-        };
-        t18 = {
-            duration: 0.4
-        };
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            variants: itemVariants,
+            children: [
+                t16,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                    className: "flex flex-col gap-3",
+                    children: exploreLinks.map(_FooterExploreLinksMap)
+                }, void 0, false, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 346,
+                    columnNumber: 52
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 346,
+            columnNumber: 11
+        }, this);
         $[20] = t17;
-        $[21] = t18;
     } else {
         t17 = $[20];
+    }
+    let t18;
+    if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "text-white text-sm font-semibold mb-4",
+            children: "Legal"
+        }, void 0, false, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 353,
+            columnNumber: 11
+        }, this);
+        $[21] = t18;
+    } else {
         t18 = $[21];
     }
     let t19;
     if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
-        t19 = {
-            background: "rgba(255, 255, 255, 0.05)",
-            border: "1px solid rgba(255, 255, 255, 0.1)",
-            backdropFilter: "blur(10px)"
-        };
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "lg:col-span-5 grid grid-cols-2 sm:grid-cols-4 gap-8",
+            children: [
+                t13,
+                t15,
+                t17,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    variants: itemVariants,
+                    children: [
+                        t18,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                            className: "flex flex-col gap-3",
+                            children: legalLinks.map(_FooterLegalLinksMap)
+                        }, void 0, false, {
+                            fileName: "[project]/components/Footer/index.jsx",
+                            lineNumber: 360,
+                            columnNumber: 136
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/Footer/index.jsx",
+                    lineNumber: 360,
+                    columnNumber: 95
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Footer/index.jsx",
+            lineNumber: 360,
+            columnNumber: 11
+        }, this);
         $[22] = t19;
     } else {
         t19 = $[22];
@@ -3124,11 +3374,11 @@ function Footer() {
     let t21;
     if ($[23] === Symbol.for("react.memo_cache_sentinel")) {
         t20 = {
-            rotate: 5,
-            scale: 1.05
+            boxShadow: "0 20px 40px -15px rgba(70, 184, 134, 0.2)",
+            borderColor: "rgba(70, 184, 134, 0.3)"
         };
         t21 = {
-            duration: 0.3
+            duration: 0.4
         };
         $[23] = t20;
         $[24] = t21;
@@ -3137,26 +3387,53 @@ function Footer() {
         t21 = $[24];
     }
     let t22;
-    let t23;
     if ($[25] === Symbol.for("react.memo_cache_sentinel")) {
-        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t22 = {
+            background: "rgba(255, 255, 255, 0.05)",
+            border: "1px solid rgba(255, 255, 255, 0.1)",
+            backdropFilter: "blur(10px)"
+        };
+        $[25] = t22;
+    } else {
+        t22 = $[25];
+    }
+    let t23;
+    let t24;
+    if ($[26] === Symbol.for("react.memo_cache_sentinel")) {
+        t23 = {
+            rotate: 5,
+            scale: 1.05
+        };
+        t24 = {
+            duration: 0.3
+        };
+        $[26] = t23;
+        $[27] = t24;
+    } else {
+        t23 = $[26];
+        t24 = $[27];
+    }
+    let t25;
+    let t26;
+    if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
+        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-3 mb-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                    whileHover: t20,
-                    transition: t21,
+                    whileHover: t23,
+                    transition: t24,
                     className: "w-10 h-10 rounded-lg bg-[#46B886] flex items-center justify-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "text-white font-bold text-lg",
                         children: "M"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer/index.jsx",
-                        lineNumber: 331,
+                        lineNumber: 411,
                         columnNumber: 182
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 331,
+                    lineNumber: 411,
                     columnNumber: 57
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3166,7 +3443,7 @@ function Footer() {
                             children: "Al Bidaya Weekly"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer/index.jsx",
-                            lineNumber: 331,
+                            lineNumber: 411,
                             columnNumber: 255
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3174,38 +3451,38 @@ function Footer() {
                             children: "Sunday by Manjam Capital"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer/index.jsx",
-                            lineNumber: 331,
+                            lineNumber: 411,
                             columnNumber: 323
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 331,
+                    lineNumber: 411,
                     columnNumber: 250
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 331,
+            lineNumber: 411,
             columnNumber: 11
         }, this);
-        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-white/60 text-sm leading-relaxed mb-4",
             children: "Your weekly starting point in digital assets: a focused summary of what matters; clear, concise, and built for professionals."
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 332,
+            lineNumber: 412,
             columnNumber: 11
         }, this);
-        $[25] = t22;
-        $[26] = t23;
+        $[28] = t25;
+        $[29] = t26;
     } else {
-        t22 = $[25];
-        t23 = $[26];
+        t25 = $[28];
+        t26 = $[29];
     }
-    let t24;
-    if ($[27] === Symbol.for("react.memo_cache_sentinel")) {
-        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+    let t27;
+    if ($[30] === Symbol.for("react.memo_cache_sentinel")) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             animate: {
                 y: [
                     0,
@@ -3221,16 +3498,16 @@ function Footer() {
             className: "w-6 h-6 rounded-full bg-[#46B886] border-2 border-[#111827]"
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 341,
+            lineNumber: 421,
             columnNumber: 11
         }, this);
-        $[27] = t24;
+        $[30] = t27;
     } else {
-        t24 = $[27];
+        t27 = $[30];
     }
-    let t25;
-    if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
-        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+    let t28;
+    if ($[31] === Symbol.for("react.memo_cache_sentinel")) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             animate: {
                 y: [
                     0,
@@ -3246,24 +3523,24 @@ function Footer() {
             className: "w-6 h-6 rounded-full bg-[#3B82F6] border-2 border-[#111827]"
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 354,
+            lineNumber: 434,
             columnNumber: 11
         }, this);
-        $[28] = t25;
+        $[31] = t28;
     } else {
-        t25 = $[28];
+        t28 = $[31];
     }
-    let t26;
-    let t27;
-    if ($[29] === Symbol.for("react.memo_cache_sentinel")) {
-        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t29;
+    let t30;
+    if ($[32] === Symbol.for("react.memo_cache_sentinel")) {
+        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-2 mb-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex -space-x-2",
                     children: [
-                        t24,
-                        t25,
+                        t27,
+                        t28,
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             animate: {
                                 y: [
@@ -3280,13 +3557,13 @@ function Footer() {
                             className: "w-6 h-6 rounded-full bg-[#8B5CF6] border-2 border-[#111827]"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer/index.jsx",
-                            lineNumber: 368,
+                            lineNumber: 448,
                             columnNumber: 100
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 368,
+                    lineNumber: 448,
                     columnNumber: 57
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3294,121 +3571,121 @@ function Footer() {
                     children: "Join +1000 professionals"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 374,
+                    lineNumber: 454,
                     columnNumber: 92
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 368,
+            lineNumber: 448,
             columnNumber: 11
         }, this);
-        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "h-px bg-white/10 mb-4"
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 375,
+            lineNumber: 455,
             columnNumber: 11
         }, this);
-        $[29] = t26;
-        $[30] = t27;
-    } else {
-        t26 = $[29];
-        t27 = $[30];
-    }
-    let t28;
-    let t29;
-    if ($[31] === Symbol.for("react.memo_cache_sentinel")) {
-        t28 = {
-            scale: 1.01
-        };
-        t29 = {
-            duration: 0.2
-        };
-        $[31] = t28;
         $[32] = t29;
-    } else {
-        t28 = $[31];
-        t29 = $[32];
-    }
-    let t30;
-    if ($[33] === Symbol.for("react.memo_cache_sentinel")) {
-        t30 = ({
-            "Footer[<motion.input>.onChange]": (e_0)=>setEmail(e_0.target.value)
-        })["Footer[<motion.input>.onChange]"];
         $[33] = t30;
     } else {
+        t29 = $[32];
         t30 = $[33];
     }
     let t31;
-    if ($[34] !== email) {
-        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].input, {
-            whileFocus: t28,
-            transition: t29,
+    let t32;
+    if ($[34] === Symbol.for("react.memo_cache_sentinel")) {
+        t31 = {
+            scale: 1.01
+        };
+        t32 = {
+            duration: 0.2
+        };
+        $[34] = t31;
+        $[35] = t32;
+    } else {
+        t31 = $[34];
+        t32 = $[35];
+    }
+    let t33;
+    if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
+        t33 = ({
+            "Footer[<motion.input>.onChange]": (e_0)=>setEmail(e_0.target.value)
+        })["Footer[<motion.input>.onChange]"];
+        $[36] = t33;
+    } else {
+        t33 = $[36];
+    }
+    let t34;
+    if ($[37] !== email) {
+        t34 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].input, {
+            whileFocus: t31,
+            transition: t32,
             type: "email",
             placeholder: "Email address *",
             value: email,
-            onChange: t30,
+            onChange: t33,
             required: true,
             className: "w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#46B886] focus:bg-white/10 focus:shadow-[0_0_0_3px_rgba(70,184,134,0.15)] transition-all duration-300"
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 408,
+            lineNumber: 488,
             columnNumber: 11
         }, this);
-        $[34] = email;
-        $[35] = t31;
-    } else {
-        t31 = $[35];
-    }
-    let t32;
-    let t33;
-    if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
-        t32 = {
-            scale: 1.01
-        };
-        t33 = {
-            duration: 0.2
-        };
-        $[36] = t32;
-        $[37] = t33;
-    } else {
-        t32 = $[36];
-        t33 = $[37];
-    }
-    let t34;
-    if ($[38] === Symbol.for("react.memo_cache_sentinel")) {
-        t34 = ({
-            "Footer[<motion.input>.onChange]": (e_1)=>setFirstName(e_1.target.value)
-        })["Footer[<motion.input>.onChange]"];
+        $[37] = email;
         $[38] = t34;
     } else {
         t34 = $[38];
     }
     let t35;
-    if ($[39] !== firstName) {
-        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].input, {
-            whileFocus: t32,
-            transition: t33,
+    let t36;
+    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
+        t35 = {
+            scale: 1.01
+        };
+        t36 = {
+            duration: 0.2
+        };
+        $[39] = t35;
+        $[40] = t36;
+    } else {
+        t35 = $[39];
+        t36 = $[40];
+    }
+    let t37;
+    if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
+        t37 = ({
+            "Footer[<motion.input>.onChange]": (e_1)=>setFirstName(e_1.target.value)
+        })["Footer[<motion.input>.onChange]"];
+        $[41] = t37;
+    } else {
+        t37 = $[41];
+    }
+    let t38;
+    if ($[42] !== firstName) {
+        t38 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].input, {
+            whileFocus: t35,
+            transition: t36,
             type: "text",
             placeholder: "First name *",
             value: firstName,
-            onChange: t34,
+            onChange: t37,
             required: true,
             className: "w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#46B886] focus:bg-white/10 focus:shadow-[0_0_0_3px_rgba(70,184,134,0.15)] transition-all duration-300"
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 440,
+            lineNumber: 520,
             columnNumber: 11
         }, this);
-        $[39] = firstName;
-        $[40] = t35;
+        $[42] = firstName;
+        $[43] = t38;
     } else {
-        t35 = $[40];
+        t38 = $[43];
     }
-    let t36;
-    if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
-        t36 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+    let t39;
+    if ($[44] === Symbol.for("react.memo_cache_sentinel")) {
+        t39 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
             type: "submit",
             variants: buttonVariants,
             whileHover: "hover",
@@ -3420,19 +3697,19 @@ function Footer() {
             children: "Subscribe"
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 448,
+            lineNumber: 528,
             columnNumber: 11
         }, this);
-        $[41] = t36;
+        $[44] = t39;
     } else {
-        t36 = $[41];
+        t39 = $[44];
     }
-    let t37;
-    if ($[42] !== handleSubscribe || $[43] !== t31 || $[44] !== t35) {
-        t37 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+    let t40;
+    if ($[45] !== handleSubscribe || $[46] !== t34 || $[47] !== t38) {
+        t40 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
             className: "w-full bg-[#111827]",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20",
+                className: "px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20 lg:mt-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                     variants: containerVariants,
                     initial: "hidden",
@@ -3442,77 +3719,77 @@ function Footer() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12",
                         children: [
-                            t8,
-                            t16,
+                            t11,
+                            t19,
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                 variants: itemVariants,
                                 className: "lg:col-span-4",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    whileHover: t17,
-                                    transition: t18,
+                                    whileHover: t20,
+                                    transition: t21,
                                     className: "p-6 rounded-2xl",
-                                    style: t19,
+                                    style: t22,
                                     children: [
-                                        t22,
-                                        t23,
+                                        t25,
                                         t26,
-                                        t27,
+                                        t29,
+                                        t30,
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                             onSubmit: handleSubscribe,
                                             className: "space-y-3",
                                             children: [
-                                                t31,
-                                                t35,
-                                                t36
+                                                t34,
+                                                t38,
+                                                t39
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer/index.jsx",
-                                            lineNumber: 457,
-                                            columnNumber: 495
+                                            lineNumber: 537,
+                                            columnNumber: 505
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer/index.jsx",
-                                    lineNumber: 457,
-                                    columnNumber: 389
+                                    lineNumber: 537,
+                                    columnNumber: 399
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer/index.jsx",
-                                lineNumber: 457,
-                                columnNumber: 327
+                                lineNumber: 537,
+                                columnNumber: 337
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer/index.jsx",
-                        lineNumber: 457,
-                        columnNumber: 251
+                        lineNumber: 537,
+                        columnNumber: 260
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Footer/index.jsx",
-                    lineNumber: 457,
-                    columnNumber: 122
+                    lineNumber: 537,
+                    columnNumber: 131
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 457,
+                lineNumber: 537,
                 columnNumber: 51
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 457,
+            lineNumber: 537,
             columnNumber: 11
         }, this);
-        $[42] = handleSubscribe;
-        $[43] = t31;
-        $[44] = t35;
-        $[45] = t37;
+        $[45] = handleSubscribe;
+        $[46] = t34;
+        $[47] = t38;
+        $[48] = t40;
     } else {
-        t37 = $[45];
+        t40 = $[48];
     }
-    return t37;
+    return t40;
 }
 _s(Footer, "xxBsCGq0XsonheFXdKDhp/5tb9M=");
-_c2 = Footer;
+_c5 = Footer;
 function _FooterLegalLinksMap(link_2, index_2) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].li, {
         initial: {
@@ -3542,17 +3819,17 @@ function _FooterLegalLinksMap(link_2, index_2) {
                 children: link_2.label
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 478,
+                lineNumber: 558,
                 columnNumber: 113
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 478,
+            lineNumber: 558,
             columnNumber: 6
         }, this)
     }, link_2.label, false, {
         fileName: "[project]/components/Footer/index.jsx",
-        lineNumber: 468,
+        lineNumber: 548,
         columnNumber: 10
     }, this);
 }
@@ -3585,17 +3862,17 @@ function _FooterExploreLinksMap(link_1, index_1) {
                 children: link_1.label
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 495,
+                lineNumber: 575,
                 columnNumber: 113
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 495,
+            lineNumber: 575,
             columnNumber: 6
         }, this)
     }, link_1.label, false, {
         fileName: "[project]/components/Footer/index.jsx",
-        lineNumber: 485,
+        lineNumber: 565,
         columnNumber: 10
     }, this);
 }
@@ -3628,17 +3905,17 @@ function _FooterInsightsLinksMap(link_0, index_0) {
                 children: link_0.label
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 512,
+                lineNumber: 592,
                 columnNumber: 113
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 512,
+            lineNumber: 592,
             columnNumber: 6
         }, this)
     }, link_0.label, false, {
         fileName: "[project]/components/Footer/index.jsx",
-        lineNumber: 502,
+        lineNumber: 582,
         columnNumber: 10
     }, this);
 }
@@ -3671,24 +3948,27 @@ function _FooterServicesLinksMap(link, index) {
                 children: link.label
             }, void 0, false, {
                 fileName: "[project]/components/Footer/index.jsx",
-                lineNumber: 529,
+                lineNumber: 609,
                 columnNumber: 111
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer/index.jsx",
-            lineNumber: 529,
+            lineNumber: 609,
             columnNumber: 6
         }, this)
     }, link.label, false, {
         fileName: "[project]/components/Footer/index.jsx",
-        lineNumber: 519,
+        lineNumber: 599,
         columnNumber: 10
     }, this);
 }
-var _c, _c1, _c2;
+var _c, _c1, _c2, _c3, _c4, _c5;
 __turbopack_context__.k.register(_c, "LinkedInIcon");
-__turbopack_context__.k.register(_c1, "TwitterIcon");
-__turbopack_context__.k.register(_c2, "Footer");
+__turbopack_context__.k.register(_c1, "XIcon");
+__turbopack_context__.k.register(_c2, "YouTubeIcon");
+__turbopack_context__.k.register(_c3, "TikTokIcon");
+__turbopack_context__.k.register(_c4, "InstagramIcon");
+__turbopack_context__.k.register(_c5, "Footer");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
