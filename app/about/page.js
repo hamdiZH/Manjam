@@ -354,7 +354,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="w-full py-12 bg-[#0F172A]">
+      <section className="w-full py-12 border border-[#1C4A3F] bg-[radial-gradient(50%_50%_at_50%_50%,#111827_0%,#153830_100%)] shadow-[0px_2px_6px_0px_rgba(16,24,40,0.06)] text-white font-medium text-xs md:text-sm transition-all hover:opacity-90 cursor-pointer whitespace-nowrap">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, idx) => (
@@ -366,8 +366,8 @@ export default function AboutPage() {
                 transition={{ delay: idx * 0.1 }}
                 className="text-center"
               >
-                <p className="text-[#46B886] text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">{stat.value}</p>
-                <p className="text-white/60 text-sm sm:text-base">{stat.label}</p>
+                <p className="text-[#ffffff] text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">{stat.value}</p>
+                <p className="text-white/70 text-sm sm:text-base">{stat.label}</p>
               </motion.div>
             ))}
           </div>

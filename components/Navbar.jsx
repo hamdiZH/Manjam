@@ -360,7 +360,7 @@ export default function Navbar() {
                     </div>
 
                     {/* Secondary Cards Grid */}
-                    <div className="grid grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 gap-3">
                       {/* Articles */}
                       <Link
                         href="/blogs"
@@ -372,14 +372,14 @@ export default function Navbar() {
                       </Link>
 
                       {/* Market Updates */}
-                      <Link
+                      {/* <Link
                         href="/blogs"
                         onClick={closeAllDropdowns}
                         className="group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5"
                       >
                         <h3 className="text-white font-bold text-base mb-1">Market Updates</h3>
                         <p className="text-white/60 text-sm font-normal leading-relaxed">Key moves, signals, and context; explained simply</p>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -454,14 +454,14 @@ export default function Navbar() {
                       </Link>
 
                       {/* Gallery */}
-                      <Link
+                      {/* <Link
                         href="/#gallery"
                         onClick={closeAllDropdowns}
                         className="group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5"
                       >
                         <h3 className="text-white font-bold text-base mb-1">Gallery</h3>
                         <p className="text-white/60 text-sm font-normal leading-relaxed">Highlights from events, releases, and visual insights.</p>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -492,7 +492,7 @@ export default function Navbar() {
         {/* Right - Language Selector & Buttons */}
         <div className="flex items-center gap-2 md:gap-3 lg:gap-4">
           {/* Language Selector */}
-          <div className="relative">
+          {/* <div className="relative">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
               className="flex items-center gap-1 text-[#1C4A3F] font-medium text-xs md:text-sm hover:opacity-80 transition-opacity"
@@ -528,7 +528,7 @@ export default function Navbar() {
                 </button>
               </div>
             )}
-          </div>
+          </div> */}
 
           {/* Login Button - Outlined (Hidden on mobile) */}
           <a

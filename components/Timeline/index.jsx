@@ -162,12 +162,11 @@ export default function Timeline() {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 md:mb-20 xl:mb-12 2xl:mb-20">
           {/* Kicker */}
-          <motion.p
-            variants={headerVariants}
-            className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase mb-4"
-          >
-            ROADMAP
-          </motion.p>
+          <motion.div className="flex items-center justify-center gap-3 mb-4">
+            <span className="w-8 h-[2px] bg-[#46B886]" />
+            <span className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase">Roadmap</span>
+            <span className="w-8 h-[2px] bg-[#46B886]" />
+          </motion.div>
 
           {/* Heading */}
           <motion.h2

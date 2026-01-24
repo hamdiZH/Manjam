@@ -3389,3 +3389,251 @@ Import traces:
 [38:45:25.439] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
 [38:45:25.439] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
 [38:45:25.439] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:24:17.275] Server  LOG     sections.length:  4
+[89:24:17.738] Browser LOG     sections.length:  4
+[89:24:17.738] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:24:17.738] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:24:17.738] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:25:34.378] Browser LOG     sections.length:  4
+[89:25:34.378] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:25:34.378] Browser LOG     sections.length:  4
+[89:25:34.378] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:25:35.038] Browser LOG     sections.length:  4
+[89:25:35.039] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:25:35.781] Browser LOG     sections.length:  4
+[89:25:35.781] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:25:47.874] Browser LOG     sections.length:  4
+[89:25:47.874] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:25:50.613] Browser LOG     sections.length:  4
+[89:25:50.613] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:25:50.613] Browser LOG     sections.length:  4
+[89:25:50.613] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:34.219] Server  LOG     ✓ Compiled in 157ms
+[89:26:43.722] Browser LOG     sections.length:  4
+[89:26:43.722] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:43.722] Browser LOG     sections.length:  4
+[89:26:43.722] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:43.722] Browser LOG     sections.length:  4
+[89:26:43.722] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:43.722] Browser LOG     sections.length:  4
+[89:26:43.722] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:43.919] Browser LOG     sections.length:  4
+[89:26:43.919] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:43.919] Browser LOG     sections.length:  4
+[89:26:43.919] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:45.144] Browser LOG     sections.length:  4
+[89:26:45.144] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:45.144] Browser LOG     sections.length:  4
+[89:26:45.144] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:45.144] Browser LOG     sections.length:  4
+[89:26:45.144] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:45.144] Browser LOG     sections.length:  4
+[89:26:45.144] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:45.368] Browser LOG     sections.length:  4
+[89:26:45.368] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:26:45.368] Browser LOG     sections.length:  4
+[89:26:45.368] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:29:45.219] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:29:45.219] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:29:45.219] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:29:45.635] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:30:36.415] Server  LOG     ✓ Compiled in 138ms
+[89:30:36.540] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[89:30:39.053] Server  LOG     sections.length:  4
+[89:30:39.629] Browser LOG     sections.length:  4
+[89:30:39.629] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:30:39.629] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:30:39.629] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:30:41.184] Browser LOG     sections.length:  4
+[89:30:41.184] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:30:41.184] Browser LOG     sections.length:  4
+[89:30:41.184] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:30:41.497] Browser LOG     sections.length:  4
+[89:30:41.497] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:30:41.497] Browser LOG     sections.length:  4
+[89:30:41.497] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:30:41.783] Browser LOG     sections.length:  4
+[89:30:41.783] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:30:41.783] Browser LOG     sections.length:  4
+[89:30:41.783] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:31:10.078] Server  LOG     ✓ Compiled in 121ms
+[89:31:14.070] Server  LOG     ✓ Compiled in 75ms
+[89:31:24.913] Server  LOG     ✓ Compiled in 69ms
+[89:31:32.993] Server  LOG     ✓ Compiled in 91ms
+[89:33:08.911] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:33:56.428] Browser LOG     sections.length:  4
+[89:33:56.428] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:33:56.428] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[89:33:56.428] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:34:57.610] Server  LOG     ✓ Compiled in 197ms
+[89:35:11.871] Server  LOG     ✓ Compiled in 73ms
+[89:35:18.725] Server  LOG     ✓ Compiled in 69ms
+[89:35:24.040] Server  LOG     ✓ Compiled in 58ms
+[89:35:28.691] Server  LOG     ✓ Compiled in 81ms
+[89:35:30.902] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:35:46.201] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:35:46.733] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:13.111] Server  LOG     ✓ Compiled in 292ms
+[89:37:14.173] Browser LOG     sections.length:  4
+[89:37:14.173] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:16.479] Server  LOG     sections.length:  4
+[89:37:17.115] Browser LOG     sections.length:  4
+[89:37:17.115] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:17.115] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:37:17.115] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:37:17.115] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:17.115] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:17.115] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:17.115] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:17.115] Browser LOG     sections.length:  4
+[89:37:17.116] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:17.116] Browser LOG     sections.length:  4
+[89:37:17.116] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:18.959] Browser LOG     sections.length:  4
+[89:37:18.959] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:18.959] Browser LOG     sections.length:  4
+[89:37:18.959] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:18.959] Browser LOG     sections.length:  4
+[89:37:18.959] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:18.959] Browser LOG     sections.length:  4
+[89:37:18.959] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:18.959] Browser LOG     sections.length:  4
+[89:37:18.959] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:18.959] Browser LOG     sections.length:  4
+[89:37:18.959] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:19.762] Server  LOG     sections.length:  4
+[89:37:20.282] Browser LOG     sections.length:  4
+[89:37:20.282] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:20.282] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:37:20.282] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:37:27.339] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:37:27.340] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:27.340] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:27.340] Browser WARN    Image with src "/blog1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[89:37:29.023] Server  LOG     sections.length:  4
+[89:37:29.409] Browser LOG     sections.length:  4
+[89:37:29.409] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:29.574] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:37:29.575] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:37:29.575] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:29.575] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:45.744] Server  LOG     ✓ Compiled in 343ms
+[89:37:45.872] Browser LOG     sections.length:  4
+[89:37:45.872] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:45.872] Browser LOG     sections.length:  4
+[89:37:45.872] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:46.169] Browser LOG     sections.length:  4
+[89:37:46.169] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:51.103] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:37:51.103] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:51.103] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:51.827] Browser WARN    Image with src "/blog1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[89:37:52.396] Server  LOG     sections.length:  4
+[89:37:53.017] Browser LOG     sections.length:  4
+[89:37:53.017] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:53.017] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:37:53.017] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:37:53.017] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:53.017] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:37:57.025] Browser LOG     sections.length:  4
+[89:37:57.025] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:57.025] Browser LOG     sections.length:  4
+[89:37:57.025] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:57.230] Browser LOG     sections.length:  4
+[89:37:57.230] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:37:57.637] Browser LOG     sections.length:  4
+[89:37:57.637] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:38:01.503] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:38:01.622] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:38:28.951] Server  LOG     ✓ Compiled in 103ms
+[89:38:48.004] Server  LOG     ✓ Compiled in 213ms
+[89:38:48.089] Browser LOG     sections.length:  4
+[89:38:48.089] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:38:48.169] Browser LOG     sections.length:  4
+[89:38:48.169] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:38:54.533] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:38:54.533] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:38:54.533] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:38:54.533] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:38:54.533] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:39:11.615] Server  LOG     ✓ Compiled in 287ms
+[89:39:21.140] Server  LOG     ✓ Compiled in 173ms
+[89:39:29.665] Server  LOG     ✓ Compiled in 158ms
+[89:40:28.523] Browser LOG     sections.length:  4
+[89:40:28.523] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:28.523] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[89:40:28.523] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:40:29.655] Browser LOG     sections.length:  4
+[89:40:29.655] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:29.655] Browser LOG     sections.length:  4
+[89:40:29.655] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:29.655] Browser LOG     sections.length:  4
+[89:40:29.655] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:29.655] Browser LOG     sections.length:  4
+[89:40:29.655] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:30.016] Browser LOG     sections.length:  4
+[89:40:30.016] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:30.016] Browser LOG     sections.length:  4
+[89:40:30.016] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:40:56.335] Server  LOG     ✓ Compiled in 150ms
+[89:41:16.237] Browser LOG     sections.length:  4
+[89:41:16.237] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:41:16.438] Browser LOG     sections.length:  4
+[89:41:16.438] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:41:16.438] Browser LOG     sections.length:  4
+[89:41:16.438] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:41:16.650] Browser LOG     sections.length:  4
+[89:41:16.650] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:41:16.651] Browser LOG     sections.length:  4
+[89:41:16.651] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:41:16.651] Browser LOG     sections.length:  4
+[89:41:16.651] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:41:16.651] Browser LOG     sections.length:  4
+[89:41:16.651] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:19.036] Server  LOG     ✓ Compiled in 137ms
+[89:42:37.460] Browser LOG     sections.length:  4
+[89:42:37.460] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:37.672] Browser LOG     sections.length:  4
+[89:42:37.672] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:37.672] Browser LOG     sections.length:  4
+[89:42:37.672] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:37.883] Browser LOG     sections.length:  4
+[89:42:37.883] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:37.883] Browser LOG     sections.length:  4
+[89:42:37.883] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:37.883] Browser LOG     sections.length:  4
+[89:42:37.883] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:42:37.883] Browser LOG     sections.length:  4
+[89:42:37.883] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:43:16.608] Server  LOG     ✓ Compiled in 116ms
+[89:43:28.852] Browser LOG     sections.length:  4
+[89:43:28.852] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:43:29.094] Browser LOG     sections.length:  4
+[89:43:29.094] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:43:29.094] Browser LOG     sections.length:  4
+[89:43:29.094] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:43:29.262] Browser LOG     sections.length:  4
+[89:43:29.262] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:43:29.262] Browser LOG     sections.length:  4
+[89:43:29.262] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:43:59.813] Server  LOG     ✓ Compiled in 300ms
+[89:44:10.162] Server  LOG     ✓ Compiled in 228ms
+[89:44:24.453] Server  LOG     ✓ Compiled in 289ms
+[89:44:32.863] Server  LOG     ✓ Compiled in 192ms
+[89:44:33.695] Server  LOG     ✓ Compiled in 175ms
+[89:44:40.478] Server  LOG     ✓ Compiled in 169ms
+[89:44:53.888] Server  LOG     ✓ Compiled in 275ms
+[89:45:32.098] Server  LOG     ✓ Compiled in 231ms
+[89:45:34.382] Server  LOG     sections.length:  4
+[89:45:34.781] Browser LOG     sections.length:  4
+[89:45:34.781] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
+[89:45:34.782] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[89:45:34.782] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[89:45:50.998] Server  LOG     ✓ Compiled in 199ms
+[89:46:02.856] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[89:46:02.856] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:46:02.856] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:46:02.856] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[89:46:37.454] Server  LOG     ✓ Compiled in 88ms

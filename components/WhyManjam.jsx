@@ -193,13 +193,13 @@ export default function WhyManjam() {
             variants={staggerContainer}
             className="text-center mb-10 lg:mb-16 xl:mb-8 2xl:mb-16"
           >
+
             {/* Kicker */}
-            <motion.p
-              variants={headerVariants}
-              className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase mb-3 xl:mb-2 2xl:mb-3"
-            >
-              WHY MANJAM
-            </motion.p>
+            <motion.div className="flex items-center justify-center gap-3 mb-4">
+              <span className="w-8 h-[2px] bg-[#46B886]" />
+              <span className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase">WHY MANJAM</span>
+              <span className="w-8 h-[2px] bg-[#46B886]" />
+            </motion.div>
 
             {/* Headline */}
             <motion.h2

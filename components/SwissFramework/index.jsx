@@ -234,7 +234,7 @@ export default function SwissFramework() {
               backgroundClip: 'text',
             }}
           >
-            A Structured Swiss Framework for Qualified Participation.
+            A Structured Swiss Framework <br /> for Qualified Participation.
           </motion.h2>
 
           {/* Description */}
@@ -297,6 +297,7 @@ export default function SwissFramework() {
           </motion.div>
 
           {/* Partners Marquee Bar */}
+          <div id="partners" className="scroll-mt-[50vh]" />
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

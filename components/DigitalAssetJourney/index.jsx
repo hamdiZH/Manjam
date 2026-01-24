@@ -80,7 +80,7 @@ export default function DigitalAssetJourney() {
       <div className="relative z-10 px-4 sm:px-6 lg:px-8">
 
         {/* Main Content - Two Column Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20 lg:mb-18">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20 lg:mb-0">
 
           {/* Left Column - Content */}
           <motion.div
@@ -145,24 +145,7 @@ export default function DigitalAssetJourney() {
             </motion.a>
 
             {/* Quick Stats */}
-            <div className="flex items-center gap-8 mt-10 pt-10 border-t border-[#E2E8F0]">
-              {[
-                { value: "24h", label: "Verification" },
-                { value: "99.9%", label: "Uptime" },
-                { value: "24/7", label: "Support" },
-              ].map((stat, idx) => (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: idx * 0.1 }}
-                >
-                  <p className="text-[#14352D] text-2xl sm:text-3xl font-bold">{stat.value}</p>
-                  <p className="text-[#94A3B8] text-xs uppercase tracking-wide">{stat.label}</p>
-                </motion.div>
-              ))}
-            </div>
+            <div className="flex items-center gap-8 mt-10 pt-10 border-t border-[#E2E8F0]" />
           </motion.div>
 
           {/* Right Column - Dashboard Image */}
