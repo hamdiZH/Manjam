@@ -144,7 +144,7 @@ export default function OurView() {
               variants={itemVariants}
               className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase mb-4"
             >
-              THE MANJAM STANDARD
+              THE MANJAM BENCHMARK
             </motion.p>
 
             {/* Headline */}

@@ -25,11 +25,11 @@ const PLATFORM_LOGIN_URL = "https://platform.manjamcapital.com";
 const PLATFORM_REGISTER_URL = "https://platform.manjamcapital.com/register/account-type";
 const ChevronDown = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     const { className, isOpen } = t0;
     const t1 = `${className} transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`;
@@ -82,11 +82,11 @@ const ChevronDown = (t0)=>{
 _c = ChevronDown;
 const ArrowRightIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -121,11 +121,11 @@ const ArrowRightIcon = ()=>{
 _c1 = ArrowRightIcon;
 const HamburgerIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -160,11 +160,11 @@ const HamburgerIcon = ()=>{
 _c2 = HamburgerIcon;
 const CloseIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -330,11 +330,11 @@ const teamMembers = [
 // Social Icons for Team Modal
 const FacebookIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -369,11 +369,11 @@ const FacebookIconTeam = ()=>{
 _c4 = FacebookIconTeam;
 const TwitterIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -408,11 +408,11 @@ const TwitterIconTeam = ()=>{
 _c5 = TwitterIconTeam;
 const LinkedInIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -471,11 +471,11 @@ const LinkedInIconTeam = ()=>{
 _c6 = LinkedInIconTeam;
 const InstagramIconTeam = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -534,11 +534,11 @@ const InstagramIconTeam = ()=>{
 _c7 = InstagramIconTeam;
 const ArrowLeftIcon = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -573,11 +573,11 @@ const ArrowLeftIcon = ()=>{
 _c8 = ArrowLeftIcon;
 const ArrowRightIconLarge = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -613,11 +613,11 @@ _c9 = ArrowRightIconLarge;
 function Navbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(56);
-    if ($[0] !== "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29") {
+    if ($[0] !== "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393") {
         for(let $i = 0; $i < 56; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a17f5aa2b55bf8a3ac523722da70da1f8b273381839b5710b43395bb8d138d29";
+        $[0] = "56718d351fc3e15dee6d2fc909756514e413b4b70902110e7ca67ff0324a7393";
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("EN");
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1077,34 +1077,7 @@ function Navbar() {
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "grid grid-cols-1 gap-3",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/blogs",
-                                            onClick: closeAllDropdowns,
-                                            className: "group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-white font-bold text-base mb-1",
-                                                    children: "Articles"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 507,
-                                                    columnNumber: 1080
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-white/60 text-sm font-normal leading-relaxed",
-                                                    children: "Deep dives, frameworks, and professional-grade perspectives"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 507,
-                                                    columnNumber: 1145
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/Navbar.jsx",
-                                            lineNumber: 507,
-                                            columnNumber: 833
-                                        }, this)
+                                        className: "grid grid-cols-1 gap-3"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
                                         lineNumber: 507,
@@ -1191,33 +1164,6 @@ function Navbar() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "grid grid-cols-2 gap-3",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/about",
-                                                onClick: closeAllDropdowns,
-                                                className: "group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                        className: "text-white font-bold text-base mb-1",
-                                                        children: "About"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 513,
-                                                        columnNumber: 768
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-white/60 text-sm font-normal leading-relaxed",
-                                                        children: "Who we are, what we build, and how we're structured."
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 513,
-                                                        columnNumber: 830
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 513,
-                                                columnNumber: 521
-                                            }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 onClick: handleTeamClick,
                                                 className: "group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] text-left w-full",
@@ -1228,7 +1174,7 @@ function Navbar() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
                                                         lineNumber: 513,
-                                                        columnNumber: 1185
+                                                        columnNumber: 748
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-white/60 text-sm font-normal leading-relaxed",
@@ -1236,13 +1182,13 @@ function Navbar() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
                                                         lineNumber: 513,
-                                                        columnNumber: 1246
+                                                        columnNumber: 809
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
                                                 lineNumber: 513,
-                                                columnNumber: 958
+                                                columnNumber: 521
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/#partners",
@@ -1255,7 +1201,7 @@ function Navbar() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
                                                         lineNumber: 513,
-                                                        columnNumber: 1631
+                                                        columnNumber: 1194
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-white/60 text-sm font-normal leading-relaxed",
@@ -1263,13 +1209,13 @@ function Navbar() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
                                                         lineNumber: 513,
-                                                        columnNumber: 1696
+                                                        columnNumber: 1259
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
                                                 lineNumber: 513,
-                                                columnNumber: 1380
+                                                columnNumber: 943
                                             }, this)
                                         ]
                                     }, void 0, true, {
@@ -1286,7 +1232,7 @@ function Navbar() {
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.jsx",
                             lineNumber: 507,
-                            columnNumber: 1325
+                            columnNumber: 874
                         }, this)
                     ]
                 }, index, true, {

@@ -362,14 +362,14 @@ export default function Navbar() {
                     {/* Secondary Cards Grid */}
                     <div className="grid grid-cols-1 gap-3">
                       {/* Articles */}
-                      <Link
+                      {/* <Link
                         href="/blogs"
                         onClick={closeAllDropdowns}
                         className="group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5"
                       >
                         <h3 className="text-white font-bold text-base mb-1">Articles</h3>
                         <p className="text-white/60 text-sm font-normal leading-relaxed">Deep dives, frameworks, and professional-grade perspectives</p>
-                      </Link>
+                      </Link> */}
 
                       {/* Market Updates */}
                       {/* <Link
@@ -425,14 +425,14 @@ export default function Navbar() {
                     {/* Text-only Cards Grid */}
                     <div className="grid grid-cols-2 gap-3">
                       {/* About */}
-                      <Link
+                      {/* <Link
                         href="/about"
                         onClick={closeAllDropdowns}
                         className="group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5"
                       >
                         <h3 className="text-white font-bold text-base mb-1">About</h3>
                         <p className="text-white/60 text-sm font-normal leading-relaxed">Who we are, what we build, and how we&apos;re structured.</p>
-                      </Link>
+                      </Link> */}
 
                       {/* Team */}
                       <button

@@ -1,130 +1,75 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const sections = [
   {
     id: "regulated",
     label: "Regulated Infrastructure",
+    shortLabel: "Regulated",
     description: "Built on Swiss standards, operated through a GCC hub; a regulatory-first framework with clear rules and oversight at scale.",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M12 22V12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M21 7L12 12L3 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
   },
   {
     id: "shariah",
     label: "Shariah Alignment",
+    shortLabel: "Shariah",
     description: "Shariah-aligned by design; bringing transparency, ethical alignment, and disciplined practices to digital assets in a market that rarely prioritizes it.",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M12 6V12L16 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+    ),
   },
   {
     id: "integrity",
     label: "Institutional Integrity",
+    shortLabel: "Integrity",
     description: "Layered security protocols and operational controls built on proven institutional standards to ensure maximum resilience and risk mitigation.",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M7 11V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+    ),
   },
   {
     id: "hybrid",
     label: "Hybrid Operating Model",
+    shortLabel: "Hybrid",
     description: "A structured operating model that combines institutional discipline with modern digital-asset efficiency, turning standards into consistent execution.",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M12 2V6M12 18V22M2 12H6M18 12H22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M4.93 4.93L7.76 7.76M16.24 16.24L19.07 19.07M4.93 19.07L7.76 16.24M16.24 7.76L19.07 4.93" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+    ),
   },
 ];
 
-// Animation variants
-const headerVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      ease: [0.16, 1, 0.3, 1],
-    },
-  },
-};
-
-const staggerContainer = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
-    },
-  },
-};
-
-const navItemVariants = {
-  hidden: { opacity: 0, x: -20 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.5,
-      ease: [0.16, 1, 0.3, 1],
-    },
-  },
-};
-
-const contentVariants = {
-  initial: { opacity: 0, y: 30, scale: 0.98 },
-  animate: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.6,
-      ease: [0.16, 1, 0.3, 1],
-    },
-  },
-  exit: {
-    opacity: 0,
-    y: -20,
-    scale: 0.98,
-    transition: {
-      duration: 0.4,
-      ease: [0.16, 1, 0.3, 1],
-    },
-  },
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 20, scale: 0.95 },
-  visible: (i) => ({
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.5,
-      ease: [0.16, 1, 0.3, 1],
-      delay: i * 0.1,
-    },
-  }),
-};
-
-const pulseVariants = {
-  animate: {
-    scale: [1, 1.2, 1],
-    opacity: [0.5, 0, 0.5],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
-  },
-};
+// Bubble positions for organic floating layout - adjusted for visual balance
+const bubblePositions = [
+  { x: 35, y: 8, size: 110 },   // top center
+  { x: 8, y: 38, size: 120 },   // left middle
+  { x: 62, y: 45, size: 115 },  // right middle
+  { x: 32, y: 75, size: 125 },  // bottom center
+];
 
 export default function WhyManjam() {
   const [activeSection, setActiveSection] = useState("regulated");
   const [isMobile, setIsMobile] = useState(false);
-  const [prevSection, setPrevSection] = useState("regulated");
-  const sectionRef = useRef(null);
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const containerRef = useRef(null);
 
-  // Scroll progress for the line
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start end", "end start"],
-  });
-
-  const lineProgress = useTransform(scrollYProgress, [0.1, 0.9], ["0%", "100%"]);
-
-  // Check if mobile on mount and resize
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 1024);
@@ -134,586 +79,448 @@ export default function WhyManjam() {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // Scroll-based navigation (desktop only)
+  // Parallax mouse tracking
   useEffect(() => {
-    if (isMobile) return;
-
-    const handleScroll = () => {
-      if (!sectionRef.current) return;
-
-      const section = sectionRef.current;
-      const rect = section.getBoundingClientRect();
-      const sectionTop = rect.top;
-      const sectionHeight = section.offsetHeight;
-      const windowHeight = window.innerHeight;
-
-      const scrollProgress = -sectionTop / (sectionHeight - windowHeight);
-
-      let newSection = "regulated";
-      if (scrollProgress <= 0 || scrollProgress < 0.25) {
-        newSection = "regulated";
-      } else if (scrollProgress < 0.5) {
-        newSection = "shariah";
-      } else if (scrollProgress < 0.75) {
-        newSection = "integrity";
-      } else {
-        newSection = "hybrid";
-      }
-
-      if (newSection !== activeSection) {
-        setPrevSection(activeSection);
-        setActiveSection(newSection);
+    const handleMouseMove = (e) => {
+      if (containerRef.current) {
+        const rect = containerRef.current.getBoundingClientRect();
+        const x = (e.clientX - rect.left - rect.width / 2) / rect.width;
+        const y = (e.clientY - rect.top - rect.height / 2) / rect.height;
+        setMousePosition({ x, y });
       }
     };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [isMobile, activeSection]);
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
 
   const activeData = sections.find((s) => s.id === activeSection);
   const activeIndex = sections.findIndex((s) => s.id === activeSection);
-  console.log("sections.length: ", sections.length);
 
   return (
     <section
       id="why-manjam"
-      ref={sectionRef}
-      className="relative w-full"
-      style={{ height: isMobile ? 'auto' : `${100 * sections.length}vh` }}
+      ref={containerRef}
+      className="relative w-full py-16 sm:py-20 lg:py-24 xl:py-16 2xl:py-24 px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
     >
-      <div
-        className={`${isMobile ? 'relative py-12 sm:py-16' : 'sticky top-0 min-h-screen flex items-start py-16 lg:py-20 xl:py-10 2xl:py-20'} px-4 sm:px-6 md:px-8 lg:px-10`}
-      >
-        <div className="w-full max-w-[1400px] mx-auto">
-          {/* Header */}
+      {/* Floating Particles */}
+      {[...Array(12)].map((_, i) => (
+        <motion.div
+          key={i}
+          className="absolute w-1 h-1 rounded-full bg-[#46B886] opacity-20"
+          style={{
+            left: `${10 + (i * 7) % 80}%`,
+            top: `${15 + (i * 11) % 70}%`,
+          }}
+          animate={{
+            y: [-20, 20, -20],
+            x: [-10, 10, -10],
+            opacity: [0.1, 0.3, 0.1],
+          }}
+          transition={{
+            duration: 4 + i * 0.5,
+            repeat: Infinity,
+            delay: i * 0.3,
+            ease: "easeInOut",
+          }}
+        />
+      ))}
+
+      <div className="relative z-10 w-full max-w-[1400px] mx-auto">
+        {/* Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center mb-12 lg:mb-16 xl:mb-10 2xl:mb-16"
+        >
+          {/* Kicker */}
           <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={staggerContainer}
-            className="text-center mb-10 lg:mb-16 xl:mb-8 2xl:mb-16"
+            className="flex items-center justify-center gap-3 mb-4"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
           >
-
-            {/* Kicker */}
-            <motion.div className="flex items-center justify-center gap-3 mb-4">
-              <span className="w-8 h-[2px] bg-[#46B886]" />
-              <span className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase">WHY MANJAM</span>
-              <span className="w-8 h-[2px] bg-[#46B886]" />
-            </motion.div>
-
-            {/* Headline */}
-            <motion.h2
-              variants={headerVariants}
-              className="text-[#111827] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl 2xl:text-7xl font-bold leading-tight mb-4 xl:mb-2 2xl:mb-4"
-            >
-              Built to last
-            </motion.h2>
+            <motion.span
+              className="w-8 h-[2px] bg-[#46B886]"
+              initial={{ width: 0 }}
+              whileInView={{ width: 32 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4, duration: 0.5 }}
+            />
+            <span className="text-[#46B886] font-medium text-xs tracking-[0.2em] uppercase">WHY MANJAM</span>
+            <motion.span
+              className="w-8 h-[2px] bg-[#46B886]"
+              initial={{ width: 0 }}
+              whileInView={{ width: 32 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4, duration: 0.5 }}
+            />
           </motion.div>
 
-          {/* Content Grid */}
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-8 2xl:gap-16">
-            {/* Left - Navigation */}
-            <div className="w-full lg:w-[280px] xl:w-[240px] 2xl:w-[320px] shrink-0">
-              {/* Mobile: Horizontal scroll */}
-              <div className="lg:hidden flex overflow-x-auto gap-2 pb-4 scrollbar-hide -mx-4 px-4">
-                {sections.map((section, index) => {
-                  const isActive = section.id === activeSection;
-                  return (
-                    <motion.button
-                      key={section.id}
-                      onClick={() => {
-                        setPrevSection(activeSection);
-                        setActiveSection(section.id);
-                      }}
-                      whileTap={{ scale: 0.95 }}
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.05 }}
-                      className={`shrink-0 px-4 py-2.5 rounded-full text-sm font-medium transition-all duration-300 whitespace-nowrap cursor-pointer ${isActive
-                        ? "bg-[#111827] text-white"
-                        : "bg-white text-[#6B7280] hover:bg-[#F3F4F6] border border-[#E5E7EB]"
-                        }`}
-                    >
-                      {section.label}
-                    </motion.button>
-                  );
-                })}
-              </div>
+          {/* Headline */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3, duration: 0.7 }}
+            className="text-[#111827] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl 2xl:text-7xl font-bold leading-tight"
+          >
+            Built to last
+          </motion.h2>
+        </motion.div>
 
-              {/* Desktop: Vertical line stepper navigation */}
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={staggerContainer}
-                className="hidden lg:flex"
-              >
-                {/* Vertical Line */}
-                <div className="relative mr-4 shrink-0">
-                  {/* Background line */}
-                  <div className="absolute left-[9px] top-3 bottom-3 w-px bg-[#E5E7EB]" />
-                  {/* Animated progress line */}
-                  <motion.div
-                    className="absolute left-[9px] top-3 w-px bg-[#14352D]"
-                    style={{
-                      height: `${((activeIndex + 1) / sections.length) * 100}%`,
+        {/* Main Content - Two Column Layout */}
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 xl:gap-16 2xl:gap-24">
+
+          {/* Left - Floating Bubbles (Desktop Only) */}
+          <div className="hidden lg:block w-full lg:w-1/2 relative">
+            <div className="relative w-full aspect-square max-w-[500px] xl:max-w-[420px] 2xl:max-w-[500px] mx-auto">
+
+              {/* Connection Lines - SVG */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100">
+                {/* Animated connection paths */}
+                <motion.path
+                  d={`M ${bubblePositions[0].x + 5} ${bubblePositions[0].y + 12} 
+                      Q ${bubblePositions[0].x - 10} ${bubblePositions[1].y} 
+                      ${bubblePositions[1].x + 12} ${bubblePositions[1].y + 6}`}
+                  stroke="url(#lineGradient)"
+                  strokeWidth="0.3"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, delay: 0.5 }}
+                />
+                <motion.path
+                  d={`M ${bubblePositions[1].x + 12} ${bubblePositions[1].y + 12} 
+                      Q ${bubblePositions[1].x + 25} ${bubblePositions[3].y - 10} 
+                      ${bubblePositions[3].x + 6} ${bubblePositions[3].y}`}
+                  stroke="url(#lineGradient)"
+                  strokeWidth="0.3"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, delay: 0.7 }}
+                />
+                <motion.path
+                  d={`M ${bubblePositions[0].x + 12} ${bubblePositions[0].y + 12} 
+                      Q ${bubblePositions[2].x} ${bubblePositions[0].y + 15} 
+                      ${bubblePositions[2].x + 5} ${bubblePositions[2].y}`}
+                  stroke="url(#lineGradient)"
+                  strokeWidth="0.3"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, delay: 0.9 }}
+                />
+                <motion.path
+                  d={`M ${bubblePositions[2].x + 5} ${bubblePositions[2].y + 12} 
+                      Q ${bubblePositions[2].x - 5} ${bubblePositions[3].y - 5} 
+                      ${bubblePositions[3].x + 12} ${bubblePositions[3].y + 6}`}
+                  stroke="url(#lineGradient)"
+                  strokeWidth="0.3"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, delay: 1.1 }}
+                />
+                <defs>
+                  <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#46B886" stopOpacity="0.6" />
+                    <stop offset="100%" stopColor="#1C4A3F" stopOpacity="0.3" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              {/* Floating Bubbles */}
+              {sections.map((section, index) => {
+                const isActive = section.id === activeSection;
+                const pos = bubblePositions[index];
+
+                return (
+                  <motion.button
+                    key={section.id}
+                    onClick={() => setActiveSection(section.id)}
+                    onMouseEnter={() => !isMobile && setActiveSection(section.id)}
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{
+                      opacity: 1,
+                      scale: 1,
+                      x: mousePosition.x * (index % 2 === 0 ? 8 : -8),
+                      y: mousePosition.y * (index % 2 === 0 ? 8 : -8),
                     }}
-                    initial={{ height: "0%" }}
-                    animate={{ height: `${((activeIndex + 1) / sections.length) * 100}%` }}
-                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                  />
-                </div>
-
-                {/* Labels only */}
-                <div className="flex flex-col">
-                  {sections.map((section, index) => {
-                    const isActive = section.id === activeSection;
-                    const isPast = index < activeIndex;
-                    return (
-                      <motion.button
-                        key={section.id}
-                        variants={navItemVariants}
-                        onClick={() => {
-                          setPrevSection(activeSection);
-                          setActiveSection(section.id);
-                        }}
-                        className="text-left py-4 xl:py-2.5 2xl:py-4 cursor-pointer flex items-center gap-3 group -ml-4"
-                      >
-                        {/* Bullet indicator */}
-                        <div className="relative shrink-0 w-5 flex justify-center items-center">
-                          {/* Background circle for active state */}
-                          {isActive && (
-                            <motion.div
-                              initial={{ scale: 0, opacity: 0 }}
-                              animate={{ scale: 1, opacity: 1 }}
-                              className="absolute w-5 h-5 rounded-full bg-[#E5E7EB]"
-                            />
-                          )}
-                          {/* Small dot */}
-                          <motion.div
-                            animate={{
-                              backgroundColor: isActive || isPast ? "#14352D" : "#D1D5DB",
-                            }}
-                            transition={{ duration: 0.3 }}
-                            className="relative z-10 w-1.5 h-1.5 rounded-full"
-                          />
-                        </div>
-
-                        {/* Label */}
-                        <motion.span
-                          animate={{
-                            color: isActive ? "#111827" : isPast ? "#6B7280" : "#9CA3AF",
-                            fontWeight: isActive ? 600 : 400,
-                          }}
-                          transition={{ duration: 0.3 }}
-                          className="text-lg xl:text-sm 2xl:text-lg"
-                        >
-                          {section.label}
-                        </motion.span>
-                      </motion.button>
-                    );
-                  })}
-                </div>
-              </motion.div>
-            </div>
-
-            {/* Right - Content Panel (Liquid Glass) */}
-            <div className="flex-1">
-              <motion.div
-                layout
-                className="rounded-2xl p-6 sm:p-8 lg:p-10 xl:p-5 2xl:p-10 overflow-hidden"
-                style={{
-                  background: 'rgba(255, 255, 255, 0.7)',
-                  backdropFilter: 'blur(20px)',
-                  WebkitBackdropFilter: 'blur(20px)',
-                  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.05), inset 0 1px 1px rgba(255, 255, 255, 0.8)',
-                  border: '1px solid rgba(255, 255, 255, 0.8)',
-                }}
-              >
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={activeSection}
-                    variants={contentVariants}
-                    initial="initial"
-                    animate="animate"
-                    exit="exit"
+                    whileHover={{ scale: 1.08 }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{
+                      opacity: { duration: 0.5, delay: index * 0.15 },
+                      scale: { duration: 0.5, delay: index * 0.15 },
+                      x: { duration: 0.3 },
+                      y: { duration: 0.3 },
+                    }}
+                    className="absolute cursor-pointer group"
+                    style={{
+                      left: `${pos.x}%`,
+                      top: `${pos.y}%`,
+                      width: `${pos.size}px`,
+                      height: `${pos.size}px`,
+                    }}
                   >
-                    {/* Section Icon/Header */}
+                    {/* Outer Glow Ring */}
                     <motion.div
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.1, duration: 0.4 }}
-                      className="flex items-center gap-3 mb-6 xl:mb-4 2xl:mb-6"
+                      animate={{
+                        scale: isActive ? [1, 1.15, 1] : 1,
+                        opacity: isActive ? [0.3, 0.5, 0.3] : 0,
+                      }}
+                      transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                      className="absolute inset-0 rounded-full"
+                      style={{
+                        background: 'radial-gradient(circle, rgba(70, 184, 134, 0.4) 0%, transparent 70%)',
+                        transform: 'scale(1.3)',
+                      }}
+                    />
+
+                    {/* Main Bubble */}
+                    <motion.div
+                      animate={{
+                        y: [0, -8, 0],
+                      }}
+                      transition={{
+                        duration: 3 + index * 0.5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: index * 0.3,
+                      }}
+                      className="relative w-full h-full rounded-full flex flex-col items-center justify-center p-4 transition-all duration-500"
+                      style={{
+                        background: isActive
+                          ? 'linear-gradient(135deg, #1C4A3F 0%, #14352D 50%, #0F2922 100%)'
+                          : 'linear-gradient(135deg, #374151 0%, #1F2937 50%, #111827 100%)',
+                        boxShadow: isActive
+                          ? '0 20px 60px -15px rgba(28, 74, 63, 0.6), 0 0 40px rgba(70, 184, 134, 0.3), inset 0 1px 0 rgba(255,255,255,0.1)'
+                          : '0 15px 40px -10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255,255,255,0.05)',
+                        border: isActive ? '2px solid rgba(70, 184, 134, 0.5)' : '1px solid rgba(255,255,255,0.1)',
+                      }}
                     >
+                      {/* Icon */}
                       <motion.div
-                        whileHover={{ rotate: 5, scale: 1.05 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-12 h-12 xl:w-10 xl:h-10 2xl:w-12 2xl:h-12 rounded-xl bg-[#E8F5F0] flex items-center justify-center"
-                      >
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="xl:w-5 xl:h-5 2xl:w-6 2xl:h-6">
-                          <rect x="3" y="4" width="18" height="16" rx="2" stroke="#46B886" strokeWidth="1.5" />
-                          <path d="M3 9H21" stroke="#46B886" strokeWidth="1.5" />
-                          <path d="M9 9V20" stroke="#46B886" strokeWidth="1.5" />
-                          <path d="M6 6.5H7" stroke="#46B886" strokeWidth="1.5" strokeLinecap="round" />
-                        </svg>
-                      </motion.div>
-                      <h3 className="text-[#111827] text-xl sm:text-2xl xl:text-lg 2xl:text-2xl font-semibold">
-                        {activeData?.label}
-                      </h3>
-                    </motion.div>
-
-                    {/* Regulated Infrastructure Content */}
-                    {activeSection === "regulated" && (
-                      <>
-                        {/* Stats Cards Row */}
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 xl:gap-2 2xl:gap-4 mb-6 xl:mb-3 2xl:mb-6">
-                          {[
-                            { label: "Total portfolio value:", value: "$12,480", change: "00%", icon: "wallet" },
-                            { label: "Today's Change:", value: "+$134.20", change: "1.09%", icon: "arrow" },
-                            { label: "Risk Profile:", value: "Balanced", icon: "chart" },
-                          ].map((card, i) => (
-                            <motion.div
-                              key={card.label}
-                              custom={i}
-                              variants={cardVariants}
-                              initial="hidden"
-                              animate="visible"
-                              whileHover={{ y: -4, boxShadow: "0 10px 30px -10px rgba(28, 74, 63, 0.3)" }}
-                              className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-5 xl:p-3 2xl:p-5 text-white"
-                              style={{
-                                background: 'radial-gradient(100% 100% at 50% 0%, #1C4A3F 0%, #111827 100%)',
-                              }}
-                            >
-                              <p className="text-white/70 text-xs sm:text-sm xl:text-xs 2xl:text-sm mb-2 xl:mb-1 2xl:mb-2">{card.label}</p>
-                              <div className="flex items-center gap-2 mb-1">
-                                <span className="text-2xl sm:text-3xl xl:text-xl 2xl:text-3xl font-bold">{card.value}</span>
-                              </div>
-                              {card.change && (
-                                <div className="flex items-center gap-1 text-[#46B886] text-sm xl:text-xs 2xl:text-sm">
-                                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6 9V3M6 3L3 6M6 3L9 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                  </svg>
-                                  <span>{card.change}</span>
-                                </div>
-                              )}
-                            </motion.div>
-                          ))}
-                        </div>
-
-                        {/* Asset Allocation Card */}
-                        <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: 0.3, duration: 0.5 }}
-                          whileHover={{ boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.1)" }}
-                          className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-6 sm:p-8 xl:p-4 2xl:p-8"
-                          style={{
-                            background: 'rgba(255, 255, 255, 0.9)',
-                            border: '1px solid rgba(229, 231, 235, 0.8)',
-                            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
-                          }}
-                        >
-                          <p className="text-[#111827] text-lg sm:text-xl xl:text-base 2xl:text-xl font-medium mb-2 xl:mb-1 2xl:mb-2">Asset allocation</p>
-                          <motion.p
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: 0.4, duration: 0.5, ease: [0.34, 1.56, 0.64, 1] }}
-                            className="text-[#111827] text-4xl sm:text-5xl lg:text-6xl xl:text-3xl 2xl:text-6xl font-bold mb-3 xl:mb-2 2xl:mb-3"
-                          >
-                            78,909.72
-                          </motion.p>
-                          <div className="flex items-center gap-2 text-[#46B886] xl:text-sm 2xl:text-base">
-                            <motion.svg
-                              animate={{ y: [0, -3, 0] }}
-                              transition={{ duration: 1.5, repeat: Infinity }}
-                              width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M4 12L12 4M12 4H6M12 4V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </motion.svg>
-                            <span className="font-medium">4.5%</span>
-                            <span className="text-[#6B7280]">from last week</span>
-                          </div>
-                        </motion.div>
-
-                        {/* Description */}
-                        <motion.p
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.5 }}
-                          className="text-[#6B7280] text-sm sm:text-base xl:text-xs 2xl:text-base leading-relaxed mt-6 xl:mt-3 2xl:mt-6"
-                        >
-                          {activeData?.description}
-                        </motion.p>
-                      </>
-                    )}
-
-                    {/* Shariah Alignment Content */}
-                    {activeSection === "shariah" && (
-                      <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-6 sm:p-8 xl:p-4 2xl:p-8"
-                        style={{
-                          background: 'rgba(255, 255, 255, 0.9)',
-                          boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
+                        animate={{
+                          rotate: isActive ? [0, 5, -5, 0] : 0,
+                          scale: isActive ? 1.1 : 1,
                         }}
+                        transition={{ duration: 3, repeat: Infinity }}
+                        className={`mb-2 ${isActive ? 'text-[#46B886]' : 'text-gray-400'}`}
                       >
-                        {[
-                          { label: "Asset", value: "Bitpay", hasIcon: true },
-                          { label: "Type", value: "Crypto" },
-                          { label: "Balance", value: "0.045" },
-                          { label: "In Use", value: "0.045" },
-                          { label: "Available", value: "0.045" },
-                          { label: "Value (USD)", value: "$2300.00" },
-                        ].map((row, i) => (
-                          <motion.div
-                            key={row.label}
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: i * 0.05 }}
-                            className="flex items-center justify-between py-4 xl:py-2 2xl:py-4 border-b border-[#F3F4F6] last:border-0"
-                          >
-                            <span className="text-[#9CA3AF] text-base sm:text-lg xl:text-sm 2xl:text-lg">{row.label}</span>
-                            <div className="flex items-center gap-3 xl:gap-2 2xl:gap-3">
-                              {row.hasIcon && (
-                                <motion.div
-                                  whileHover={{ scale: 1.1 }}
-                                  className="w-10 h-10 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10 rounded-full bg-white flex items-center justify-center shadow-sm"
-                                >
-                                  <span className="text-[#111827] text-xs xl:text-[10px] 2xl:text-xs font-bold">bitpay</span>
-                                </motion.div>
-                              )}
-                              <span className="text-[#111827] text-base sm:text-lg xl:text-sm 2xl:text-lg font-semibold">{row.value}</span>
-                            </div>
-                          </motion.div>
-                        ))}
-
-                        {/* Filter Button */}
-                        <div className="flex justify-end pt-4 xl:pt-2 2xl:pt-4">
-                          <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="flex items-center gap-2 px-4 py-2 xl:px-3 xl:py-1.5 2xl:px-4 2xl:py-2 rounded-lg bg-[#F3F4F6] text-[#6B7280] text-sm xl:text-xs 2xl:text-sm font-medium"
-                          >
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M2 4H14M4 8H12M6 12H10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                            Filter
-                          </motion.button>
-                        </div>
-
-                        {/* Description */}
-                        <motion.p
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.4 }}
-                          className="text-[#6B7280] text-sm sm:text-base xl:text-xs 2xl:text-base leading-relaxed mt-6 xl:mt-3 2xl:mt-6"
-                        >
-                          {activeData?.description}
-                        </motion.p>
+                        {section.icon}
                       </motion.div>
-                    )}
 
-                    {/* Institutional Integrity Content - 2FA Security */}
-                    {activeSection === "integrity" && (
-                      <div className="space-y-6 xl:space-y-3 2xl:space-y-6">
-                        {/* Main Heading */}
+                      {/* Label */}
+                      <span className={`text-xs sm:text-sm font-semibold text-center leading-tight transition-colors duration-300 ${isActive ? 'text-white' : 'text-gray-300'
+                        }`}>
+                        {section.shortLabel}
+                      </span>
+
+                      {/* Active Indicator Dot */}
+                      {isActive && (
                         <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          className="text-center"
-                        >
-                          <h3 className="text-[#111827] text-2xl sm:text-3xl md:text-4xl xl:text-2xl 2xl:text-4xl font-bold mb-3 xl:mb-2 2xl:mb-3">
-                            Secure your account<br />with 2FA
-                          </h3>
-                          <p className="text-[#9CA3AF] text-sm sm:text-base xl:text-xs 2xl:text-base">
-                            Choose your preferred method for two-factor authentication.
-                          </p>
-                        </motion.div>
+                          initial={{ scale: 0 }}
+                          animate={{ scale: 1 }}
+                          className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-[#46B886]"
+                        />
+                      )}
+                    </motion.div>
+                  </motion.button>
+                );
+              })}
 
-                        {/* Google Authenticator Option - Selected */}
-                        <motion.div
-                          initial={{ opacity: 0, x: -20 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          transition={{ delay: 0.1 }}
-                          whileHover={{ scale: 1.02, boxShadow: "0 10px 30px -10px rgba(70, 184, 134, 0.3)" }}
-                          className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-5 sm:p-6 xl:p-3 2xl:p-6 flex items-center justify-between cursor-pointer"
-                          style={{
-                            background: 'rgba(255, 255, 255, 0.95)',
-                            border: '2px solid #46B886',
-                            boxShadow: '0 2px 12px rgba(70, 184, 134, 0.15)',
-                          }}
-                        >
-                          <div className="flex items-center gap-4 xl:gap-3 2xl:gap-4">
-                            <motion.div
-                              animate={{ scale: [1, 1.1, 1] }}
-                              transition={{ duration: 2, repeat: Infinity }}
-                              className="w-5 h-5 xl:w-4 xl:h-4 2xl:w-5 2xl:h-5 rounded-full border-2 border-[#1C4A3F] flex items-center justify-center"
-                            >
-                              <div className="w-2.5 h-2.5 xl:w-2 xl:h-2 2xl:w-2.5 2xl:h-2.5 rounded-full bg-[#1C4A3F]" />
-                            </motion.div>
-                            <div>
-                              <p className="text-[#111827] text-base sm:text-lg xl:text-sm 2xl:text-lg font-semibold">Google Authenticator</p>
-                              <p className="text-[#9CA3AF] text-sm xl:text-xs 2xl:text-sm">Use an authenticator app.</p>
-                            </div>
-                          </div>
-                          <motion.div
-                            animate={{ rotate: [0, 10, -10, 0] }}
-                            transition={{ duration: 3, repeat: Infinity }}
-                            className="w-12 h-12 xl:w-9 xl:h-9 2xl:w-12 2xl:h-12 flex items-center justify-center"
-                          >
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="xl:w-8 xl:h-8 2xl:w-10 2xl:h-10">
-                              <path d="M20 8L20 20L32 20" stroke="#FBBC04" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-                              <path d="M20 20L12 32" stroke="#34A853" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-                              <path d="M20 20L28 32" stroke="#4285F4" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-                              <path d="M20 20L8 20" stroke="#EA4335" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                          </motion.div>
-                        </motion.div>
-
-                        {/* Phone Number (SMS) Option - Not Selected */}
-                        <motion.div
-                          initial={{ opacity: 0, x: -20 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          transition={{ delay: 0.2 }}
-                          whileHover={{ opacity: 0.8 }}
-                          className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-5 sm:p-6 xl:p-3 2xl:p-6 flex items-center justify-between cursor-pointer opacity-60"
-                          style={{
-                            background: 'rgba(255, 255, 255, 0.9)',
-                            border: '1px solid rgba(229, 231, 235, 0.8)',
-                            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
-                          }}
-                        >
-                          <div className="flex items-center gap-4 xl:gap-3 2xl:gap-4">
-                            <div className="w-5 h-5 xl:w-4 xl:h-4 2xl:w-5 2xl:h-5 rounded-full border-2 border-[#D1D5DB]" />
-                            <div>
-                              <p className="text-[#6B7280] text-base sm:text-lg xl:text-sm 2xl:text-lg font-semibold">Phone Number (SMS)</p>
-                              <p className="text-[#9CA3AF] text-sm xl:text-xs 2xl:text-sm">Receive a 6-digit code by SMS<br />every time you log in.</p>
-                            </div>
-                          </div>
-                          <div className="w-12 h-12 xl:w-9 xl:h-9 2xl:w-12 2xl:h-12 rounded-xl bg-[#D1FAE5] flex items-center justify-center">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="xl:w-5 xl:h-5 2xl:w-6 2xl:h-6">
-                              <path d="M21 11.5C21 16.75 16.75 21 11.5 21C9.81 21 8.21 20.58 6.8 19.84L3 21L4.16 17.2C3.42 15.79 3 14.19 3 12.5C3 7.25 7.25 3 12.5 3C17.75 3 22 7.25 22 12.5" stroke="#46B886" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                          </div>
-                        </motion.div>
-
-                        {/* Description */}
-                        <motion.p
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.3 }}
-                          className="text-[#6B7280] text-sm sm:text-base xl:text-xs 2xl:text-base leading-relaxed"
-                        >
-                          {activeData?.description}
-                        </motion.p>
-                      </div>
-                    )}
-
-                    {/* Hybrid Operating Model Content - Wallet Balance */}
-                    {activeSection === "hybrid" && (
-                      <div className="space-y-4 xl:space-y-2 2xl:space-y-4">
-                        {/* Total Wallet Balance Card */}
-                        <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          whileHover={{ scale: 1.02, boxShadow: "0 15px 40px -10px rgba(28, 74, 63, 0.4)" }}
-                          className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-6 sm:p-8 xl:p-4 2xl:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 xl:gap-3 2xl:gap-4"
-                          style={{
-                            background: 'radial-gradient(100% 100% at 50% 0%, #1C4A3F 0%, #111827 100%)',
-                          }}
-                        >
-                          <div className="flex items-center gap-4 xl:gap-3 2xl:gap-4">
-                            <motion.svg
-                              animate={{ rotate: [0, 5, -5, 0] }}
-                              transition={{ duration: 4, repeat: Infinity }}
-                              width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
-                              className="xl:w-6 xl:h-6 2xl:w-8 2xl:h-8"
-                            >
-                              <rect x="4" y="8" width="24" height="18" rx="3" stroke="white" strokeWidth="2" />
-                              <path d="M4 14H28" stroke="white" strokeWidth="2" />
-                              <rect x="8" y="4" width="16" height="4" rx="1" stroke="white" strokeWidth="2" />
-                            </motion.svg>
-                            <span className="text-white/80 text-base sm:text-lg xl:text-sm 2xl:text-lg">Total wallet balance:</span>
-                          </div>
-                          <motion.span
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: 0.2, ease: [0.34, 1.56, 0.64, 1] }}
-                            className="text-white text-3xl sm:text-4xl md:text-5xl xl:text-2xl 2xl:text-5xl font-bold"
-                          >
-                            $2,915.42
-                          </motion.span>
-                        </motion.div>
-
-                        {/* Available Balance Card */}
-                        <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: 0.1 }}
-                          whileHover={{ boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.1)" }}
-                          className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-6 sm:p-8 xl:p-4 2xl:p-8"
-                          style={{
-                            background: 'rgba(255, 255, 255, 0.95)',
-                            border: '1px solid rgba(229, 231, 235, 0.5)',
-                            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
-                          }}
-                        >
-                          <div className="flex items-center justify-between">
-                            <div className="flex flex-col gap-3 xl:gap-2 2xl:gap-3">
-                              <motion.div
-                                whileHover={{ scale: 1.1, rotate: 5 }}
-                                className="w-10 h-10 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10 rounded-full border-2 border-[#6B7280] flex items-center justify-center"
-                              >
-                                <span className="text-[#6B7280] text-lg xl:text-sm 2xl:text-lg font-semibold">$</span>
-                              </motion.div>
-                              <span className="text-[#6B7280] text-base sm:text-lg xl:text-sm 2xl:text-lg">Available:</span>
-                            </div>
-                            <span className="text-[#111827] text-2xl sm:text-3xl md:text-4xl xl:text-xl 2xl:text-4xl font-bold">$1,700.00</span>
-                          </div>
-                        </motion.div>
-
-                        {/* Sort/Transaction Indicator */}
-                        <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: 0.2 }}
-                          className="rounded-2xl xl:rounded-xl 2xl:rounded-2xl p-4 sm:p-5 xl:p-2 2xl:p-5"
-                          style={{
-                            background: 'rgba(255, 255, 255, 0.9)',
-                            border: '1px solid rgba(229, 231, 235, 0.5)',
-                            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
-                          }}
-                        >
-                          <motion.div
-                            animate={{ y: [0, -3, 0] }}
-                            transition={{ duration: 2, repeat: Infinity }}
-                            className="flex items-center gap-2 text-[#6B7280]"
-                          >
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="xl:w-4 xl:h-4 2xl:w-5 2xl:h-5">
-                              <path d="M7 4V16M7 4L4 7M7 4L10 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                              <path d="M13 16V4M13 16L10 13M13 16L16 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                          </motion.div>
-                        </motion.div>
-
-                        {/* Description */}
-                        <motion.p
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.3 }}
-                          className="text-[#6B7280] text-sm sm:text-base xl:text-xs 2xl:text-base leading-relaxed"
-                        >
-                          {activeData?.description}
-                        </motion.p>
-                      </div>
-                    )}
-                  </motion.div>
-                </AnimatePresence>
-              </motion.div>
+              {/* Center Decorative Element */}
+              <motion.div
+                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full pointer-events-none"
+                animate={{
+                  scale: [1, 1.2, 1],
+                  opacity: [0.1, 0.2, 0.1],
+                }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                style={{
+                  background: 'radial-gradient(circle, rgba(70, 184, 134, 0.3) 0%, transparent 70%)',
+                }}
+              />
             </div>
           </div>
+
+          {/* Mobile: Horizontal Tabs */}
+          <div className="lg:hidden w-full">
+            <div className="flex overflow-x-auto gap-2 pb-4 scrollbar-hide -mx-4 px-4">
+              {sections.map((section, index) => {
+                const isActive = section.id === activeSection;
+                return (
+                  <motion.button
+                    key={section.id}
+                    onClick={() => setActiveSection(section.id)}
+                    whileTap={{ scale: 0.95 }}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: index * 0.05 }}
+                    className={`shrink-0 px-4 py-2.5 rounded-full text-sm font-medium transition-all duration-300 whitespace-nowrap cursor-pointer ${isActive
+                      ? "bg-[#1C4A3F] text-white shadow-lg"
+                      : "bg-white text-[#6B7280] hover:bg-[#F3F4F6] border border-[#E5E7EB]"
+                      }`}
+                  >
+                    {section.label}
+                  </motion.button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Right - Content Panel */}
+          <div className="w-full lg:w-1/2">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeSection}
+                initial={{ opacity: 0, x: 40, scale: 0.98 }}
+                animate={{ opacity: 1, x: 0, scale: 1 }}
+                exit={{ opacity: 0, x: -40, scale: 0.98 }}
+                transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                className="relative"
+              >
+                {/* Decorative Background Shape */}
+                <motion.div
+                  className="absolute -inset-4 sm:-inset-8 rounded-3xl pointer-events-none"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.2 }}
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 100%)',
+                    backdropFilter: 'blur(20px)',
+                    border: '1px solid rgba(255,255,255,0.6)',
+                    boxShadow: '0 20px 60px -20px rgba(0,0,0,0.1)',
+                  }}
+                />
+
+                {/* Content */}
+                <div className="relative z-10 p-6 sm:p-8 lg:p-10 xl:p-8 2xl:p-12">
+                  {/* Step Indicator */}
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 }}
+                    className="flex items-center gap-2 mb-4"
+                  >
+                    <span className="text-[#46B886] text-sm font-semibold">
+                      0{activeIndex + 1}
+                    </span>
+                    <span className="text-gray-300">/</span>
+                    <span className="text-gray-400 text-sm">04</span>
+                    <div className="ml-4 flex-1 h-1 bg-gray-100 rounded-full overflow-hidden">
+                      <motion.div
+                        className="h-full bg-linear-to-r from-[#46B886] to-[#1C4A3F] rounded-full"
+                        initial={{ width: '0%' }}
+                        animate={{ width: `${((activeIndex + 1) / 4) * 100}%` }}
+                        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                      />
+                    </div>
+                  </motion.div>
+
+                  {/* Main Headline */}
+                  <motion.h3
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.15, duration: 0.5 }}
+                    className="text-[#111827] text-3xl sm:text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl font-bold leading-tight mb-6"
+                  >
+                    {activeData?.label}
+                  </motion.h3>
+
+                  {/* Description */}
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.25, duration: 0.5 }}
+                    className="text-[#6B7280] text-base sm:text-lg lg:text-xl xl:text-lg 2xl:text-xl leading-relaxed mb-8"
+                  >
+                    {activeData?.description}
+                  </motion.p>
+
+                  {/* Feature Tags */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.35, duration: 0.5 }}
+                    className="flex flex-wrap gap-2"
+                  >
+                    {activeSection === "regulated" && (
+                      <>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Swiss Standards</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">GCC Hub</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Regulatory-First</span>
+                      </>
+                    )}
+                    {activeSection === "shariah" && (
+                      <>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Ethical Alignment</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Transparency</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Disciplined Practices</span>
+                      </>
+                    )}
+                    {activeSection === "integrity" && (
+                      <>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Security Protocols</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Risk Mitigation</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Institutional Standards</span>
+                      </>
+                    )}
+                    {activeSection === "hybrid" && (
+                      <>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Digital Efficiency</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Institutional Discipline</span>
+                        <span className="px-3 py-1.5 rounded-full bg-[#E8F5F0] text-[#1C4A3F] text-sm font-medium">Consistent Execution</span>
+                      </>
+                    )}
+                  </motion.div>
+
+                  {/* Decorative Line */}
+                  <motion.div
+                    initial={{ scaleX: 0 }}
+                    animate={{ scaleX: 1 }}
+                    transition={{ delay: 0.4, duration: 0.6 }}
+                    className="mt-8 h-px bg-linear-to-r from-[#46B886] via-[#1C4A3F] to-transparent origin-left"
+                  />
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
         </div>
+
+        {/* Bottom Navigation Dots */}
+        <motion.div
+          className="hidden lg:flex justify-center items-center gap-3 mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5 }}
+        >
+          {sections.map((section, index) => (
+            <motion.button
+              key={section.id}
+              onClick={() => setActiveSection(section.id)}
+              onMouseEnter={() => setActiveSection(section.id)}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              className="relative cursor-pointer p-1"
+            >
+              <motion.div
+                animate={{
+                  width: section.id === activeSection ? 32 : 8,
+                  backgroundColor: section.id === activeSection ? '#1C4A3F' : '#D1D5DB',
+                }}
+                transition={{ duration: 0.3 }}
+                className="h-2 rounded-full"
+              />
+            </motion.button>
+          ))}
+        </motion.div>
       </div>
     </section>
   );

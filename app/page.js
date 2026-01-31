@@ -20,7 +20,7 @@ export default function Home() {
         <ManjamAcademy />
         <Timeline />
         {/* <Newsletter /> */}
-        <Blog />
+        {/* <Blog /> */}
       </div>
     </div>
   );
