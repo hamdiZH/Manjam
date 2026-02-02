@@ -355,12 +355,18 @@ export default function Footer() {
                   <motion.div
                     whileHover={{ rotate: 5, scale: 1.05 }}
                     transition={{ duration: 0.3 }}
-                    className="w-10 h-10 rounded-lg bg-[#46B886] flex items-center justify-center"
+                    className="w-10 h-10 rounded-lg overflow-hidden"
                   >
-                    <span className="text-white font-bold text-lg">M</span>
+                    <Image
+                      src="/manjam-icon.jpg"
+                      alt="Manjam"
+                      width={40}
+                      height={40}
+                      className="object-cover"
+                    />
                   </motion.div>
                   <div>
-                    <p className="text-white text-sm font-semibold">Al Bidaya Weekly</p>
+                    <p className="text-white text-sm font-semibold">Newsletter</p>
                     <p className="text-white/50 text-xs">Sunday by Manjam Capital</p>
                   </div>
                 </div>

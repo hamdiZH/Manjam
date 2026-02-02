@@ -1,6 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import AcademyCard from "./AcademyCard";
 import Image from "next/image";
 
@@ -76,14 +79,32 @@ const academyCards = [
   },
 ];
 
+const partnerSliderSettings = {
+  infinite: true,
+  autoplay: true,
+  speed: 8000,
+  autoplaySpeed: 0,
+  cssEase: "linear",
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  arrows: false,
+  dots: false,
+  pauseOnHover: true,
+  swipe: false,
+  draggable: false,
+  responsive: [
+    { breakpoint: 1280, settings: { slidesToShow: 3 } },
+    { breakpoint: 1024, settings: { slidesToShow: 2 } },
+    { breakpoint: 640, settings: { slidesToShow: 1 } },
+  ],
+};
+
 // Placeholder collaborative partners
 const partners = [
-  { id: 1, name: "Partner" },
-  { id: 2, name: "Partner" },
-  { id: 3, name: "Partner" },
-  { id: 4, name: "Partner" },
-  { id: 5, name: "Partner" },
-  { id: 6, name: "Partner" },
+  { id: 1, name: "Bait Al Mashura", logo: "/partners/academy/Bait-Logo-for-web.webp" },
+  { id: 2, name: "Qatar University", logo: "/partners/academy/QU Logo - Stacked.png" },
+  { id: 3, name: "Hamad Bin Khalifa University", logo: "/partners/academy/small_Hamad_Bin_Khalifa_University_70de87dd58.png" },
+  { id: 4, name: "University of Jordan", logo: "/partners/academy/University_of_Jordan_Logo.svg.png" },
 ];
 
 // Animation variants
@@ -296,45 +317,43 @@ export default function ManjamAcademy() {
             </motion.a>
           </motion.div>
 
-          {/* Partners Marquee Bar */}
+          {/* Partners Infinite Scroll */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="relative overflow-hidden rounded-xl py-6 sm:py-8 xl:py-4 2xl:py-8"
-            style={{
-              // background: 'rgba(255, 255, 255, 0.05)',
-              // backdropFilter: 'blur(20px)',
-              WebkitBackdropFilter: 'blur(20px)',
-              // border: '1px solid rgba(255, 255, 255, 0.1)',
-            }}
+            className="relative overflow-hidden rounded-2xl py-8 sm:py-10 xl:py-6 2xl:py-10"
           >
-            {/* Gradient Fades */}
-            <div
-              className="absolute left-0 top-0 bottom-0 w-16 sm:w-24 z-10 pointer-events-none"
-            />
-            <div
-              className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 z-10 pointer-events-none"
-            />
 
-            {/* Animated Marquee */}
-            <div className="flex animate-marquee">
+            <Slider {...partnerSliderSettings} className="academy-partners-slider px-2 sm:px-4">
               {[...partners, ...partners].map((partner, index) => (
-                <div
-                  key={`partner-1-${index}`}
-                  className="flex items-center justify-center px-10 sm:px-16 xl:px-12 2xl:px-16 shrink-0"
-                >
-                  <Image
-                    src="/partners.svg"
-                    alt={partner.name}
-                    width={180}
-                    height={60}
-                    className="h-12 sm:h-16 lg:h-20 xl:h-14 2xl:h-20 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
-                  />
+                <div key={`partner-${index}`} className="px-3 sm:px-4">
+                  <motion.div
+                    whileHover={{ scale: 1.05, y: -4, zIndex: 10 }}
+                    transition={{ duration: 0.3 }}
+                    className="relative flex items-center justify-center"
+                  >
+                    <div
+                      className="relative w-36 sm:w-44 lg:w-48 xl:w-40 2xl:w-48 h-16 sm:h-20 lg:h-24 xl:h-20 2xl:h-24 flex items-center justify-center rounded-xl group cursor-pointer transition-all duration-300"
+                      style={{
+                        background: "rgba(255, 255, 255, 0.95)",
+                        boxShadow:
+                          "0 4px 20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.2)",
+                      }}
+                    >
+                      <Image
+                        src={partner.logo}
+                        alt={partner.name}
+                        width={280}
+                        height={60}
+                        className="h-8 sm:h-10 lg:h-12 xl:h-10 2xl:h-12 w-auto max-w-[80%] object-contain transition-all duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                  </motion.div>
                 </div>
               ))}
-            </div>
+            </Slider>
           </motion.div>
         </motion.div>
       </motion.div>

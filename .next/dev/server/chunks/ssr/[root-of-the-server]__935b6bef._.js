@@ -227,43 +227,103 @@ const exploreItemsRight = [
         description: "Tortor interdum condimentum nunc molestie"
     }
 ];
-// Team members data
+// Executive team members data
 const teamMembers = [
+    // Row 1 - Leadership
     {
         id: 1,
-        name: "Koray Okumus",
-        role: "Sr. Developer",
-        image: "/team.png"
+        name: "Muhannad Abu Ghazaleh",
+        role: "Co - Founder",
+        image: "/team/Muhannad Abu ghazale/Muhannad H Abughazaleh - Original.jpg",
+        logos: [
+            "/team/Muhannad Abu ghazale/Al-Jazeera-Logo.png",
+            "/team/Muhannad Abu ghazale/Deloitte-Emblem.png"
+        ]
     },
     {
         id: 2,
-        name: "Nicolas Jesus",
-        role: "Sr. Product Manager",
-        image: "/team.png"
+        name: "Ibrahim Baker",
+        role: "Co - Founder",
+        image: "/team/Ibrahim Baker/ibrahim baker.jpg",
+        logos: [
+            "/team/Ibrahim Baker/kpmg-logo-png_seeklogo-80055.png",
+            "/team/Ibrahim Baker/pwc-logo-png_seeklogo-206229.png"
+        ]
     },
     {
         id: 3,
-        name: "Ava Wright",
-        role: "Jr. Product Designer",
-        image: "/team.png"
+        name: "Ibrahim Juneidi",
+        role: "CEO (Qatar & Switzerland)",
+        image: "/team/Ibrahim Juneidi/Ibrahim Junedi.JPG",
+        logos: [
+            "/team/Ibrahim Juneidi/images.jpg",
+            "/team/Ibrahim Juneidi/Al-Sharq-Forum-منتدى-الشرق.png"
+        ]
     },
     {
         id: 4,
-        name: "Noah Pierre",
-        role: "Sr. Product Designer",
-        image: "/team.png"
+        name: "Jawad Abazeed",
+        role: "CTO",
+        image: "/team/Jawad Abazeed/Jawad.jpg",
+        logos: [
+            "/team/Jawad Abazeed/Copy of Al-Sharq-Forum-منتدى-الشرق.png",
+            "/team/Jawad Abazeed/images (1).jpg"
+        ]
     },
     {
         id: 5,
-        name: "Lana Steiner",
-        role: "Sr. Product Designer",
-        image: "/team.png"
+        name: "Faisal Sidiqi",
+        role: "CFO",
+        image: "/team/Faisal Sidiqqi/Faisal Siddiqi.jpg",
+        logos: [
+            "/team/Faisal Sidiqqi/images (2).jpg",
+            "/team/Faisal Sidiqqi/Copy of pwc-logo-png_seeklogo-206229.png"
+        ]
     },
     {
         id: 6,
-        name: "Emma Wilson",
-        role: "Frontend Developer",
-        image: "/team.png"
+        name: "Stéphane Hofer",
+        role: "SRO Compliance",
+        image: "/team/Stéphane Hofer/Stephane_2024-scaled.jpg",
+        logos: [
+            "/team/Stéphane Hofer/WhatsApp Image 2025-12-03 at 20.37.21_c4dda2f4.jpg"
+        ]
+    },
+    // Row 2 - Team
+    {
+        id: 7,
+        name: "Dr. Philippe Beckers",
+        role: "FINSA Investment",
+        image: "/team/Dr. Philippe Beckers/philipe.png",
+        logos: []
+    },
+    {
+        id: 8,
+        name: "Can Akpinar",
+        role: "Internal Legal Council",
+        image: "/team/Can Akpinar/WhatsApp Image 2025-12-03 at 20.32.52_48ac38b3.jpg",
+        logos: []
+    },
+    {
+        id: 9,
+        name: "Salam Alqub",
+        role: "R&D",
+        image: "/team/Salam Alqub/bio-14841-amerika (2) (1).jpg",
+        logos: []
+    },
+    {
+        id: 10,
+        name: "Yazan Arafat",
+        role: "R&D",
+        image: "/team/Yazan Arafat/Copy of DSC05969.JPG",
+        logos: []
+    },
+    {
+        id: 11,
+        name: "Anas Shawar",
+        role: "HOM",
+        image: "/team/Anas Shawar/c6ebfbd3-d564-4f88-a672-4ac144ec97b2.JPG",
+        logos: []
     }
 ];
 // Social Icons for Team Modal
@@ -281,12 +341,12 @@ const FacebookIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
             strokeLinejoin: "round"
         }, void 0, false, {
             fileName: "[project]/components/Navbar.jsx",
-            lineNumber: 109,
+            lineNumber: 182,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 108,
+        lineNumber: 181,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 const TwitterIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -303,12 +363,12 @@ const TwitterIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b
             strokeLinejoin: "round"
         }, void 0, false, {
             fileName: "[project]/components/Navbar.jsx",
-            lineNumber: 115,
+            lineNumber: 188,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 114,
+        lineNumber: 187,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 const LinkedInIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -326,7 +386,7 @@ const LinkedInIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 121,
+                lineNumber: 194,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -337,7 +397,7 @@ const LinkedInIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 122,
+                lineNumber: 195,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -348,13 +408,13 @@ const LinkedInIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 123,
+                lineNumber: 196,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 120,
+        lineNumber: 193,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 const InstagramIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -372,7 +432,7 @@ const InstagramIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 129,
+                lineNumber: 202,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -383,7 +443,7 @@ const InstagramIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 130,
+                lineNumber: 203,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -394,13 +454,13 @@ const InstagramIconTeam = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 131,
+                lineNumber: 204,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 128,
+        lineNumber: 201,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 const ArrowLeftIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -417,12 +477,12 @@ const ArrowLeftIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$p
             strokeLinejoin: "round"
         }, void 0, false, {
             fileName: "[project]/components/Navbar.jsx",
-            lineNumber: 137,
+            lineNumber: 210,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 136,
+        lineNumber: 209,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 const ArrowRightIconLarge = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -439,12 +499,12 @@ const ArrowRightIconLarge = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module_
             strokeLinejoin: "round"
         }, void 0, false, {
             fileName: "[project]/components/Navbar.jsx",
-            lineNumber: 143,
+            lineNumber: 216,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 142,
+        lineNumber: 215,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 function Navbar() {
@@ -558,16 +618,16 @@ function Navbar() {
                         onClick: ()=>setMobileMenuOpen(!mobileMenuOpen),
                         children: mobileMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CloseIcon, {}, void 0, false, {
                             fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 245,
+                            lineNumber: 318,
                             columnNumber: 29
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(HamburgerIcon, {}, void 0, false, {
                             fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 245,
+                            lineNumber: 318,
                             columnNumber: 45
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 241,
+                        lineNumber: 314,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -584,7 +644,7 @@ function Navbar() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 263,
+                                                lineNumber: 336,
                                                 columnNumber: 17
                                             }, this),
                                             item.hasDropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronDown, {
@@ -592,13 +652,13 @@ function Navbar() {
                                                 isOpen: isActive(item.id)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 265,
+                                                lineNumber: 338,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 257,
+                                        lineNumber: 330,
                                         columnNumber: 15
                                     }, this),
                                     item.id === "services" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -623,7 +683,7 @@ function Navbar() {
                                                                 children: "The Fund"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 292,
+                                                                lineNumber: 365,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -631,7 +691,7 @@ function Navbar() {
                                                                 children: "Manjam Capital's Innovation Fund"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 366,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -639,13 +699,13 @@ function Navbar() {
                                                                 children: "World class governance, shaped by Switzerland's best-in-class institutions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 294,
+                                                                lineNumber: 367,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 287,
+                                                        lineNumber: 360,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -658,7 +718,7 @@ function Navbar() {
                                                                 children: "The Platform"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 303,
+                                                                lineNumber: 376,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -666,7 +726,7 @@ function Navbar() {
                                                                 children: "Manjam Capital's digital backbone"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 304,
+                                                                lineNumber: 377,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -674,13 +734,13 @@ function Navbar() {
                                                                 children: "One secure platform designed for a seamless end-to-end experience."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 305,
+                                                                lineNumber: 378,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 298,
+                                                        lineNumber: 371,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -693,7 +753,7 @@ function Navbar() {
                                                                 children: "The Academy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 314,
+                                                                lineNumber: 387,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -701,7 +761,7 @@ function Navbar() {
                                                                 children: "Manjam Capital's education arm"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 315,
+                                                                lineNumber: 388,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -709,29 +769,29 @@ function Navbar() {
                                                                 children: "Leading the next era of specialized digital-asset and blockchain education."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 316,
+                                                                lineNumber: 389,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 309,
+                                                        lineNumber: 382,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 285,
+                                                lineNumber: 358,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Navbar.jsx",
-                                            lineNumber: 283,
+                                            lineNumber: 356,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 274,
+                                        lineNumber: 347,
                                         columnNumber: 17
                                     }, this),
                                     item.id === "insights" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -759,12 +819,12 @@ function Navbar() {
                                                                     children: "M"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 345,
+                                                                    lineNumber: 418,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 344,
+                                                                lineNumber: 417,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -775,7 +835,7 @@ function Navbar() {
                                                                         children: "Weekly Digest"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Navbar.jsx",
-                                                                        lineNumber: 348,
+                                                                        lineNumber: 421,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -783,7 +843,7 @@ function Navbar() {
                                                                         children: "What matters most in digital assets this week."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Navbar.jsx",
-                                                                        lineNumber: 349,
+                                                                        lineNumber: 422,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -791,7 +851,7 @@ function Navbar() {
                                                                         children: "Concise, clear, and built for professionals; a 4–5 minute read."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Navbar.jsx",
-                                                                        lineNumber: 350,
+                                                                        lineNumber: 423,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -801,48 +861,48 @@ function Navbar() {
                                                                             "Subscribe",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowRightIcon, {}, void 0, false, {
                                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                                lineNumber: 356,
+                                                                                lineNumber: 429,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/Navbar.jsx",
-                                                                        lineNumber: 351,
+                                                                        lineNumber: 424,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 347,
+                                                                lineNumber: 420,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 415,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 336,
+                                                    lineNumber: 409,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "grid grid-cols-1 gap-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 363,
+                                                    lineNumber: 436,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Navbar.jsx",
-                                            lineNumber: 334,
+                                            lineNumber: 407,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 325,
+                                        lineNumber: 398,
                                         columnNumber: 17
                                     }, this),
                                     item.id === "explore" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -873,12 +933,12 @@ function Navbar() {
                                                                 className: "object-contain"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 411,
+                                                                lineNumber: 484,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 410,
+                                                            lineNumber: 483,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -889,7 +949,7 @@ function Navbar() {
                                                                     children: "Why Manjam?"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 420,
+                                                                    lineNumber: 493,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -897,19 +957,19 @@ function Navbar() {
                                                                     children: "The mission, the model, and what makes us different."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 421,
+                                                                    lineNumber: 494,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 419,
+                                                            lineNumber: 492,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 401,
+                                                    lineNumber: 474,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -924,7 +984,7 @@ function Navbar() {
                                                                     children: "Team"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 442,
+                                                                    lineNumber: 515,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -932,13 +992,13 @@ function Navbar() {
                                                                     children: "The people behind everything and the expertise we bring."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 443,
+                                                                    lineNumber: 516,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 438,
+                                                            lineNumber: 511,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -951,7 +1011,7 @@ function Navbar() {
                                                                     children: "Partners"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 452,
+                                                                    lineNumber: 525,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -959,41 +1019,68 @@ function Navbar() {
                                                                     children: "Trusted institutions and collaborators we work with."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 453,
+                                                                    lineNumber: 526,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 447,
+                                                            lineNumber: 520,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/gallery",
+                                                            onClick: closeAllDropdowns,
+                                                            className: "group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                    className: "text-white font-bold text-base mb-1",
+                                                                    children: "Gallery"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Navbar.jsx",
+                                                                    lineNumber: 535,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-white/60 text-sm font-normal leading-relaxed",
+                                                                    children: "Highlights from events, releases, and visual insights."
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Navbar.jsx",
+                                                                    lineNumber: 536,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/Navbar.jsx",
+                                                            lineNumber: 530,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 426,
+                                                    lineNumber: 499,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Navbar.jsx",
-                                            lineNumber: 399,
+                                            lineNumber: 472,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 390,
+                                        lineNumber: 463,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 251,
+                                lineNumber: 324,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 249,
+                        lineNumber: 322,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1012,17 +1099,17 @@ function Navbar() {
                                 className: "object-contain w-[100px] md:w-[115px] lg:w-[130px]"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 481,
+                                lineNumber: 554,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 475,
+                            lineNumber: 548,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 474,
+                        lineNumber: 547,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1034,7 +1121,7 @@ function Navbar() {
                                 children: "Log in"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 534,
+                                lineNumber: 607,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1046,7 +1133,7 @@ function Navbar() {
                                         children: "Become a Client"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 546,
+                                        lineNumber: 619,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1054,25 +1141,25 @@ function Navbar() {
                                         children: "Client"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 547,
+                                        lineNumber: 620,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 542,
+                                lineNumber: 615,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 493,
+                        lineNumber: 566,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 239,
+                lineNumber: 312,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1091,7 +1178,7 @@ function Navbar() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 567,
+                                                lineNumber: 640,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronDown, {
@@ -1099,13 +1186,13 @@ function Navbar() {
                                                 isOpen: mobileActiveDropdown === item.id
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 568,
+                                                lineNumber: 641,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 562,
+                                        lineNumber: 635,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1121,7 +1208,7 @@ function Navbar() {
                                                                 children: service.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 581,
+                                                                lineNumber: 654,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1129,18 +1216,18 @@ function Navbar() {
                                                                 children: service.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 582,
+                                                                lineNumber: 655,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, service.id, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 653,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 578,
+                                                lineNumber: 651,
                                                 columnNumber: 19
                                             }, this),
                                             item.id === "insights" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1155,14 +1242,14 @@ function Navbar() {
                                                                 children: insight.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 592,
+                                                                lineNumber: 665,
                                                                 columnNumber: 27
                                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                                 className: "text-[#10B981] font-semibold italic",
                                                                 children: insight.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 596,
+                                                                lineNumber: 669,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1170,18 +1257,18 @@ function Navbar() {
                                                                 children: insight.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 598,
+                                                                lineNumber: 671,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, insight.id, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 590,
+                                                        lineNumber: 663,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 588,
+                                                lineNumber: 661,
                                                 columnNumber: 19
                                             }, this),
                                             item.id === "explore" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1197,14 +1284,14 @@ function Navbar() {
                                                                     children: explore.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 608,
+                                                                    lineNumber: 681,
                                                                     columnNumber: 27
                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                                     className: "text-[#10B981] font-semibold italic",
                                                                     children: explore.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 616,
+                                                                    lineNumber: 689,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1212,13 +1299,13 @@ function Navbar() {
                                                                     children: explore.description
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 618,
+                                                                    lineNumber: 691,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, explore.id, true, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 606,
+                                                            lineNumber: 679,
                                                             columnNumber: 23
                                                         }, this)),
                                                     exploreItemsRight.map((explore)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1230,7 +1317,7 @@ function Navbar() {
                                                                     children: explore.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 627,
+                                                                    lineNumber: 700,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1238,31 +1325,31 @@ function Navbar() {
                                                                     children: explore.description
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Navbar.jsx",
-                                                                    lineNumber: 628,
+                                                                    lineNumber: 701,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, explore.id, true, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 622,
+                                                            lineNumber: 695,
                                                             columnNumber: 23
                                                         }, this))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 604,
+                                                lineNumber: 677,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 575,
+                                        lineNumber: 648,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, item.id, true, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 561,
+                                lineNumber: 634,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1271,243 +1358,227 @@ function Navbar() {
                             children: "Log in"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 638,
+                            lineNumber: 711,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Navbar.jsx",
-                    lineNumber: 558,
+                    lineNumber: 631,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 553,
+                lineNumber: 626,
                 columnNumber: 7
             }, this),
             teamModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed inset-0 bg-black/50 z-100 flex items-center justify-center p-4",
+                className: "fixed inset-0 bg-black/60 backdrop-blur-sm z-100 flex items-center justify-center p-4",
                 onClick: ()=>setTeamModalOpen(false),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-[#F9FAFB] rounded-2xl w-full max-w-[1200px] max-h-[90vh] overflow-hidden",
+                    className: "relative w-full max-w-[1400px] max-h-[90vh] overflow-y-auto rounded-3xl",
                     onClick: (e)=>e.stopPropagation(),
+                    style: {
+                        background: 'linear-gradient(135deg, #14352D 0%, #1C4A3F 50%, #14352D 100%)'
+                    },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "p-6 sm:p-8 md:p-12 pb-6",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start justify-between mb-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "text-[#111827] text-2xl sm:text-3xl md:text-4xl font-bold",
-                                            children: "Meet our team"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Navbar.jsx",
-                                            lineNumber: 661,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            onClick: ()=>setTeamModalOpen(false),
-                                            className: "text-[#6B7280] hover:text-[#111827] transition-colors p-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CloseIcon, {}, void 0, false, {
-                                                fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 668,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Navbar.jsx",
-                                            lineNumber: 664,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/Navbar.jsx",
-                                    lineNumber: 660,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-[#6B7280] text-sm sm:text-base max-w-xl",
-                                    children: "The Designership's team is made up of some of the best global talents"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Navbar.jsx",
-                                    lineNumber: 671,
-                                    columnNumber: 17
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 659,
-                            columnNumber: 15
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "px-6 sm:px-8 md:px-12 pb-4",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                ref: teamSliderRef,
-                                className: "flex gap-4 sm:gap-6 overflow-x-auto scrollbar-hide pb-4",
-                                style: {
-                                    scrollSnapType: 'x mandatory'
-                                },
-                                children: teamMembers.map((member)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "shrink-0 w-[220px] sm:w-[260px] md:w-[280px]",
-                                        style: {
-                                            scrollSnapAlign: 'start'
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "relative w-full aspect-4/5 rounded-lg overflow-hidden mb-4",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: member.image,
-                                                    alt: member.name,
-                                                    fill: true,
-                                                    className: "object-cover"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 691,
-                                                    columnNumber: 25
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 690,
-                                                columnNumber: 23
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-[#111827] text-base sm:text-lg font-semibold mb-1",
-                                                children: member.name
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 700,
-                                                columnNumber: 23
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-[#6B7280] text-sm mb-3",
-                                                children: member.role
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 703,
-                                                columnNumber: 23
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-center gap-3",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "text-[#6B7280] hover:text-[#111827] transition-colors",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FacebookIconTeam, {}, void 0, false, {
-                                                            fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 710,
-                                                            columnNumber: 27
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 709,
-                                                        columnNumber: 25
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "text-[#6B7280] hover:text-[#111827] transition-colors",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TwitterIconTeam, {}, void 0, false, {
-                                                            fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 713,
-                                                            columnNumber: 27
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 712,
-                                                        columnNumber: 25
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "text-[#6B7280] hover:text-[#111827] transition-colors",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LinkedInIconTeam, {}, void 0, false, {
-                                                            fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 716,
-                                                            columnNumber: 27
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 715,
-                                                        columnNumber: 25
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "text-[#6B7280] hover:text-[#111827] transition-colors",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(InstagramIconTeam, {}, void 0, false, {
-                                                            fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 719,
-                                                            columnNumber: 27
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 718,
-                                                        columnNumber: 25
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 708,
-                                                columnNumber: 23
-                                            }, this)
-                                        ]
-                                    }, member.id, true, {
-                                        fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 684,
-                                        columnNumber: 21
-                                    }, this))
+                            className: "absolute top-0 right-0 w-32 h-32 opacity-20",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/manjam-logo.png",
+                                alt: "",
+                                width: 128,
+                                height: 128,
+                                className: "object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 678,
-                                columnNumber: 17
+                                lineNumber: 736,
+                                columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 677,
-                            columnNumber: 15
+                            lineNumber: 735,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setTeamModalOpen(false),
+                            className: "absolute top-6 right-6 text-white/60 hover:text-white transition-colors p-2 z-10",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CloseIcon, {}, void 0, false, {
+                                fileName: "[project]/components/Navbar.jsx",
+                                lineNumber: 744,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/components/Navbar.jsx",
+                            lineNumber: 740,
+                            columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "px-6 sm:px-8 md:px-12 pb-6 sm:pb-8 md:pb-12 flex items-center gap-4",
+                            className: "p-8 sm:p-10 lg:p-12",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>scrollTeamSlider('left'),
-                                    className: "w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#111827] hover:bg-gray-50 transition-colors",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowLeftIcon, {}, void 0, false, {
-                                        fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 733,
-                                        columnNumber: 19
-                                    }, this)
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 lg:mb-12",
+                                    children: "Executive team"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.jsx",
-                                    lineNumber: 729,
-                                    columnNumber: 17
+                                    lineNumber: 750,
+                                    columnNumber: 15
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>scrollTeamSlider('right'),
-                                    className: "w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#111827] hover:bg-gray-50 transition-colors",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowRightIconLarge, {}, void 0, false, {
-                                        fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 739,
-                                        columnNumber: 19
-                                    }, this)
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-5 mb-6",
+                                    children: teamMembers.slice(0, 6).map((member)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative flex flex-col items-center text-center p-4 sm:p-5 rounded-xl border border-[#2D5A4A] bg-[#1A3F35]/30",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute top-0 left-0 w-6 h-6 border-l-2 border-t-2 border-[#46B886] rounded-tl-xl"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 763,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-36 h-36 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden mb-4 ring-4 ring-[#2D5A4A]",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: member.image,
+                                                        alt: member.name,
+                                                        width: 112,
+                                                        height: 112,
+                                                        className: "w-full h-full object-cover"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Navbar.jsx",
+                                                        lineNumber: 766,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 765,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-white font-bold text-base sm:text-lg lg:text-xl mb-1 leading-tight",
+                                                    children: member.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 776,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-white/50 text-sm sm:text-base mb-4",
+                                                    children: member.role
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 779,
+                                                    columnNumber: 21
+                                                }, this),
+                                                member.logos && member.logos.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center justify-center gap-2 mt-auto",
+                                                    children: member.logos.map((logo, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "w-12 h-10 sm:w-14 sm:h-12 rounded-lg bg-white p-1.5 flex items-center justify-center",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: logo,
+                                                                alt: "Company logo",
+                                                                width: 48,
+                                                                height: 40,
+                                                                className: "w-full h-full object-contain"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Navbar.jsx",
+                                                                lineNumber: 791,
+                                                                columnNumber: 29
+                                                            }, this)
+                                                        }, idx, false, {
+                                                            fileName: "[project]/components/Navbar.jsx",
+                                                            lineNumber: 787,
+                                                            columnNumber: 27
+                                                        }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 785,
+                                                    columnNumber: 23
+                                                }, this)
+                                            ]
+                                        }, member.id, true, {
+                                            fileName: "[project]/components/Navbar.jsx",
+                                            lineNumber: 758,
+                                            columnNumber: 19
+                                        }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.jsx",
-                                    lineNumber: 735,
-                                    columnNumber: 17
+                                    lineNumber: 755,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-5 max-w-5xl",
+                                    children: teamMembers.slice(6).map((member)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative flex flex-col items-center text-center p-4 sm:p-5 rounded-xl border border-[#2D5A4A] bg-[#1A3F35]/30",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute top-0 left-0 w-6 h-6 border-l-2 border-t-2 border-[#46B886] rounded-tl-xl"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 814,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-4 ring-4 ring-[#2D5A4A]",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: member.image,
+                                                        alt: member.name,
+                                                        width: 96,
+                                                        height: 96,
+                                                        className: "w-full h-full object-cover"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Navbar.jsx",
+                                                        lineNumber: 817,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 816,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-white font-bold text-base sm:text-lg mb-1 leading-tight",
+                                                    children: member.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 827,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-white/50 text-sm sm:text-base",
+                                                    children: member.role
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.jsx",
+                                                    lineNumber: 830,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, member.id, true, {
+                                            fileName: "[project]/components/Navbar.jsx",
+                                            lineNumber: 809,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 807,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Navbar.jsx",
-                            lineNumber: 728,
-                            columnNumber: 15
+                            lineNumber: 748,
+                            columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Navbar.jsx",
-                    lineNumber: 654,
-                    columnNumber: 13
+                    lineNumber: 727,
+                    columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 650,
-                columnNumber: 11
+                lineNumber: 723,
+                columnNumber: 9
             }, this),
             subscribeModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "fixed inset-0 z-100 flex items-center justify-center p-4",
@@ -1517,7 +1588,7 @@ function Navbar() {
                         className: "absolute inset-0 bg-black/60 backdrop-blur-md"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 755,
+                        lineNumber: 849,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1534,12 +1605,12 @@ function Navbar() {
                                 className: "absolute top-4 right-4 text-[#6B7280] hover:text-[#111827] transition-colors z-10 cursor-pointer",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CloseIcon, {}, void 0, false, {
                                     fileName: "[project]/components/Navbar.jsx",
-                                    lineNumber: 772,
+                                    lineNumber: 866,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 768,
+                                lineNumber: 862,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1549,28 +1620,31 @@ function Navbar() {
                                         className: "flex gap-4 mb-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-16 h-16 rounded-xl bg-linear-to-br from-[#1C4A3F] to-[#111827] flex items-center justify-center shrink-0 shadow-lg",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-white font-bold text-xl",
-                                                    children: "M"
+                                                className: "w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-lg",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/manjam-icon.jpg",
+                                                    alt: "Manjam",
+                                                    width: 64,
+                                                    height: 64,
+                                                    className: "object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.jsx",
-                                                    lineNumber: 781,
+                                                    lineNumber: 875,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 780,
+                                                lineNumber: 874,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                         className: "text-[#111827] font-bold text-xl mb-1",
-                                                        children: "Al Bidaya Weekly"
+                                                        children: "Newsletter"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 784,
+                                                        lineNumber: 884,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1580,7 +1654,7 @@ function Navbar() {
                                                                 children: "Sunday by"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 786,
+                                                                lineNumber: 886,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1588,25 +1662,25 @@ function Navbar() {
                                                                 children: "Manjam Capital"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Navbar.jsx",
-                                                                lineNumber: 787,
+                                                                lineNumber: 887,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 785,
+                                                        lineNumber: 885,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 783,
+                                                lineNumber: 883,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 778,
+                                        lineNumber: 872,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1614,7 +1688,7 @@ function Navbar() {
                                         children: "Your weekly starting point in digital assets: a focused summary of what matters; clear, concise, and built for professionals."
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 793,
+                                        lineNumber: 893,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1630,12 +1704,12 @@ function Navbar() {
                                                             children: "👤"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 801,
+                                                            lineNumber: 901,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 800,
+                                                        lineNumber: 900,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1645,12 +1719,12 @@ function Navbar() {
                                                             children: "👤"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 804,
+                                                            lineNumber: 904,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 803,
+                                                        lineNumber: 903,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1660,18 +1734,18 @@ function Navbar() {
                                                             children: "👤"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Navbar.jsx",
-                                                            lineNumber: 807,
+                                                            lineNumber: 907,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 806,
+                                                        lineNumber: 906,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 799,
+                                                lineNumber: 899,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1679,20 +1753,20 @@ function Navbar() {
                                                 children: "+1000 professionals"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 810,
+                                                lineNumber: 910,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 798,
+                                        lineNumber: 898,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "h-px bg-[#E5E7EB] mb-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 814,
+                                        lineNumber: 914,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1709,7 +1783,7 @@ function Navbar() {
                                                         children: "Your Email"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 820,
+                                                        lineNumber: 920,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1719,13 +1793,13 @@ function Navbar() {
                                                         className: "w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-white text-[#111827] placeholder-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#46B886] focus:border-transparent transition-all"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 821,
+                                                        lineNumber: 921,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 819,
+                                                lineNumber: 919,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1735,7 +1809,7 @@ function Navbar() {
                                                         children: "First Name"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 831,
+                                                        lineNumber: 931,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1745,13 +1819,13 @@ function Navbar() {
                                                         className: "w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-white text-[#111827] placeholder-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#46B886] focus:border-transparent transition-all"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 832,
+                                                        lineNumber: 932,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 830,
+                                                lineNumber: 930,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1761,43 +1835,43 @@ function Navbar() {
                                                     "Subscribe",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowRightIcon, {}, void 0, false, {
                                                         fileName: "[project]/components/Navbar.jsx",
-                                                        lineNumber: 846,
+                                                        lineNumber: 946,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Navbar.jsx",
-                                                lineNumber: 841,
+                                                lineNumber: 941,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 817,
+                                        lineNumber: 917,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 776,
+                                lineNumber: 870,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 758,
+                        lineNumber: 852,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.jsx",
-                lineNumber: 750,
+                lineNumber: 844,
                 columnNumber: 11
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.jsx",
-        lineNumber: 238,
+        lineNumber: 311,
         columnNumber: 5
     }, this);
 }
@@ -2646,10 +2720,13 @@ function Footer() {
                                                 transition: {
                                                     duration: 0.3
                                                 },
-                                                className: "w-10 h-10 rounded-lg bg-[#46B886] flex items-center justify-center",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-white font-bold text-lg",
-                                                    children: "M"
+                                                className: "w-10 h-10 rounded-lg overflow-hidden",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/manjam-icon.jpg",
+                                                    alt: "Manjam",
+                                                    width: 40,
+                                                    height: 40,
+                                                    className: "object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer/index.jsx",
                                                     lineNumber: 360,
@@ -2664,10 +2741,10 @@ function Footer() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-white text-sm font-semibold",
-                                                        children: "Al Bidaya Weekly"
+                                                        children: "Newsletter"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer/index.jsx",
-                                                        lineNumber: 363,
+                                                        lineNumber: 369,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2675,13 +2752,13 @@ function Footer() {
                                                         children: "Sunday by Manjam Capital"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer/index.jsx",
-                                                        lineNumber: 364,
+                                                        lineNumber: 370,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer/index.jsx",
-                                                lineNumber: 362,
+                                                lineNumber: 368,
                                                 columnNumber: 19
                                             }, this)
                                         ]
@@ -2695,7 +2772,7 @@ function Footer() {
                                         children: "Your weekly starting point in digital assets: a focused summary of what matters; clear, concise, and built for professionals."
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/index.jsx",
-                                        lineNumber: 369,
+                                        lineNumber: 375,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2720,7 +2797,7 @@ function Footer() {
                                                         className: "w-6 h-6 rounded-full bg-[#46B886] border-2 border-[#111827]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer/index.jsx",
-                                                        lineNumber: 377,
+                                                        lineNumber: 383,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2739,7 +2816,7 @@ function Footer() {
                                                         className: "w-6 h-6 rounded-full bg-[#3B82F6] border-2 border-[#111827]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer/index.jsx",
-                                                        lineNumber: 382,
+                                                        lineNumber: 388,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2758,13 +2835,13 @@ function Footer() {
                                                         className: "w-6 h-6 rounded-full bg-[#8B5CF6] border-2 border-[#111827]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer/index.jsx",
-                                                        lineNumber: 387,
+                                                        lineNumber: 393,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer/index.jsx",
-                                                lineNumber: 376,
+                                                lineNumber: 382,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2772,20 +2849,20 @@ function Footer() {
                                                 children: "Join +1000 professionals"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/index.jsx",
-                                                lineNumber: 393,
+                                                lineNumber: 399,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer/index.jsx",
-                                        lineNumber: 374,
+                                        lineNumber: 380,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "h-px bg-white/10 mb-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/index.jsx",
-                                        lineNumber: 397,
+                                        lineNumber: 403,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2807,7 +2884,7 @@ function Footer() {
                                                 className: "w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#46B886] focus:bg-white/10 focus:shadow-[0_0_0_3px_rgba(70,184,134,0.15)] transition-all duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/index.jsx",
-                                                lineNumber: 402,
+                                                lineNumber: 408,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].input, {
@@ -2825,7 +2902,7 @@ function Footer() {
                                                 className: "w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#46B886] focus:bg-white/10 focus:shadow-[0_0_0_3px_rgba(70,184,134,0.15)] transition-all duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/index.jsx",
-                                                lineNumber: 414,
+                                                lineNumber: 420,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -2840,13 +2917,13 @@ function Footer() {
                                                 children: "Subscribe"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/index.jsx",
-                                                lineNumber: 426,
+                                                lineNumber: 432,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer/index.jsx",
-                                        lineNumber: 400,
+                                        lineNumber: 406,
                                         columnNumber: 17
                                     }, this)
                                 ]

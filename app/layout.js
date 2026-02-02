@@ -19,7 +19,12 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata = {
   title: "Manjam - Invest with Purpose",
   description:
-    "Join a community that believes in sustainable investing. Make your money work for both your future and the planet's future.",
+    "World’s #1 Swiss Shariah-compliant digital asset ecosystem; built on institutional benchmarks for the digital asset age.",
+  icons: {
+    icon: "/manjam-icon.jpg",
+    shortcut: "/manjam-icon.jpg",
+    apple: "/manjam-icon.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {

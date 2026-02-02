@@ -93,14 +93,87 @@ const exploreItemsRight = [
   { id: "learnmore", title: "Learn More", description: "Tortor interdum condimentum nunc molestie" },
 ];
 
-// Team members data
+// Executive team members data
 const teamMembers = [
-  { id: 1, name: "Koray Okumus", role: "Sr. Developer", image: "/team.png" },
-  { id: 2, name: "Nicolas Jesus", role: "Sr. Product Manager", image: "/team.png" },
-  { id: 3, name: "Ava Wright", role: "Jr. Product Designer", image: "/team.png" },
-  { id: 4, name: "Noah Pierre", role: "Sr. Product Designer", image: "/team.png" },
-  { id: 5, name: "Lana Steiner", role: "Sr. Product Designer", image: "/team.png" },
-  { id: 6, name: "Emma Wilson", role: "Frontend Developer", image: "/team.png" },
+  // Row 1 - Leadership
+  { 
+    id: 1, 
+    name: "Muhannad Abu Ghazaleh", 
+    role: "Co - Founder", 
+    image: "/team/Muhannad Abu ghazale/Muhannad H Abughazaleh - Original.jpg",
+    logos: ["/team/Muhannad Abu ghazale/Al-Jazeera-Logo.png", "/team/Muhannad Abu ghazale/Deloitte-Emblem.png"]
+  },
+  { 
+    id: 2, 
+    name: "Ibrahim Baker", 
+    role: "Co - Founder", 
+    image: "/team/Ibrahim Baker/ibrahim baker.jpg",
+    logos: ["/team/Ibrahim Baker/kpmg-logo-png_seeklogo-80055.png", "/team/Ibrahim Baker/pwc-logo-png_seeklogo-206229.png"]
+  },
+  { 
+    id: 3, 
+    name: "Ibrahim Juneidi", 
+    role: "CEO (Qatar & Switzerland)", 
+    image: "/team/Ibrahim Juneidi/Ibrahim Junedi.JPG",
+    logos: ["/team/Ibrahim Juneidi/images.jpg", "/team/Ibrahim Juneidi/Al-Sharq-Forum-منتدى-الشرق.png"]
+  },
+  { 
+    id: 4, 
+    name: "Jawad Abazeed", 
+    role: "CTO", 
+    image: "/team/Jawad Abazeed/Jawad.jpg",
+    logos: ["/team/Jawad Abazeed/Copy of Al-Sharq-Forum-منتدى-الشرق.png", "/team/Jawad Abazeed/images (1).jpg"]
+  },
+  { 
+    id: 5, 
+    name: "Faisal Sidiqi", 
+    role: "CFO", 
+    image: "/team/Faisal Sidiqqi/Faisal Siddiqi.jpg",
+    logos: ["/team/Faisal Sidiqqi/images (2).jpg", "/team/Faisal Sidiqqi/Copy of pwc-logo-png_seeklogo-206229.png"]
+  },
+  { 
+    id: 6, 
+    name: "Stéphane Hofer", 
+    role: "SRO Compliance", 
+    image: "/team/Stéphane Hofer/Stephane_2024-scaled.jpg",
+    logos: ["/team/Stéphane Hofer/WhatsApp Image 2025-12-03 at 20.37.21_c4dda2f4.jpg"]
+  },
+  // Row 2 - Team
+  { 
+    id: 7, 
+    name: "Dr. Philippe Beckers", 
+    role: "FINSA Investment", 
+    image: "/team/Dr. Philippe Beckers/philipe.png",
+    logos: []
+  },
+  { 
+    id: 8, 
+    name: "Can Akpinar", 
+    role: "Internal Legal Council", 
+    image: "/team/Can Akpinar/WhatsApp Image 2025-12-03 at 20.32.52_48ac38b3.jpg",
+    logos: []
+  },
+  { 
+    id: 9, 
+    name: "Salam Alqub", 
+    role: "R&D", 
+    image: "/team/Salam Alqub/bio-14841-amerika (2) (1).jpg",
+    logos: []
+  },
+  { 
+    id: 10, 
+    name: "Yazan Arafat", 
+    role: "R&D", 
+    image: "/team/Yazan Arafat/Copy of DSC05969.JPG",
+    logos: []
+  },
+  { 
+    id: 11, 
+    name: "Anas Shawar", 
+    role: "HOM", 
+    image: "/team/Anas Shawar/c6ebfbd3-d564-4f88-a672-4ac144ec97b2.JPG",
+    logos: []
+  },
 ];
 
 // Social Icons for Team Modal
@@ -454,14 +527,14 @@ export default function Navbar() {
                       </Link>
 
                       {/* Gallery */}
-                      {/* <Link
-                        href="/#gallery"
+                      <Link
+                        href="/gallery"
                         onClick={closeAllDropdowns}
                         className="group block p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/15 hover:backdrop-blur-sm hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] hover:-translate-y-0.5"
                       >
                         <h3 className="text-white font-bold text-base mb-1">Gallery</h3>
                         <p className="text-white/60 text-sm font-normal leading-relaxed">Highlights from events, releases, and visual insights.</p>
-                      </Link> */}
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -645,104 +718,125 @@ export default function Navbar() {
       </div >
 
       {/* Team Modal */}
-      {
-        teamModalOpen && (
+      {/* Executive Team Modal */}
+      {teamModalOpen && (
+        <div
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-100 flex items-center justify-center p-4"
+          onClick={() => setTeamModalOpen(false)}
+        >
           <div
-            className="fixed inset-0 bg-black/50 z-100 flex items-center justify-center p-4"
-            onClick={() => setTeamModalOpen(false)}
+            className="relative w-full max-w-[1400px] max-h-[90vh] overflow-y-auto rounded-3xl"
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              background: 'linear-gradient(135deg, #14352D 0%, #1C4A3F 50%, #14352D 100%)',
+            }}
           >
-            <div
-              className="bg-[#F9FAFB] rounded-2xl w-full max-w-[1200px] max-h-[90vh] overflow-hidden"
-              onClick={(e) => e.stopPropagation()}
+            {/* Decorative Pattern */}
+            <div className="absolute top-0 right-0 w-32 h-32 opacity-20">
+              <Image src="/manjam-logo.png" alt="" width={128} height={128} className="object-contain" />
+            </div>
+
+            {/* Close Button */}
+            <button
+              onClick={() => setTeamModalOpen(false)}
+              className="absolute top-6 right-6 text-white/60 hover:text-white transition-colors p-2 z-10"
             >
-              {/* Modal Header */}
-              <div className="p-6 sm:p-8 md:p-12 pb-6">
-                <div className="flex items-start justify-between mb-2">
-                  <h2 className="text-[#111827] text-2xl sm:text-3xl md:text-4xl font-bold">
-                    Meet our team
-                  </h2>
-                  <button
-                    onClick={() => setTeamModalOpen(false)}
-                    className="text-[#6B7280] hover:text-[#111827] transition-colors p-2"
+              <CloseIcon />
+            </button>
+
+            {/* Modal Content */}
+            <div className="p-8 sm:p-10 lg:p-12">
+              {/* Header */}
+              <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 lg:mb-12">
+                Executive team
+              </h2>
+
+              {/* Team Grid */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-5 mb-6">
+                {/* Row 1 - Leadership (first 6 members) */}
+                {teamMembers.slice(0, 6).map((member) => (
+                  <div 
+                    key={member.id} 
+                    className="relative flex flex-col items-center text-center p-4 sm:p-5 rounded-xl border border-[#2D5A4A] bg-[#1A3F35]/30"
                   >
-                    <CloseIcon />
-                  </button>
-                </div>
-                <p className="text-[#6B7280] text-sm sm:text-base max-w-xl">
-                  The Designership&apos;s team is made up of some of the best global talents
-                </p>
-              </div>
-
-              {/* Team Cards Slider */}
-              <div className="px-6 sm:px-8 md:px-12 pb-4">
-                <div
-                  ref={teamSliderRef}
-                  className="flex gap-4 sm:gap-6 overflow-x-auto scrollbar-hide pb-4"
-                  style={{ scrollSnapType: 'x mandatory' }}
-                >
-                  {teamMembers.map((member) => (
-                    <div
-                      key={member.id}
-                      className="shrink-0 w-[220px] sm:w-[260px] md:w-[280px]"
-                      style={{ scrollSnapAlign: 'start' }}
-                    >
-                      {/* Member Image */}
-                      <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden mb-4">
-                        <Image
-                          src={member.image}
-                          alt={member.name}
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-
-                      {/* Member Info */}
-                      <h3 className="text-[#111827] text-base sm:text-lg font-semibold mb-1">
-                        {member.name}
-                      </h3>
-                      <p className="text-[#6B7280] text-sm mb-3">
-                        {member.role}
-                      </p>
-
-                      {/* Social Links */}
-                      <div className="flex items-center gap-3">
-                        <a href="#" className="text-[#6B7280] hover:text-[#111827] transition-colors">
-                          <FacebookIconTeam />
-                        </a>
-                        <a href="#" className="text-[#6B7280] hover:text-[#111827] transition-colors">
-                          <TwitterIconTeam />
-                        </a>
-                        <a href="#" className="text-[#6B7280] hover:text-[#111827] transition-colors">
-                          <LinkedInIconTeam />
-                        </a>
-                        <a href="#" className="text-[#6B7280] hover:text-[#111827] transition-colors">
-                          <InstagramIconTeam />
-                        </a>
-                      </div>
+                    {/* Top-left corner accent */}
+                    <div className="absolute top-0 left-0 w-6 h-6 border-l-2 border-t-2 border-[#46B886] rounded-tl-xl" />
+                    {/* Avatar */}
+                    <div className="w-36 h-36 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden mb-4 ring-4 ring-[#2D5A4A]">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={112}
+                        height={112}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
-                  ))}
-                </div>
+
+                    {/* Name & Role */}
+                    <h3 className="text-white font-bold text-base sm:text-lg lg:text-xl mb-1 leading-tight">
+                      {member.name}
+                    </h3>
+                    <p className="text-white/50 text-sm sm:text-base mb-4">
+                      {member.role}
+                    </p>
+
+                    {/* Company Logos */}
+                    {member.logos && member.logos.length > 0 && (
+                      <div className="flex items-center justify-center gap-2 mt-auto">
+                        {member.logos.map((logo, idx) => (
+                          <div
+                            key={idx}
+                            className="w-12 h-10 sm:w-14 sm:h-12 rounded-lg bg-white p-1.5 flex items-center justify-center"
+                          >
+                            <Image
+                              src={logo}
+                              alt="Company logo"
+                              width={48}
+                              height={40}
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
 
-              {/* Navigation Arrows */}
-              <div className="px-6 sm:px-8 md:px-12 pb-6 sm:pb-8 md:pb-12 flex items-center gap-4">
-                <button
-                  onClick={() => scrollTeamSlider('left')}
-                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#111827] hover:bg-gray-50 transition-colors"
-                >
-                  <ArrowLeftIcon />
-                </button>
-                <button
-                  onClick={() => scrollTeamSlider('right')}
-                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#111827] hover:bg-gray-50 transition-colors"
-                >
-                  <ArrowRightIconLarge />
-                </button>
+              {/* Row 2 - Team (remaining members) */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-5 max-w-5xl">
+                {teamMembers.slice(6).map((member) => (
+                  <div 
+                    key={member.id} 
+                    className="relative flex flex-col items-center text-center p-4 sm:p-5 rounded-xl border border-[#2D5A4A] bg-[#1A3F35]/30"
+                  >
+                    {/* Top-left corner accent */}
+                    <div className="absolute top-0 left-0 w-6 h-6 border-l-2 border-t-2 border-[#46B886] rounded-tl-xl" />
+                    {/* Avatar */}
+                    <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-4 ring-4 ring-[#2D5A4A]">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={96}
+                        height={96}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+
+                    {/* Name & Role */}
+                    <h3 className="text-white font-bold text-base sm:text-lg mb-1 leading-tight">
+                      {member.name}
+                    </h3>
+                    <p className="text-white/50 text-sm sm:text-base">
+                      {member.role}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-        )
-      }
+        </div>
+      )}
 
       {/* Subscribe Modal */}
       {
@@ -777,11 +871,17 @@ export default function Navbar() {
                 {/* Header with Thumbnail */}
                 <div className="flex gap-4 mb-4">
                   {/* Thumbnail */}
-                  <div className="w-16 h-16 rounded-xl bg-linear-to-br from-[#1C4A3F] to-[#111827] flex items-center justify-center shrink-0 shadow-lg">
-                    <span className="text-white font-bold text-xl">M</span>
+                  <div className="w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-lg">
+                    <Image
+                      src="/manjam-icon.jpg"
+                      alt="Manjam"
+                      width={64}
+                      height={64}
+                      className="object-cover"
+                    />
                   </div>
                   <div>
-                    <h2 className="text-[#111827] font-bold text-xl mb-1">Al Bidaya Weekly</h2>
+                    <h2 className="text-[#111827] font-bold text-xl mb-1">Newsletter</h2>
                     <p className="text-[#6B7280] text-sm flex items-center gap-2">
                       <span>Sunday by</span>
                       <span className="text-[#1C4A3F] font-medium">Manjam Capital</span>

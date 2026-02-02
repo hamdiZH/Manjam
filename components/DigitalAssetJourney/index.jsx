@@ -124,7 +124,7 @@ export default function DigitalAssetJourney() {
 
             {/* Description */}
             <p className="text-[#64748B] text-lg sm:text-xl leading-relaxed mb-8 max-w-lg">
-              Onboarding, eligibility, secure access, and reporting — unified in one institutional-grade workflow.
+              Onboarding, eligibility, secure access, and reporting Unified in one institutional-grade workflow.
             </p>
 
             {/* CTA Button */}

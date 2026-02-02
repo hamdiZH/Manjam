@@ -82,10 +82,68 @@ body {
 }
 
 .animate-marquee {
-  animation: marquee 25s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
-.animate-marquee:hover {
+.animate-marquee:hover,
+.animate-marquee.hover\:pause:hover {
+  animation-play-state: paused;
+}
+
+.hover\:pause:hover {
+  animation-play-state: paused;
+}
+
+/* React Slick partner logo overflow fixes */
+.academy-partners-slider .slick-list {
+  overflow: visible;
+}
+
+.academy-partners-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.academy-partners-slider .slick-slide {
+  height: auto;
+}
+
+.academy-partners-slider .slick-slide > div {
+  display: flex;
+}
+
+.partners-slider .slick-list {
+  overflow: visible;
+}
+
+.partners-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.partners-slider .slick-slide {
+  height: auto;
+}
+
+.partners-slider .slick-slide > div {
+  display: flex;
+}
+
+/* Infinite seamless marquee */
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee-infinite {
+  animation: marquee-infinite 25s linear infinite;
+}
+
+.hover\:\[\&\>div\]\:pause:hover > div {
   animation-play-state: paused;
 }
 
@@ -456,7 +514,8 @@ textarea:focus {
     transition-duration: 0.01ms !important;
   }
 
-  .animate-marquee {
+  .animate-marquee,
+  .animate-marquee-infinite {
     animation: none;
   }
 }

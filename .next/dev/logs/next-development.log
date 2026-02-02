@@ -1,109 +1,2992 @@
-[00:00:01.307] Server  LOG     ✓ Ready in 1113ms
-[00:00:12.912] Server  LOG     sections.length:  4
-[00:00:13.331] Browser LOG     sections.length:  4
-[00:00:13.331] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:00:13.331] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:13.331] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:00:14.111] Browser WARN    Image with src "/dashboard.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.697] Server  LOG     ✓ Ready in 479ms
+[00:00:07.969] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.971] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.973] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.974] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.976] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.980] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.981] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.983] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.984] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.985] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.986] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.987] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.989] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.990] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.991] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.992] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.994] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.995] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.995] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.996] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.998] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.999] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.000] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.000] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.002] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.003] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.004] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.005] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.006] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.007] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.008] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.009] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.011] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.012] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.013] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.014] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.015] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.016] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.017] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.018] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.019] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.020] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.021] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.022] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.024] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.025] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.025] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.026] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.028] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.029] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.029] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.030] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.032] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.033] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.034] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.035] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.036] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.037] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.038] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.038] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.040] Server  LOG     ✓ Compiled in 303ms
+[00:00:09.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:33.051] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.053] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.054] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.056] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.058] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.060] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.061] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.063] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.065] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.066] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.068] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.069] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.071] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.072] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.074] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.075] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.076] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.078] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.079] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.081] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.083] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.084] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.086] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.087] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.089] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.090] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.091] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.093] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.094] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.096] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.097] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.098] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.100] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.101] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.103] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.104] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.107] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.108] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.110] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.111] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.113] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.114] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.116] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.117] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.119] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.121] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.122] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.123] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.125] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.126] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.128] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.129] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:33.132] Server  LOG     ✓ Compiled in 92ms
+[00:00:34.014] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:34.014] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:34.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:34.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.014] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.014] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:54.969] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:54.969] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:00:55.765] Server  ERROR   ⨯ ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:56.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.254] Browser ERROR   uncaughtError: Error: ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:56.537] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.537] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.537] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.537] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.014] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.014] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:02.706] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:02.706] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:02.752] Server  ERROR   ⨯ ./node_modules/slick-carousel/slick/slick-theme.css:17:159
+Module not found: Can't resolve './fonts/slick.svg'
+  15 |     src: url('./fonts/slick.eot');
+  16 |     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+> 17 | }
+     |  ^
+  18 | /* Arrows */
+  19 | .slick-prev,
+  20 | .slick-next
+
+
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./components/ManjamAcademy/index.jsx [Client Component Browser]
+    ./components/ManjamAcademy/index.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:02.753] Server  ERROR   ⨯ ./node_modules/slick-carousel/slick/slick-theme.css:17:114
+Module not found: Can't resolve './fonts/slick.ttf'
+  15 |     src: url('./fonts/slick.eot');
+  16 |     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+> 17 | }
+     |  ^
+  18 | /* Arrows */
+  19 | .slick-prev,
+  20 | .slick-next
+
+
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./components/ManjamAcademy/index.jsx [Client Component Browser]
+    ./components/ManjamAcademy/index.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:02.753] Server  ERROR   ⨯ ./node_modules/slick-carousel/slick/slick-theme.css:17:72
+Module not found: Can't resolve './fonts/slick.woff'
+  15 |     src: url('./fonts/slick.eot');
+  16 |     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+> 17 | }
+     |  ^
+  18 | /* Arrows */
+  19 | .slick-prev,
+  20 | .slick-next
+
+
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./components/ManjamAcademy/index.jsx [Client Component Browser]
+    ./components/ManjamAcademy/index.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:02.765] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:02.765] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:02.775] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:03.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:03.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:03.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:6:1
+Module not found: Can't resolve 'slick-carousel/slick/slick-theme.css'
+  4 | import Slider from "react-slick";
+  5 | import "slick-carousel/slick/slick.css";
+> 6 | import "slick-carousel/slick/slick-theme.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+  9 |
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:03.016] Browser ERROR   ./components/ManjamAcademy/index.jsx:5:1
+Module not found: Can't resolve 'slick-carousel/slick/slick.css'
+  3 | import { motion } from "framer-motion";
+  4 | import Slider from "react-slick";
+> 5 | import "slick-carousel/slick/slick.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "slick-carousel/slick/slick-theme.css";
+  7 | import AcademyCard from "./AcademyCard";
+  8 | import Image from "next/image";
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:04.023] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:01:04.023] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:05.620] Browser WARN    Image with src "/dashboard.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:26.107] Browser LOG     sections.length:  4
-[00:01:26.108] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:01:26.108] Browser LOG     sections.length:  4
-[00:01:26.108] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:01:27.471] Browser LOG     sections.length:  4
-[00:01:27.471] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:01:28.882] Browser LOG     sections.length:  4
-[00:01:28.882] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:01:28.882] Browser LOG     sections.length:  4
-[00:01:28.882] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:09.483] Browser LOG     sections.length:  4
-[00:03:09.483] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:09.483] Browser LOG     sections.length:  4
-[00:03:09.483] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:10.271] Browser LOG     sections.length:  4
-[00:03:10.271] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:11.721] Browser LOG     sections.length:  4
-[00:03:11.721] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:11.721] Browser LOG     sections.length:  4
-[00:03:11.721] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:52.534] Browser LOG     sections.length:  4
-[00:03:52.534] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:52.534] Browser LOG     sections.length:  4
-[00:03:52.534] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:53.263] Browser LOG     sections.length:  4
-[00:03:53.263] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:03:53.612] Browser LOG     sections.length:  4
-[00:03:53.612] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:04:01.387] Browser LOG     sections.length:  4
-[00:04:01.387] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:04:26.706] Browser LOG     sections.length:  4
-[00:04:26.706] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:04:26.706] Browser LOG     sections.length:  4
-[00:04:26.706] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:06:37.572] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:37.572] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:37.572] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:42.203] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:23.304] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:07:56.219] Browser WARN    Image with src "/team.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:15.355] Browser LOG     sections.length:  4
-[00:08:15.355] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:29.263] Browser LOG     sections.length:  4
-[00:08:29.263] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:29.263] Browser LOG     sections.length:  4
-[00:08:29.263] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:29.620] Browser LOG     sections.length:  4
-[00:08:29.621] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:29.798] Browser LOG     sections.length:  4
-[00:08:29.798] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:46.737] Browser LOG     sections.length:  4
-[00:08:46.737] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:47.694] Browser LOG     sections.length:  4
-[00:08:47.694] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[00:08:48.027] Browser LOG     sections.length:  4
-[00:08:48.028] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[11:49:54.270] Server  LOG     sections.length:  4
-[11:49:54.671] Browser LOG     sections.length:  4
-[11:49:54.671] Browser LOG     [2;38;2;124;124;124m%s[0m sections.length:  4
-[11:49:54.671] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[11:49:54.671] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[11:49:55.437] Browser WARN    Image with src "/dashboard.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:01:34.726] Server  LOG     ✓ Compiled in 63ms
+[00:01:39.882] Server  LOG     ✓ Compiled in 99ms
+[00:02:06.185] Server  LOG     ✓ Compiled in 56ms
+[00:02:20.915] Server  LOG     ✓ Compiled in 53ms
+[00:02:28.740] Server  LOG     ✓ Compiled in 27ms
+[00:02:28.842] Browser ERROR   ./components/ManjamAcademy/index.jsx:333:24
+Parsing ecmascript source code failed
+  331 |               // WebkitBackdropFilter: "blur(20px)",
+  332 |               // border: "1px solid rgba(255, 255, 255, 0.1)",
+> 333 |               boxShadow: "inset 0 1px 1px rgba(255, 255, 255, 0.1)",
+      |                        ^
+  334 |             }}
+  335 |             
+  336 |           >
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+[00:02:29.015] Browser ERROR   ./components/ManjamAcademy/index.jsx:333:24
+Parsing ecmascript source code failed
+  331 |               // WebkitBackdropFilter: "blur(20px)",
+  332 |               // border: "1px solid rgba(255, 255, 255, 0.1)",
+> 333 |               boxShadow: "inset 0 1px 1px rgba(255, 255, 255, 0.1)",
+      |                        ^
+  334 |             }}
+  335 |             
+  336 |           >
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./components/ManjamAcademy/index.jsx
+    ./app/page.js
+[00:02:35.424] Server  LOG     ✓ Compiled in 131ms
+[00:02:59.699] Server  LOG     ✓ Compiled in 54ms
+[00:03:31.618] Server  LOG     ✓ Compiled in 79ms
+[00:03:46.481] Server  LOG     ✓ Compiled in 60ms
+[00:04:15.268] Server  LOG     ✓ Compiled in 107ms
+[00:04:22.781] Server  LOG     ✓ Compiled in 113ms
+[00:05:32.929] Server  LOG     ✓ Compiled in 94ms
+[00:05:39.222] Server  LOG     ✓ Compiled in 77ms
+[00:07:40.603] Server  LOG     ✓ Compiled in 168ms
+[00:08:11.179] Server  LOG     ✓ Compiled in 145ms
+[00:08:17.775] Server  LOG     ✓ Compiled in 87ms
+[00:10:35.194] Server  LOG     ✓ Compiled in 341ms
+[00:12:52.529] Server  LOG     ✓ Compiled in 131ms
+[00:13:15.380] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:43.872] Server  LOG     ✓ Compiled in 201ms
+[00:13:43.988] Browser ERROR   uncaughtError: ReferenceError: TestimonialsSection is not defined
+[00:13:52.469] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:52.510] Server  LOG     ✓ Compiled in 129ms
+[00:13:53.314] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:54.731] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:19.429] Server  LOG     ✓ Compiled in 161ms
+[00:14:19.564] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:03.710] Server  LOG     ✓ Compiled in 87ms
+[00:15:14.301] Server  LOG     ✓ Compiled in 93ms
+[00:16:37.164] Server  LOG     ✓ Compiled in 117ms
+[00:17:38.556] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:38.556] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:38.556] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:38.679] Browser WARN    Image with src "/about-our-mission.PNG" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[11:56:09.370] Server  LOG     ✓ Compiled in 333ms
-[11:56:19.171] Server  LOG     ✓ Compiled in 97ms
-[11:56:23.721] Server  LOG     ✓ Compiled in 93ms
-[11:56:41.365] Server  LOG     ✓ Compiled in 223ms
-[11:57:04.642] Server  LOG     ✓ Compiled in 222ms
-[11:57:19.724] Server  LOG     ✓ Compiled in 189ms
-[11:59:48.824] Server  LOG     ✓ Compiled in 223ms
-[11:59:58.323] Server  LOG     ✓ Compiled in 132ms
-[12:00:08.705] Server  LOG     ✓ Compiled in 233ms
-[12:00:21.208] Server  LOG     ✓ Compiled in 149ms
-[12:02:36.119] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[12:02:36.119] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[12:03:03.504] Server  LOG     ✓ Compiled in 238ms
-[12:03:15.394] Server  LOG     ✓ Compiled in 195ms
-[12:03:41.112] Server  LOG     ✓ Compiled in 250ms
-[12:03:53.939] Server  LOG     ✓ Compiled in 189ms
-[12:04:14.498] Server  LOG     ✓ Compiled in 167ms
-[12:04:28.844] Server  LOG     ✓ Compiled in 200ms
-[12:04:37.830] Server  LOG     ✓ Compiled in 149ms
-[12:04:43.223] Server  LOG     ✓ Compiled in 104ms
-[12:06:03.009] Server  LOG     ✓ Compiled in 246ms
-[12:06:40.322] Server  LOG     ✓ Compiled in 219ms
-[12:07:01.836] Server  LOG     ✓ Compiled in 201ms
-[12:07:14.811] Server  LOG     ✓ Compiled in 76ms
-[12:07:35.228] Server  LOG     ✓ Compiled in 208ms
-[12:07:43.371] Server  LOG     ✓ Compiled in 150ms
-[12:08:03.102] Server  LOG     ✓ Compiled in 147ms
-[12:08:08.252] Server  LOG     ✓ Compiled in 156ms
-[12:09:15.762] Server  LOG     ✓ Compiled in 262ms
-[12:10:43.222] Server  LOG     ✓ Compiled in 159ms
-[12:10:59.569] Server  LOG     ✓ Compiled in 212ms
-[12:11:20.857] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[12:11:20.857] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[12:11:20.857] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[12:14:38.084] Server  LOG     ✓ Compiled in 73ms
-[12:17:23.348] Server  LOG     ✓ Compiled in 225ms
-[12:17:45.283] Server  LOG     ✓ Compiled in 185ms
-[12:17:49.245] Browser WARN    Image with src "/team.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:50.469] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:17:50.469] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:18:00.339] Browser WARN    Image with src "/Avatar Base.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:02.170] Browser WARN    Image with src "/team.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:06.450] Server  LOG     ✓ Compiled in 276ms
+[00:21:39.889] Server  LOG     ✓ Compiled in 312ms
+[00:21:47.963] Server  LOG     ✓ Compiled in 237ms
+[00:21:53.823] Server  LOG     ✓ Compiled in 231ms
+[00:21:59.079] Server  LOG     ✓ Compiled in 190ms
+[00:54:21.510] Server  LOG     ✓ Compiled in 369ms
+[00:54:33.067] Server  LOG     ✓ Compiled in 251ms
+[01:03:03.581] Server  LOG     ✓ Compiled in 358ms
+[01:03:51.800] Server  LOG     ✓ Compiled in 333ms
+[01:05:04.187] Server  LOG     ✓ Compiled in 328ms
+[01:05:42.342] Server  LOG     ✓ Compiled in 283ms
+[01:05:51.851] Server  LOG     ✓ Compiled in 252ms
+[01:05:59.457] Server  LOG     ✓ Compiled in 217ms
+[01:06:09.980] Server  LOG     ✓ Compiled in 228ms
+[01:06:56.611] Server  LOG     ✓ Compiled in 308ms
+[01:07:04.202] Server  LOG     ✓ Compiled in 112ms
+[01:08:01.503] Server  LOG     ✓ Compiled in 334ms
+[01:08:04.357] Browser WARN    Image with src "/manjam-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:01.008] Server  LOG     ✓ Compiled in 889ms
+[01:09:05.471] Server  LOG     ✓ Compiled in 208ms
+[01:09:20.368] Server  LOG     ✓ Compiled in 427ms
+[01:09:22.449] Server  LOG     ✓ Compiled in 232ms
